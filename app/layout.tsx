@@ -3,7 +3,7 @@ import AeroVistaLocalBadge from "@/components/AeroVistaLocalBadge";
 import UmamiAnalytics from "@/components/UmamiAnalytics";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://tonight.aerovista.us";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cdatonight.aerovista.us";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -12,18 +12,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: {
     title: "What's actually worth doing in CDA tonight?",
-    description: "Verified local events, starting-soon picks, official sources, directions and a quick My Night plan.",
+    description: "Verified local events ranked by source quality, freshness, timing and variety — with official sources and directions one tap away.",
     url: "/",
     siteName: "CDA Tonight",
     type: "website",
     locale: "en_US",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CDA Tonight by AeroVista Local" }]
+    images: [{ url: "/cdatonight_prevew.png", alt: "CDA Tonight by AeroVista Local" }]
   },
   twitter: {
     card: "summary_large_image",
     title: "CDA Tonight",
-    description: "Find something worth doing tonight in Coeur d'Alene.",
-    images: ["/opengraph-image"]
+    description: "Verified picks for what to do tonight in Coeur d'Alene.",
+    images: ["/cdatonight_prevew.png"]
   }
 };
 

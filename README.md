@@ -6,40 +6,48 @@ The product is intentionally source-first. It should prefer a smaller verified f
 
 ## Current build
 
-The first MVP slice is in source:
+**Phase 2 — source expansion + ranking**
 
 - Next.js 16 + TypeScript
 - Automatic Coeur d'Alene local-date handling
 - Automatic stale-event suppression
+- Explicit end-time support for robust `Happening now` state
 - `Happening now` / `Starting soon` / `Later tonight` grouping
-- Filters for Best Bets / Free / Live Music / Family / Date Night / Food + Drink / Outdoors
+- Filters for Best Bets / Free / Live Music / Family / Date Night / Food + Drink / Outdoors / Nightlife
+- Durable source registry with source-type transparency
+- Ranking based on source quality, freshness, timing, availability and variety
+- Duplicate-source / duplicate-venue penalties so one calendar cannot dominate Best Bets
 - Official-source and directions actions
 - Sold-out state only when the authoritative source says so
-- Basic `Build My Night` planner + share flow
+- Conflict-aware `Build My Night` planner + share flow
 - AeroVista Local attribution
 - Separate Umami environment contract
-- OpenGraph / Facebook share card
-- Production domain target: `https://tonight.aerovista.us`
+- Uploaded CDA Tonight logo + social preview artwork
+- Production domain: `https://cdatonight.aerovista.us`
 
-## Initial verified inventory
+## Source registry
 
-The seed feed currently uses official North Idaho State Fair / Findlay Arena event listings through August 30, 2026. This is deliberately only the first source lane.
+Phase 2 expands beyond the original Fair-only seed with durable lanes for:
 
-Next source lanes:
+1. North Idaho State Fair / Findlay Arena
+2. Shared Harvest Community Garden
+3. Lutherhaven Ministries
+4. Lake Coeur d'Alene Cruises
+5. Marina Market & Food Hall
+6. Visit Coeur d'Alene community calendar
+7. CDA Flea
 
-1. Downtown / city and community calendars
-2. Local live-music venue calendars
-3. Arts organizations and theaters
-4. Restaurant / brewery event calendars where the venue is authoritative
-5. Carefully moderated direct AeroVista Local records
+Official organizers, official venues and official ticketing sources receive the strongest ranking confidence. Community calendars are useful discovery/cross-check lanes, not a license to invent missing details.
 
 ## Product rules
 
-- Every event must have an authoritative source URL.
+- Every event must have a named source and source URL.
 - Every event must have a verification timestamp.
 - Stale events must disappear automatically.
-- Never invent price, ticket inventory, availability, start time, or sold-out status.
+- Never invent price, ticket inventory, availability, start time, end time, or sold-out status.
+- Prefer explicit end times when the source provides them.
 - Thin-but-verified is better than full-but-wrong.
+- Ranking must stay explainable to the user.
 
 ## Local development
 
@@ -51,16 +59,17 @@ npm run dev
 ## Production environment
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://tonight.aerovista.us
+NEXT_PUBLIC_SITE_URL=https://cdatonight.aerovista.us
 NEXT_PUBLIC_UMAMI_URL=https://stats.aerocoreos.com
 NEXT_PUBLIC_UMAMI_WEBSITE_ID=<cda-tonight-specific-id>
-NEXT_PUBLIC_UMAMI_DOMAINS=tonight.aerovista.us,.vercel.app
+NEXT_PUBLIC_UMAMI_DOMAINS=cdatonight.aerovista.us,.vercel.app
 ```
 
 ## Analytics baseline
 
 - `journey_start`
 - `filter_select`
+- `best_bet_click`
 - `official_source_click`
 - `directions_click`
 - `night_plan_create`
@@ -69,12 +78,12 @@ NEXT_PUBLIC_UMAMI_DOMAINS=tonight.aerovista.us,.vercel.app
 
 ## Next build slices
 
-- Add 4–6 durable local source adapters / curation lanes.
-- Add richer event detail and cost-state handling.
-- Add weekend mode.
-- Add per-event share URLs.
-- Add `happening now` support for events with explicit end times.
+- Add weekend mode without weakening the Tonight-first UX.
+- Add per-event deep-link/share routes.
 - Add submit-an-event intake with moderation.
+- Add automated adapters/checkers for durable source lanes where allowed.
+- Add dedicated Umami website ID if production still lacks one.
+- Continue expanding normal Friday/Saturday coverage outside seasonal Fair inventory.
 
 ---
 
