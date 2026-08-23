@@ -13,6 +13,7 @@ export type SourceId =
   | "visit-cda"
   | "cda-flea"
   | "downtown-cda"
+  | "koep-concerts"
   | "bandsintown";
 
 export type EventSource = {
@@ -97,6 +98,15 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "Downtown festivals, markets, tastings, parades and community events",
     priority: 10,
     note: "Official Downtown Association calendar; added as a trusted source during the self-update build."
+  },
+  "koep-concerts": {
+    id: "koep-concerts",
+    name: "KOEP Concerts",
+    kind: "official-organizer",
+    url: "https://koepconcerts.com/concert-schedule/",
+    coverage: "Free City Park, McEuen Park and Hayden summer concert series",
+    priority: 10,
+    note: "Official organizer schedule for KOEP's North Idaho community concert series."
   },
   bandsintown: {
     id: "bandsintown",
