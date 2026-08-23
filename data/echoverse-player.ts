@@ -1,18 +1,47 @@
-export type EchoVerseTrackPreference = {
-  label: string;
-  aliases: string[];
+export type EchoVerseLocalTrack = {
+  id: string;
+  title: string;
+  artist: string;
+  album: string;
+  src: string;
 };
 
-export const ECHOVERSE_CDA_TRACKS: EchoVerseTrackPreference[] = [
-  { label: "CDA Don't Sleep", aliases: ["cda don't sleep", "cda dont sleep"] },
-  { label: "Docklight Drip", aliases: ["docklight drip", "docklife drip"] },
-  { label: "Thirty-Two Grand", aliases: ["thirty-two grand", "thirty two grand"] },
+export const ECHOVERSE_CDA_TRACKS: EchoVerseLocalTrack[] = [
   {
-    label: "SwampHop Worldwide (CDA Midnight)",
-    aliases: ["swamphop worldwide (cda midnight)", "swamphop worldwide"]
+    id: "docklight-drip",
+    title: "Docklight Drip",
+    artist: "EchoVerse Audio",
+    album: "CDA SwampHop",
+    src: "/audio/echoverse/docklight-drip.mp3"
   },
-  { label: "Bass Don't Lie", aliases: ["bass don't lie", "bass dont lie"] },
-  { label: "SwampHop Megahits", aliases: ["swamphop megahits"] }
+  {
+    id: "swamphop-megahits",
+    title: "SwampHop Megahits",
+    artist: "EchoVerse Audio",
+    album: "CDA SwampHop",
+    src: "/audio/echoverse/swamphop-megahits.mp3"
+  },
+  {
+    id: "swamphop-worldwide-cda-midnight",
+    title: "SwampHop Worldwide (CDA Midnight)",
+    artist: "EchoVerse Audio",
+    album: "CDA SwampHop",
+    src: "/audio/echoverse/swamphop-worldwide-cda-midnight.mp3"
+  },
+  {
+    id: "bass-dont-lie",
+    title: "Bass Don't Lie",
+    artist: "EchoVerse Audio",
+    album: "CDA SwampHop",
+    src: "/audio/echoverse/bass-dont-lie.mp3"
+  },
+  {
+    id: "thirty-two-grand",
+    title: "Thirty-Two Grand",
+    artist: "EchoVerse Audio",
+    album: "CDA SwampHop",
+    src: "/audio/echoverse/thirty-two-grand.mp3"
+  }
 ];
 
 export const ECHOVERSE_SPONSOR_URL =
