@@ -1,4 +1,124 @@
 {
-  "generatedAt": null,
-  "candidates": []
+  "generatedAt": "2026-08-23T00:16:20.706Z",
+  "candidates": [
+    {
+      "domain": "cdacruises.com",
+      "name": "Lake Coeur d&rsquo;Alene Cruises",
+      "url": "http://www.cdacruises.com/",
+      "status": "review-ready",
+      "score": 18,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-08-23T00:16:20.706Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|http://www.cdacruises.com/|Daily Scenic Cruises",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://www.cdacruises.com/",
+          "eventTitle": "Daily Scenic Cruises"
+        },
+        {
+          "signature": "visit-cda|organizer|http://www.cdacruises.com/|Sunset Dinner Cruises",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://www.cdacruises.com/",
+          "eventTitle": "Sunset Dinner Cruises"
+        },
+        {
+          "signature": "visit-cda|organizer|http://www.cdacruises.com/|Sunday Brunch Cruises",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://www.cdacruises.com/",
+          "eventTitle": "Sunday Brunch Cruises"
+        }
+      ]
+    },
+    {
+      "domain": "stoneridgeidaho.com",
+      "name": "StoneRidge",
+      "url": "https://www.stoneridgeidaho.com/",
+      "status": "review-ready",
+      "score": 12,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-08-23T00:16:20.706Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.stoneridgeidaho.com/|Men&#8217;s Winter League at Stoneridge",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.stoneridgeidaho.com/",
+          "eventTitle": "Men&#8217;s Winter League at Stoneridge"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.stoneridgeidaho.com/|Ladies Winter League at Stoneridge",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.stoneridgeidaho.com/",
+          "eventTitle": "Ladies Winter League at Stoneridge"
+        }
+      ]
+    },
+    {
+      "domain": "cdaresort.com",
+      "name": "The Coeur d&#8217;Alene Resort",
+      "url": "https://www.cdaresort.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-08-23T00:16:20.706Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration"
+        }
+      ]
+    },
+    {
+      "domain": "koepconcerts.com",
+      "name": "KOEP Concerts",
+      "url": "https://koepconcerts.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-08-23T00:16:20.706Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://koepconcerts.com/|KOEP Concerts &#8211; City Park Shows",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://koepconcerts.com/",
+          "eventTitle": "KOEP Concerts &#8211; City Park Shows"
+        }
+      ]
+    },
+    {
+      "domain": "spaboatrentals.com",
+      "name": "SpaVentures USA",
+      "url": "https://www.spaboatrentals.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-08-23T00:16:20.706Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.spaboatrentals.com/|SpaVentures Sunset Cruises",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.spaboatrentals.com/",
+          "eventTitle": "SpaVentures Sunset Cruises"
+        }
+      ]
+    }
+  ]
 }
