@@ -10,6 +10,16 @@ on:
       - "tsconfig.json"
       - "package.json"
       - ".github/workflows/feed-sync.yml"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/feed-sync.mjs"
+      - "data/source-seeds.json"
+      - "data/feed.ts"
+      - "data/sources.ts"
+      - "tsconfig.json"
+      - "package.json"
+      - ".github/workflows/feed-sync.yml"
   workflow_dispatch:
   schedule:
     - cron: "17 8,12,16,20 * * *"
