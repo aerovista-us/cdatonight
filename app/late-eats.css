@@ -1,0 +1,56 @@
+.late-eats-launcher{
+  position:fixed;
+  left:14px;
+  bottom:calc(14px + env(safe-area-inset-bottom));
+  z-index:55;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  border:1px solid rgba(255,189,102,.2);
+  border-radius:999px;
+  padding:8px 12px 8px 8px;
+  background:rgba(9,10,13,.9);
+  color:#f6f1e8;
+  backdrop-filter:blur(16px) saturate(130%);
+  box-shadow:0 14px 42px rgba(0,0,0,.34);
+  transition:transform .2s ease,border-color .2s ease,background .2s ease;
+}
+.late-eats-launcher:hover{transform:translateY(-2px);border-color:rgba(255,189,102,.36);background:rgba(18,16,13,.94)}
+.late-eats-launcher-mark{width:31px;height:31px;border-radius:10px;display:grid;place-items:center;background:rgba(255,189,102,.1);border:1px solid rgba(255,189,102,.22);color:#ffd39a;font-size:8px;font-weight:950;letter-spacing:.08em}
+.late-eats-launcher strong,.late-eats-launcher small{display:block;text-align:left}
+.late-eats-launcher strong{font-size:11px;letter-spacing:-.01em}
+.late-eats-launcher small{margin-top:2px;color:#8f877d;font-size:8px}
+.late-eats-overlay{position:fixed;inset:0;z-index:80;display:grid;place-items:end center;padding:22px;background:rgba(4,5,8,.74);backdrop-filter:blur(14px)}
+.late-eats-panel{width:min(1120px,100%);max-height:min(82vh,820px);overflow:auto;border:1px solid rgba(255,189,102,.18);border-radius:30px;background:radial-gradient(circle at 90% 0%,rgba(255,189,102,.08),transparent 28%),radial-gradient(circle at 4% 100%,rgba(185,156,255,.07),transparent 30%),linear-gradient(180deg,rgba(20,21,26,.99),rgba(10,11,15,.99));box-shadow:0 36px 100px rgba(0,0,0,.54);padding:clamp(20px,4vw,34px)}
+.late-eats-panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}
+.late-eats-panel-head p{margin:0;color:#ffcc8a;font-size:9px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+.late-eats-panel-head h2{margin:7px 0 0;font-size:clamp(30px,4.5vw,48px);line-height:.96;letter-spacing:-.05em}
+.late-eats-panel-head>div>span{display:block;max-width:720px;margin-top:12px;color:#aeb1b8;font-size:12px;line-height:1.55}
+.late-eats-panel-head>button{flex:0 0 auto;border:1px solid rgba(255,255,255,.1);border-radius:999px;background:rgba(255,255,255,.03);color:#c9cbd1;padding:9px 12px}
+.late-eats-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:24px}
+.late-eats-card{border:1px solid rgba(255,255,255,.075);border-radius:20px;padding:17px;background:linear-gradient(145deg,rgba(255,255,255,.038),rgba(255,255,255,.014));min-height:220px;display:flex;flex-direction:column}
+.late-eats-card-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.late-eats-rank{color:#d7c5a8;font-size:9px;font-weight:900;letter-spacing:.12em}
+.late-eats-hours{border:1px solid rgba(255,189,102,.14);border-radius:999px;padding:5px 7px;background:rgba(255,189,102,.05);color:#ffd39a;font-size:8px;font-weight:850;letter-spacing:.04em;text-transform:uppercase}
+.late-eats-card h3{margin:16px 0 0;font-size:18px;letter-spacing:-.025em}
+.late-eats-food{margin:6px 0 0;color:#d2d0cc;font-size:11px;line-height:1.45}
+.late-eats-best{margin:11px 0 0;color:#9297a0;font-size:11px;line-height:1.48}
+.late-eats-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.late-eats-meta span{border:1px solid rgba(255,255,255,.065);border-radius:999px;padding:5px 7px;color:#858b95;background:rgba(255,255,255,.018);font-size:7px;text-transform:uppercase;letter-spacing:.06em}
+.late-eats-note{display:block;margin-top:10px;color:#7f858e;font-size:9px;line-height:1.45}
+.late-eats-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:auto;padding-top:16px}
+.late-eats-actions a{color:#ffd39a;text-decoration:none;font-size:10px;font-weight:850}
+.late-eats-actions a:hover{color:#ffe8c8}
+.late-eats-footnote{margin:18px 2px 0;color:#747a84;font-size:9px;line-height:1.5}
+@media(max-width:900px){.late-eats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){
+  .late-eats-overlay{padding:8px;align-items:end}
+  .late-eats-panel{max-height:88vh;border-radius:24px;padding:18px}
+  .late-eats-panel-head{gap:12px}
+  .late-eats-panel-head h2{font-size:34px}
+  .late-eats-panel-head>button{padding:8px 10px;font-size:10px}
+  .late-eats-grid{grid-template-columns:1fr}
+  .late-eats-card{min-height:0}
+  .late-eats-launcher{left:10px;bottom:calc(10px + env(safe-area-inset-bottom))}
+  .late-eats-launcher small{display:none}
+}
