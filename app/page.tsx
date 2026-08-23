@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { events, EventCategory, LocalEvent } from "@/data/events";
+import { automatedEventCount, events, EventCategory, LocalEvent } from "@/data/events";
 import { nightlifeEvents, nightlifeSpots } from "@/data/nightlife";
 import { sourceFor, sourceKindLabel, sourceList } from "@/data/sources";
 import { trackEvent } from "@/lib/analytics";
@@ -162,7 +162,7 @@ export default function Home() {
   const [showPlan, setShowPlan] = useState(false);
 
   useEffect(() => {
-    trackEvent("journey_start", { surface: "tonight", phase: "phase_2" });
+    trackEvent("journey_start", { surface: "tonight", phase: "visual_brand_pass" });
     const id = window.setInterval(() => setNow(new Date()), 60_000);
     return () => window.clearInterval(id);
   }, []);
@@ -225,162 +225,186 @@ export default function Home() {
   return (
     <main className="shell">
       <header className="topbar">
-        <div className="brand-lockup">
-          <img className="brand-logo" src="/cdatonight_logo.png" alt="" aria-hidden="true" />
-          <div><strong>CDA Tonight</strong><span>Verified local plans</span></div>
+        <a className="brand-lockup" href="#top" aria-label="CDA Tonight home">
+          <img className="brand-logo" src="/cdatonight_logo.png" alt="CDA Tonight" />
+          <div><strong>CDA Tonight</strong><span>by AeroVista Local</span></div>
+        </a>
+        <div className="topbar-status">
+          <span className="sync-chip"><i />Auto-refresh active</span>
+          <span className="date-chip">{dateLabel(now)}</span>
         </div>
-        <span className="date-chip">{dateLabel(now)}</span>
       </header>
 
-      <section className="hero">
-        <p className="eyebrow">AEROVISTA LOCAL · COEUR D&apos;ALENE</p>
-        <h1>What&apos;s actually worth doing tonight?</h1>
-        <p className="lede">A fast list of verified local options without digging through venue pages and social feeds. Ranked by source quality, freshness, timing and variety — with the source always visible.</p>
-        <div className="feed-pulse">
-          <span><strong>{tonightEvents.length}</strong> verified tonight</span>
-          <span><strong>{activeSources.length}</strong> active sources</span>
-          <span>{newestVerification ? `Checked ${timeLabel(newestVerification.toISOString())}` : "Feed checking"}</span>
+      <section className="hero" id="top">
+        <div className="hero-copy">
+          <p className="eyebrow">AEROVISTA LOCAL · COEUR D&apos;ALENE</p>
+          <h1>Tonight,<br /><span>handled.</span></h1>
+          <p className="lede">Verified local events, nightlife and after-dark options without digging through venue pages and social feeds.</p>
+          <div className="hero-actions">
+            <button className="hero-primary" onClick={() => document.getElementById("best-bets")?.scrollIntoView({ behavior: "smooth" })}>See tonight&apos;s picks</button>
+            <button className="hero-secondary" onClick={() => selectFilter("nightlife")}>Find nightlife</button>
+          </div>
+          <div className="feed-pulse">
+            <span><strong>{tonightEvents.length}</strong> verified tonight</span>
+            <span><strong>{activeSources.length}</strong> active sources</span>
+            <span><strong>{automatedEventCount}</strong> auto-fed</span>
+            <span>{newestVerification ? `Latest check ${timeLabel(newestVerification.toISOString())}` : "Feed checking"}</span>
+          </div>
+        </div>
+        <div className="hero-visual" aria-hidden="true">
+          <img className="hero-preview" src="/cdatonight_prevew.png" alt="" />
+          <div className="hero-preview-shade" />
+          <img className="hero-mark" src="/cdatonight_logo.png" alt="" />
+          <div className="hero-visual-caption">
+            <span>COEUR D&apos;ALENE · TONIGHT</span>
+            <strong>Local plans with the source attached.</strong>
+          </div>
         </div>
       </section>
 
-      <nav className="filter-strip" aria-label="Event filters">
-        {filters.map((item) => (
-          <button key={item.id} className={filter === item.id ? "active" : ""} onClick={() => selectFilter(item.id)}>
-            {item.label}
-          </button>
-        ))}
-      </nav>
+      <div className="content-stage">
+        <nav className="filter-strip" aria-label="Event filters">
+          {filters.map((item) => (
+            <button key={item.id} className={filter === item.id ? "active" : ""} onClick={() => selectFilter(item.id)}>
+              {item.label}
+            </button>
+          ))}
+        </nav>
 
-      {visible.length ? (
-        <>
-          <section className="best-bets">
+        {visible.length ? (
+          <>
+            <section className="best-bets" id="best-bets">
+              <div className="section-heading">
+                <div><p className="eyebrow">TONIGHT&apos;S BEST BETS</p><h2>{visible.length} verified option{visible.length === 1 ? "" : "s"}</h2></div>
+                <button className="plan-button" onClick={createPlan}>Build My Night</button>
+              </div>
+              <div className="best-bet-grid">
+                {bestBets.map((event, index) => (
+                  <a
+                    className="best-bet-card"
+                    key={event.id}
+                    href={`#event-${event.id}`}
+                    onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}
+                  >
+                    <span className="rank-number">0{index + 1}</span>
+                    <strong>{event.title}</strong>
+                    <small>{timeLabel(event.startsAt)} · {event.venue}</small>
+                    <em>{rankingReason(event, now)}</em>
+                  </a>
+                ))}
+              </div>
+            </section>
+
+            {happening.length > 0 && (
+              <section className="event-section">
+                <div className="section-label"><span className="live-dot" />Happening now</div>
+                <div className="event-list">{happening.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
+              </section>
+            )}
+            {soon.length > 0 && (
+              <section className="event-section">
+                <div className="section-label">Starting soon</div>
+                <div className="event-list">{soon.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
+              </section>
+            )}
+            {later.length > 0 && (
+              <section className="event-section">
+                <div className="section-label">Later tonight</div>
+                <div className="event-list">{later.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
+              </section>
+            )}
+          </>
+        ) : (
+          <section className="empty-card">
+            <p className="eyebrow">CURATED FEED</p>
+            <h2>No verified match in this filter right now.</h2>
+            <p>We&apos;d rather show a thin list than make up or surface stale events. Try all verified picks, or use the next confirmed listing below.</p>
+            {nextVerified && (
+              <div className="next-up">
+                <span>Next verified listing</span>
+                <strong>{shortDateLabel(new Date(nextVerified.startsAt))} · {timeLabel(nextVerified.startsAt)}</strong>
+                <p>{nextVerified.title}</p>
+              </div>
+            )}
+            {filter !== "all" && <button className="plan-button" onClick={() => selectFilter("all")}>Show all verified</button>}
+          </section>
+        )}
+
+        {showPlan && (
+          <section className="plan-card" id="my-night">
             <div className="section-heading">
-              <div><p className="eyebrow">TONIGHT&apos;S BEST BETS</p><h2>{visible.length} verified option{visible.length === 1 ? "" : "s"}</h2></div>
-              <button className="plan-button" onClick={createPlan}>Build My Night</button>
+              <div><p className="eyebrow">MY NIGHT</p><h2>{plan.length ? "Top picks without time conflicts." : "Nothing to plan yet."}</h2></div>
+              <button className="close-button" onClick={() => setShowPlan(false)}>Close</button>
             </div>
-            <div className="best-bet-grid">
-              {bestBets.map((event, index) => (
-                <a
-                  className="best-bet-card"
-                  key={event.id}
-                  href={`#event-${event.id}`}
-                  onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}
-                >
-                  <span className="rank-number">0{index + 1}</span>
-                  <strong>{event.title}</strong>
-                  <small>{timeLabel(event.startsAt)} · {event.venue}</small>
-                  <em>{rankingReason(event, now)}</em>
-                </a>
+            {plan.length > 0 ? (
+              <div className="plan-list">
+                {plan.map((event, index) => (
+                  <div className="plan-stop" key={event.id}>
+                    <span>{index + 1}</span>
+                    <div><strong>{timeLabel(event.startsAt)} · {event.title}</strong><small>{event.venue}</small></div>
+                  </div>
+                ))}
+              </div>
+            ) : <p className="muted">The current filter has no available verified events to build from.</p>}
+            <button className="primary-button" disabled={!plan.length} onClick={sharePlan}>Share My Night</button>
+          </section>
+        )}
+
+        {tonightNightlife.length > 0 && (
+          <section className="nightlife-card">
+            <div className="nightlife-heading">
+              <div>
+                <p className="eyebrow">NIGHTLIFE RADAR · TONIGHT</p>
+                <h2>Where to go after the event list ends.</h2>
+                <p>These are venue options, not invented events. Hours and venue identity were checked for tonight; use the source link before heading out if plans are time-sensitive.</p>
+              </div>
+              <button className="nightlife-filter-button" onClick={() => selectFilter("nightlife")}>Show nightlife events</button>
+            </div>
+            <div className="nightlife-grid">
+              {tonightNightlife.map((spot) => (
+                <article className="nightlife-spot" key={spot.id}>
+                  <div className="nightlife-spot-topline">
+                    <strong>{spot.name}</strong>
+                    <span>{spot.hoursLabel}</span>
+                  </div>
+                  <p>{spot.vibe}</p>
+                  <small>{spot.bestFor}</small>
+                  <div className="nightlife-actions">
+                    <a href={spot.sourceUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_source_click", { spot_id: spot.id, source: spot.sourceLabel })}>Check venue ↗</a>
+                    <a href={spot.directionsUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_directions_click", { spot_id: spot.id })}>Directions ↗</a>
+                  </div>
+                </article>
               ))}
             </div>
           </section>
+        )}
 
-          {happening.length > 0 && (
-            <section className="event-section">
-              <div className="section-label"><span className="live-dot" />Happening now</div>
-              <div className="event-list">{happening.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
-            </section>
-          )}
-          {soon.length > 0 && (
-            <section className="event-section">
-              <div className="section-label">Starting soon</div>
-              <div className="event-list">{soon.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
-            </section>
-          )}
-          {later.length > 0 && (
-            <section className="event-section">
-              <div className="section-label">Later tonight</div>
-              <div className="event-list">{later.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
-            </section>
-          )}
-        </>
-      ) : (
-        <section className="empty-card">
-          <p className="eyebrow">CURATED FEED</p>
-          <h2>No verified match in this filter right now.</h2>
-          <p>We&apos;d rather show a thin list than make up or surface stale events. Try all verified picks, or use the next confirmed listing below.</p>
-          {nextVerified && (
-            <div className="next-up">
-              <span>Next verified listing</span>
-              <strong>{shortDateLabel(new Date(nextVerified.startsAt))} · {timeLabel(nextVerified.startsAt)}</strong>
-              <p>{nextVerified.title}</p>
-            </div>
-          )}
-          {filter !== "all" && <button className="plan-button" onClick={() => selectFilter("all")}>Show all verified</button>}
-        </section>
-      )}
-
-      {showPlan && (
-        <section className="plan-card" id="my-night">
-          <div className="section-heading">
-            <div><p className="eyebrow">MY NIGHT</p><h2>{plan.length ? "Top picks without time conflicts." : "Nothing to plan yet."}</h2></div>
-            <button className="close-button" onClick={() => setShowPlan(false)}>Close</button>
-          </div>
-          {plan.length > 0 ? (
-            <div className="plan-list">
-              {plan.map((event, index) => (
-                <div className="plan-stop" key={event.id}>
-                  <span>{index + 1}</span>
-                  <div><strong>{timeLabel(event.startsAt)} · {event.title}</strong><small>{event.venue}</small></div>
-                </div>
+        <section className="source-card">
+          <div><p className="eyebrow">SOURCE NETWORK</p><h2>{sourceList.length} durable lanes</h2></div>
+          <div>
+            <p>CDA Tonight separates official organizers, official venues, ticketing calendars and community discovery sources. Ranking favors higher-confidence sources, recent verification, useful timing and variety.</p>
+            <div className="source-list">
+              {sourceList.map((source) => (
+                <a
+                  href={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  key={source.id}
+                  onClick={() => trackEvent("official_source_click", { source: source.id, placement: "source_registry" })}
+                >
+                  <strong>{source.name}</strong>
+                  <span>{sourceKindLabel(source.kind)} · {source.coverage}</span>
+                </a>
               ))}
             </div>
-          ) : <p className="muted">The current filter has no available verified events to build from.</p>}
-          <button className="primary-button" disabled={!plan.length} onClick={sharePlan}>Share My Night</button>
-        </section>
-      )}
-
-      {tonightNightlife.length > 0 && (
-        <section className="nightlife-card">
-          <div className="nightlife-heading">
-            <div>
-              <p className="eyebrow">NIGHTLIFE RADAR · TONIGHT</p>
-              <h2>Where to go after the event list ends.</h2>
-              <p>These are venue options, not invented events. Hours and venue identity were checked for tonight; use the source link before heading out if plans are time-sensitive.</p>
-            </div>
-            <button className="nightlife-filter-button" onClick={() => selectFilter("nightlife")}>Show nightlife events</button>
-          </div>
-          <div className="nightlife-grid">
-            {tonightNightlife.map((spot) => (
-              <article className="nightlife-spot" key={spot.id}>
-                <div className="nightlife-spot-topline">
-                  <strong>{spot.name}</strong>
-                  <span>{spot.hoursLabel}</span>
-                </div>
-                <p>{spot.vibe}</p>
-                <small>{spot.bestFor}</small>
-                <div className="nightlife-actions">
-                  <a href={spot.sourceUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_source_click", { spot_id: spot.id, source: spot.sourceLabel })}>Check venue ↗</a>
-                  <a href={spot.directionsUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_directions_click", { spot_id: spot.id })}>Directions ↗</a>
-                </div>
-              </article>
-            ))}
           </div>
         </section>
-      )}
+      </div>
 
-      <section className="source-card">
-        <div><p className="eyebrow">SOURCE REGISTRY</p><h2>{sourceList.length} durable lanes</h2></div>
-        <div>
-          <p>CDA Tonight separates official organizers, official venues, ticketing calendars and community discovery sources. Ranking favors higher-confidence sources, recent verification, useful timing and variety.</p>
-          <div className="source-list">
-            {sourceList.map((source) => (
-              <a
-                href={source.url}
-                target="_blank"
-                rel="noreferrer"
-                key={source.id}
-                onClick={() => trackEvent("official_source_click", { source: source.id, placement: "source_registry" })}
-              >
-                <strong>{source.name}</strong>
-                <span>{sourceKindLabel(source.kind)} · {source.coverage}</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <footer>CDA Tonight · An AeroVista Local utility · Coeur d&apos;Alene, Idaho</footer>
+      <footer>
+        <img src="/cdatonight_logo.png" alt="" aria-hidden="true" />
+        <span>CDA Tonight · An AeroVista Local utility · Coeur d&apos;Alene, Idaho</span>
+      </footer>
     </main>
   );
 }
