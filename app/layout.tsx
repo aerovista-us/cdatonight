@@ -1,12 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import AeroVistaLocalBadge from "@/components/AeroVistaLocalBadge";
 import LateNightEats from "@/components/LateNightEats";
+import Phase3Nav from "@/components/Phase3Nav";
 import UmamiAnalytics from "@/components/UmamiAnalytics";
 import "./globals.css";
 import "./nightlife.css";
 import "./late-eats.css";
 import "./wide-layout.css";
 import "./hero-real.css";
+import "./phase3.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cdatonight.aerovista.us";
 
@@ -30,13 +32,13 @@ export const metadata: Metadata = {
     siteName: "CDA Tonight",
     type: "website",
     locale: "en_US",
-    images: [{ url: "/cdatonight_prevew.png", alt: "CDA Tonight by AeroVista Local" }]
+    images: [{ url: "/cdanight2.png", alt: "Coeur d'Alene waterfront at night" }]
   },
   twitter: {
     card: "summary_large_image",
     title: "CDA Tonight",
     description: "Verified picks for what to do tonight in Coeur d'Alene.",
-    images: ["/cdatonight_prevew.png"]
+    images: ["/cdanight2.png"]
   }
 };
 
@@ -50,6 +52,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body>
         {children}
+        <Phase3Nav />
         <LateNightEats />
         <AeroVistaLocalBadge />
         <UmamiAnalytics />
