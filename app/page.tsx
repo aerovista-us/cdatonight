@@ -1,23 +1,24 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { automatedEventCount, events, EventCategory, LocalEvent } from "@/data/events";
+import { automatedEventCount, events, EventCategory, LocalEvent } from "@/data/feed";
 import { nightlifeEvents, nightlifeSpots } from "@/data/nightlife";
 import { sourceFor, sourceKindLabel, sourceList } from "@/data/sources";
 import { trackEvent } from "@/lib/analytics";
 import { rankEvents, rankingReason } from "@/lib/ranking";
 
-type Filter = "all" | "free" | EventCategory;
+type Filter = "best" | "all" | "free" | EventCategory;
 
 const filters: Array<{ id: Filter; label: string }> = [
-  { id: "all", label: "Best bets" },
+  { id: "best", label: "Best bets" },
   { id: "free", label: "Free" },
   { id: "live-music", label: "Live music" },
   { id: "family", label: "Family" },
   { id: "date-night", label: "Date night" },
   { id: "food-drink", label: "Food + drink" },
   { id: "outdoors", label: "Outdoors" },
-  { id: "nightlife", label: "Nightlife" }
+  { id: "nightlife", label: "Nightlife" },
+  { id: "all", label: "All" }
 ];
 
 const TZ = "America/Los_Angeles";
@@ -78,7 +79,7 @@ function relativeGroup(event: LocalEvent, now: Date) {
 }
 
 function passesFilter(event: LocalEvent, filter: Filter) {
-  if (filter === "all") return true;
+  if (filter === "best" || filter === "all") return true;
   if (filter === "free") return event.cost === "free";
   return event.category.includes(filter);
 }
@@ -158,11 +159,11 @@ function EventCard({ event, now }: { event: LocalEvent; now: Date }) {
 
 export default function Home() {
   const [now, setNow] = useState(() => new Date());
-  const [filter, setFilter] = useState<Filter>("all");
+  const [filter, setFilter] = useState<Filter>("best");
   const [showPlan, setShowPlan] = useState(false);
 
   useEffect(() => {
-    trackEvent("journey_start", { surface: "tonight", phase: "visual_brand_pass" });
+    trackEvent("journey_start", { surface: "tonight", phase: "visual_polish" });
     const id = window.setInterval(() => setNow(new Date()), 60_000);
     return () => window.clearInterval(id);
   }, []);
@@ -176,10 +177,10 @@ export default function Home() {
 
   const tonightNightlife = nightlifeSpots.filter((spot) => spot.date === today);
 
-  const visible = useMemo(
-    () => rankEvents(tonightEvents.filter((event) => passesFilter(event, filter)), now),
-    [tonightEvents, filter, now]
-  );
+  const visible = useMemo(() => {
+    const ranked = rankEvents(tonightEvents.filter((event) => passesFilter(event, filter)), now);
+    return filter === "best" ? ranked.slice(0, 3) : ranked;
+  }, [tonightEvents, filter, now]);
 
   const bestBets = visible.slice(0, 3);
   const happening = visible.filter((event) => relativeGroup(event, now) === "happening");
@@ -198,6 +199,16 @@ export default function Home() {
   const selectFilter = (next: Filter) => {
     setFilter(next);
     trackEvent("filter_select", { filter: next });
+  };
+
+  const jumpToPicks = () => {
+    selectFilter("best");
+    document.getElementById("best-bets")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const jumpToNightlife = () => {
+    selectFilter("nightlife");
+    document.getElementById("event-filters")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const createPlan = () => {
@@ -241,10 +252,10 @@ export default function Home() {
           <h1>Tonight,<br /><span>handled.</span></h1>
           <p className="lede">Verified local events, nightlife and after-dark options without digging through venue pages and social feeds.</p>
           <div className="hero-actions">
-            <button className="hero-primary" onClick={() => document.getElementById("best-bets")?.scrollIntoView({ behavior: "smooth" })}>See tonight&apos;s picks</button>
-            <button className="hero-secondary" onClick={() => selectFilter("nightlife")}>Find nightlife</button>
+            <button className="hero-primary" onClick={jumpToPicks}>See tonight&apos;s picks</button>
+            <button className="hero-secondary" onClick={jumpToNightlife}>Find nightlife</button>
           </div>
-          <div className="feed-pulse">
+          <div className="feed-pulse" aria-label="Live feed status">
             <span><strong>{tonightEvents.length}</strong> verified tonight</span>
             <span><strong>{activeSources.length}</strong> active sources</span>
             <span><strong>{automatedEventCount}</strong> auto-fed</span>
@@ -263,7 +274,7 @@ export default function Home() {
       </section>
 
       <div className="content-stage">
-        <nav className="filter-strip" aria-label="Event filters">
+        <nav className="filter-strip" id="event-filters" aria-label="Event filters">
           {filters.map((item) => (
             <button key={item.id} className={filter === item.id ? "active" : ""} onClick={() => selectFilter(item.id)}>
               {item.label}
@@ -275,7 +286,10 @@ export default function Home() {
           <>
             <section className="best-bets" id="best-bets">
               <div className="section-heading">
-                <div><p className="eyebrow">TONIGHT&apos;S BEST BETS</p><h2>{visible.length} verified option{visible.length === 1 ? "" : "s"}</h2></div>
+                <div>
+                  <p className="eyebrow">TONIGHT&apos;S BEST BETS</p>
+                  <h2>{filter === "best" ? `${visible.length} top pick${visible.length === 1 ? "" : "s"}` : `${visible.length} verified option${visible.length === 1 ? "" : "s"}`}</h2>
+                </div>
                 <button className="plan-button" onClick={createPlan}>Build My Night</button>
               </div>
               <div className="best-bet-grid">
@@ -286,9 +300,13 @@ export default function Home() {
                     href={`#event-${event.id}`}
                     onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}
                   >
-                    <span className="rank-number">0{index + 1}</span>
+                    <div className="best-bet-topline">
+                      <span className="rank-number">0{index + 1}</span>
+                      <span className="best-bet-category">{categoryLabel(event.category[0])}</span>
+                    </div>
+                    <span className="best-bet-clock">{timeLabel(event.startsAt)}</span>
                     <strong>{event.title}</strong>
-                    <small>{timeLabel(event.startsAt)} · {event.venue}</small>
+                    <small>{event.venue}</small>
                     <em>{rankingReason(event, now)}</em>
                   </a>
                 ))}
