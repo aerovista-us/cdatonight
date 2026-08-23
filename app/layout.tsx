@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import AeroVistaLocalBadge from "@/components/AeroVistaLocalBadge";
-import ClientHydrationGate from "@/components/ClientHydrationGate";
 import EchoVerseSponsoredPlayer from "@/components/EchoVerseSponsoredPlayer";
 import LateNightEats from "@/components/LateNightEats";
 import Phase3Nav from "@/components/Phase3Nav";
@@ -23,10 +22,7 @@ export const metadata: Metadata = {
   description: "A fast, source-first guide to verified things worth doing tonight in Coeur d'Alene.",
   alternates: { canonical: "/" },
   icons: {
-    icon: [
-      { url: "/cdatonight_logo.png", type: "image/png" },
-      { url: "/cdatonight_logo.png", type: "image/png", sizes: "512x512" }
-    ],
+    icon: [{ url: "/cdatonight_logo.png", type: "image/png" }],
     shortcut: "/cdatonight_logo.png",
     apple: "/cdatonight_logo.png"
   },
@@ -56,7 +52,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body>
-        <ClientHydrationGate>{children}</ClientHydrationGate>
+        {children}
         <Phase3Nav />
         <EchoVerseSponsoredPlayer />
         <LateNightEats />
