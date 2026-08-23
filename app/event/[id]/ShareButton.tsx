@@ -8,8 +8,9 @@ export default function ShareButton({ eventId, title }: { eventId: string; title
 
   const share = async () => {
     const url = window.location.href;
-    trackEvent("event_share", { event_id: eventId, share_type: navigator.share ? "native" : "copy" });
-    if (navigator.share) {
+    const canNativeShare = typeof navigator.share === "function";
+    trackEvent("event_share", { event_id: eventId, share_type: canNativeShare ? "native" : "copy" });
+    if (canNativeShare) {
       try {
         await navigator.share({ title: `${title} | CDA Tonight`, text: `See ${title} on CDA Tonight.`, url });
         return;
