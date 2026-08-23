@@ -18,11 +18,34 @@ const horizonStart = new Date(now.getTime() - 6 * 60 * 60 * 1000);
 const horizonEnd = new Date(now.getTime() + seeds.horizonDays * 24 * 60 * 60 * 1000);
 const verifiedAt = now.toISOString();
 
+function normalizeHost(value = "") {
+  return String(value).trim().toLowerCase().replace(/^www\./, "").replace(/\.$/, "");
+}
+
+function hostFromValue(value) {
+  if (!value) return "";
+  try {
+    return normalizeHost(value.includes("://") ? new URL(value).hostname : value);
+  } catch {
+    return "";
+  }
+}
+
 const knownHosts = new Set(
-  seeds.sources.map((source) => {
-    try { return new URL(source.url).hostname.replace(/^www\./, ""); } catch { return ""; }
-  }).filter(Boolean)
+  seeds.sources
+    .flatMap((source) => [source.url, ...(source.aliases || [])])
+    .map(hostFromValue)
+    .filter(Boolean)
 );
+
+function isKnownHost(host) {
+  const clean = normalizeHost(host);
+  if (!clean) return false;
+  for (const known of knownHosts) {
+    if (clean === known || clean.endsWith(`.${known}`)) return true;
+  }
+  return false;
+}
 
 const blockedCandidateHosts = [
   "facebook.com", "instagram.com", "twitter.com", "x.com", "tiktok.com", "youtube.com",
@@ -254,7 +277,7 @@ function semanticCandidatesFromNode(node) {
 }
 
 function blockedHost(host) {
-  const clean = host.replace(/^www\./, "");
+  const clean = normalizeHost(host);
   return blockedCandidateHosts.some((blocked) => clean === blocked || clean.endsWith(`.${blocked}`));
 }
 
@@ -263,8 +286,8 @@ function candidateFromUrl(rawUrl, evidence, seed, eventTitle = null) {
   if (!url) return null;
   const parsed = new URL(url);
   if (!/^https?:$/.test(parsed.protocol)) return null;
-  const host = parsed.hostname.replace(/^www\./, "");
-  if (!host || knownHosts.has(host) || blockedHost(host)) return null;
+  const host = normalizeHost(parsed.hostname);
+  if (!host || isKnownHost(host) || blockedHost(host)) return null;
   const normalizedUrl = `${parsed.protocol}//${parsed.host}${parsed.pathname === "/" ? "/" : parsed.pathname}`;
   const signature = [seed.sourceId, evidence.kind, normalizedUrl, eventTitle || ""].join("|");
   return {
@@ -382,14 +405,16 @@ if (sourcesSucceeded === 0) {
   const nextEvents = [...eventMap.values()].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
   const currentEventPayload = JSON.stringify(existingFeed.events || []);
   const nextEventPayload = JSON.stringify(nextEvents);
-  let feedChanged = currentEventPayload !== nextEventPayload;
+  const feedChanged = currentEventPayload !== nextEventPayload;
 
   if (feedChanged && !dryRun) {
     await fs.writeFile(eventsPath, `${JSON.stringify({ generatedAt: verifiedAt, events: nextEvents }, null, 2)}\n`);
   }
 
-  const candidateMap = new Map((existingCandidates.candidates || []).map((candidate) => [candidate.domain, structuredClone(candidate)]));
-  let candidatesChanged = false;
+  const existingCandidateList = existingCandidates.candidates || [];
+  const retainedCandidates = existingCandidateList.filter((candidate) => !isKnownHost(candidate.domain));
+  const candidateMap = new Map(retainedCandidates.map((candidate) => [normalizeHost(candidate.domain), structuredClone(candidate)]));
+  let candidatesChanged = retainedCandidates.length !== existingCandidateList.length;
 
   for (const observation of candidateObservations) {
     const current = candidateMap.get(observation.domain) || {
@@ -422,6 +447,7 @@ if (sourcesSucceeded === 0) {
   console.log(JSON.stringify({
     checkedAt: verifiedAt,
     sourcesConfigured: seeds.sources.length,
+    knownSourceDomains: knownHosts.size,
     sourcesSucceeded,
     pagesFetched,
     refreshedSources: [...refreshedBySource.keys()],
