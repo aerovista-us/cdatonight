@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T00:16:20.706Z",
+  "generatedAt": "2026-08-23T01:55:00.000Z",
   "candidates": [
     {
       "domain": "cdacruises.com",
@@ -79,25 +79,6 @@
           "kind": "organizer",
           "url": "https://www.cdaresort.com/",
           "eventTitle": "The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration"
-        }
-      ]
-    },
-    {
-      "domain": "koepconcerts.com",
-      "name": "KOEP Concerts",
-      "url": "https://koepconcerts.com/",
-      "status": "candidate",
-      "score": 6,
-      "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-08-23T00:16:20.706Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|https://koepconcerts.com/|KOEP Concerts &#8211; City Park Shows",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://koepconcerts.com/",
-          "eventTitle": "KOEP Concerts &#8211; City Park Shows"
         }
       ]
     },
