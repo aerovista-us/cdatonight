@@ -58,6 +58,15 @@
       "localOnly": true
     },
     {
+      "sourceId": "koep-concerts",
+      "name": "KOEP Concerts",
+      "url": "https://koepconcerts.com/concert-schedule/",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
       "sourceId": "visit-cda",
       "name": "Visit Coeur d'Alene",
       "url": "https://coeurdalene.org/events/",
