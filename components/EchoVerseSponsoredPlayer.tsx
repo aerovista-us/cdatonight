@@ -57,7 +57,6 @@ export default function EchoVerseSponsoredPlayer() {
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio || !track) return;
-    audio.volume = volume;
     setCurrentTime(0);
     setDuration(0);
     setError("");
@@ -70,7 +69,11 @@ export default function EchoVerseSponsoredPlayer() {
         setError("Tap play to continue.");
       });
     }
-  }, [index, track?.id, volume]);
+  }, [index, track?.id]);
+
+  useEffect(() => {
+    if (audioRef.current) audioRef.current.volume = volume;
+  }, [volume]);
 
   if (!playlist?.available || !track) return null;
 
