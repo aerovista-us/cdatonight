@@ -12,6 +12,7 @@ export type SourceId =
   | "marina-market"
   | "visit-cda"
   | "cda-flea"
+  | "downtown-cda"
   | "bandsintown";
 
 export type EventSource = {
@@ -87,6 +88,15 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "CDA Flea markets and organizer events",
     priority: 9,
     note: "Primary organizer source for CDA Flea events."
+  },
+  "downtown-cda": {
+    id: "downtown-cda",
+    name: "Coeur d'Alene Downtown Association",
+    kind: "official-organizer",
+    url: "https://cdadowntown.com/event-calendar/",
+    coverage: "Downtown festivals, markets, tastings, parades and community events",
+    priority: 10,
+    note: "Official Downtown Association calendar; added as a trusted source during the self-update build."
   },
   bandsintown: {
     id: "bandsintown",

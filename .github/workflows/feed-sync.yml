@@ -1,0 +1,78 @@
+name: CDA Tonight Feed Sync
+
+on:
+  pull_request:
+    paths:
+      - "scripts/feed-sync.mjs"
+      - "data/source-seeds.json"
+      - "data/feed.ts"
+      - "data/sources.ts"
+      - "tsconfig.json"
+      - "package.json"
+      - ".github/workflows/feed-sync.yml"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/feed-sync.mjs"
+      - "data/source-seeds.json"
+      - "data/feed.ts"
+      - "data/sources.ts"
+      - "tsconfig.json"
+      - "package.json"
+      - ".github/workflows/feed-sync.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 8,12,16,20 * * *"
+      timezone: "America/Los_Angeles"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cda-tonight-feed-sync-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Refresh trusted sources and discover candidates
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            node scripts/feed-sync.mjs --dry-run
+          else
+            node scripts/feed-sync.mjs
+          fi
+
+      - name: Install app dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: TypeScript guard
+        run: npm run lint
+
+      - name: Commit verified feed changes
+        if: github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          if git diff --quiet -- data/auto-events.json data/source-candidates.json; then
+            echo "No feed changes to publish."
+            exit 0
+          fi
+
+          git config user.name "aerovista-feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auto-events.json data/source-candidates.json
+          git commit -m "data: refresh CDA Tonight verified feed"
+          git push origin HEAD:main

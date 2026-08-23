@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "horizonDays": 21,
+  "detailLimitPerSource": 10,
+  "sources": [
+    {
+      "sourceId": "north-idaho-state-fair",
+      "name": "North Idaho State Fair",
+      "url": "https://www.nisfair.fun/events",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "marina-market",
+      "name": "Marina Market & Food Hall",
+      "url": "https://marinamarketfoodhall.com/events/",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "cda-cruises",
+      "name": "Lake Coeur d'Alene Cruises",
+      "url": "https://tickets.cdacruises.com/?tab=calendar",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "shared-harvest",
+      "name": "Shared Harvest Community Garden",
+      "url": "https://sharedharvestgarden.org/",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "cda-flea",
+      "name": "CDA Flea",
+      "url": "https://www.cdaflea.com/",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "downtown-cda",
+      "name": "Coeur d'Alene Downtown Association",
+      "url": "https://cdadowntown.com/event-calendar/",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "visit-cda",
+      "name": "Visit Coeur d'Alene",
+      "url": "https://coeurdalene.org/events/",
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "bandsintown",
+      "name": "Bandsintown CDA",
+      "url": "https://www.bandsintown.com/c/coeur-d%27alene-id",
+      "publish": false,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "nic-events",
+      "name": "North Idaho College Events",
+      "url": "https://events.nic.edu/",
+      "publish": false,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    }
+  ]
+}
