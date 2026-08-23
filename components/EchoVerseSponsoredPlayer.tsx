@@ -18,6 +18,11 @@ type PlaylistResponse = {
   tracks: PlayerTrack[];
 };
 
+const FALLBACK_SPONSOR = {
+  name: "EchoVerse Audio",
+  url: "https://aerovista.us/art_localized/booths/echoverse?utm_source=cdatonight&utm_medium=sponsored_audio&utm_campaign=cda_swamphop"
+};
+
 function timeLabel(seconds: number) {
   if (!Number.isFinite(seconds) || seconds < 0) return "0:00";
   const minutes = Math.floor(seconds / 60);
@@ -25,10 +30,25 @@ function timeLabel(seconds: number) {
   return `${minutes}:${remainder}`;
 }
 
+async function playableTracks(candidates: PlayerTrack[]) {
+  const checks = await Promise.all(
+    candidates.map(async (track) => {
+      try {
+        const response = await fetch(track.src, { method: "HEAD", cache: "no-store" });
+        return response.ok ? track : null;
+      } catch {
+        return null;
+      }
+    })
+  );
+  return checks.filter((track): track is PlayerTrack => Boolean(track));
+}
+
 export default function EchoVerseSponsoredPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const resumeAfterTrackChange = useRef(false);
   const [playlist, setPlaylist] = useState<PlaylistResponse | null>(null);
+  const [checked, setChecked] = useState(false);
   const [index, setIndex] = useState(0);
   const [expanded, setExpanded] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -39,18 +59,25 @@ export default function EchoVerseSponsoredPlayer() {
 
   const tracks = playlist?.tracks || [];
   const track = tracks[index];
+  const sponsor = playlist?.sponsor || FALLBACK_SPONSOR;
 
   useEffect(() => {
     let active = true;
-    fetch("/api/echoverse/playlist")
+
+    fetch("/api/echoverse/playlist", { cache: "no-store" })
       .then((response) => response.json())
-      .then((data: PlaylistResponse) => {
+      .then(async (data: PlaylistResponse) => {
+        const available = await playableTracks(Array.isArray(data.tracks) ? data.tracks : []);
         if (!active) return;
-        setPlaylist(data);
+        setPlaylist({ ...data, available: available.length > 0, tracks: available });
+        setChecked(true);
       })
       .catch(() => {
-        if (active) setPlaylist({ available: false, label: "CDA SwampHop", sponsor: { name: "EchoVerse Audio", url: "#" }, tracks: [] });
+        if (!active) return;
+        setPlaylist({ available: false, label: "CDA SwampHop", sponsor: FALLBACK_SPONSOR, tracks: [] });
+        setChecked(true);
       });
+
     return () => { active = false; };
   }, []);
 
@@ -75,7 +102,29 @@ export default function EchoVerseSponsoredPlayer() {
     if (audioRef.current) audioRef.current.volume = volume;
   }, [volume]);
 
-  if (!playlist?.available || !track) return null;
+  if (!checked) return null;
+
+  if (!playlist?.available || !track) {
+    return (
+      <aside className="echoverse-player unavailable" aria-label="EchoVerse sponsored audio">
+        <div className="echoverse-player-bar">
+          <span className="echoverse-play echoverse-note" aria-hidden="true">♪</span>
+          <a
+            className="echoverse-summary"
+            href={sponsor.url}
+            target="_blank"
+            rel="noreferrer"
+            onClick={() => trackEvent("echoverse_sponsor_click", { placement: "sponsored_player_offline" })}
+          >
+            <span>Sponsored · EchoVerse</span>
+            <strong>CDA SwampHop</strong>
+            <small>Audio library is being published</small>
+          </a>
+          <a className="echoverse-expand" href={sponsor.url} target="_blank" rel="noreferrer" aria-label="Open EchoVerse Audio">↗</a>
+        </div>
+      </aside>
+    );
+  }
 
   const toggleExpanded = () => {
     const next = !expanded;
@@ -181,7 +230,7 @@ export default function EchoVerseSponsoredPlayer() {
           <div className="echoverse-player-foot">
             <span>{error || "Local sound for the night. Playback starts only when you tap play."}</span>
             <a
-              href={playlist.sponsor.url}
+              href={sponsor.url}
               target="_blank"
               rel="noreferrer"
               onClick={() => trackEvent("echoverse_sponsor_click", { placement: "sponsored_player" })}
