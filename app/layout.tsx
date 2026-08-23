@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import AeroVistaLocalBadge from "@/components/AeroVistaLocalBadge";
+import LateNightEats from "@/components/LateNightEats";
 import UmamiAnalytics from "@/components/UmamiAnalytics";
 import "./globals.css";
 import "./nightlife.css";
+import "./late-eats.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cdatonight.aerovista.us";
 
@@ -46,6 +48,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body>
         {children}
+        <LateNightEats />
         <AeroVistaLocalBadge />
         <UmamiAnalytics />
       </body>
