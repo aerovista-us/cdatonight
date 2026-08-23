@@ -14,10 +14,11 @@ The GitHub Actions workflow `.github/workflows/feed-sync.yml` runs four times da
 4. Preserve prior generated records if a source cannot be parsed safely during a run.
 5. Write changed trusted-source events to `data/auto-events.json`.
 6. Discover organizer, venue, performer and explicit official-site links.
-7. Write unknown domains to `data/source-candidates.json` with evidence and a confidence score.
-8. Run TypeScript validation.
-9. Commit only when event inventory or discovery evidence actually changes.
-10. Push to `main`, allowing the existing GitHub → Vercel integration to deploy the new feed.
+7. Normalize discovered hosts against trusted source domains and approved aliases.
+8. Write genuinely unknown domains to `data/source-candidates.json` with evidence and a confidence score.
+9. Run TypeScript validation.
+10. Commit only when event inventory or discovery evidence actually changes.
+11. Push to `main`, allowing the existing GitHub → Vercel integration to deploy the new feed.
 
 ## Source classes
 
@@ -41,6 +42,16 @@ A seed with `publish: false` may be crawled for source discovery but cannot plac
 
 This is the default posture for aggregators and broad calendars.
 
+## Source-domain aliases
+
+Each seed may declare an `aliases` list for domains that belong to the same trusted source family.
+
+The crawler normalizes `www.` variants and treats subdomains of an approved root alias as known. For example, Lake Coeur d'Alene Cruises may publish through both `tickets.cdacruises.com` and `cdacruises.com`; both resolve to the same trusted source family instead of creating a fake “new source” candidate.
+
+Alias normalization is deliberately explicit rather than attempting broad registrable-domain guessing. This avoids accidentally merging unrelated organizations that happen to share a hosting platform or parent service.
+
+Existing candidates that become known through an approved alias are automatically removed from the discovery queue on the next non-dry-run sync.
+
 ## New-source discovery
 
 The crawler looks for structured organizer, venue and performer URLs plus explicitly labeled official-site links.
@@ -58,6 +69,8 @@ Promotion requires adding the source to both:
 
 - `data/sources.ts`
 - `data/source-seeds.json` with `publish: true`
+
+Any additional canonical/root domains should also be added to that seed's `aliases` list.
 
 This keeps discovery automatic while source authority remains governed.
 
