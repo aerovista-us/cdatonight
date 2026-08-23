@@ -5,13 +5,15 @@ import type { EventCategory, LocalEvent } from "./events";
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
 
 function eventKey(event: LocalEvent) {
-  return [event.title.trim().toLowerCase(), event.startsAt, event.venue.trim().toLowerCase()].join("|");
+  return [event.title.trim().toLowerCase(), event.startsAt].join("|");
 }
 
 const generatedEvents = generatedFeed.events as unknown as LocalEvent[];
 const merged = new Map<string, LocalEvent>();
 
-// Curated records always win when an automated record overlaps one.
+// Curated records always win when an automated record overlaps one. Automated
+// calendars often omit or rename venue fields, so title + exact start time is
+// the safer identity boundary than title + time + venue.
 for (const event of curatedEvents) merged.set(eventKey(event), event);
 for (const event of generatedEvents) {
   const key = eventKey(event);
