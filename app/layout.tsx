@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import AeroVistaLocalBadge from "@/components/AeroVistaLocalBadge";
 import UmamiAnalytics from "@/components/UmamiAnalytics";
 import "./globals.css";
@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   title: "CDA Tonight | What to Do in Coeur d'Alene Tonight",
   description: "A fast, source-first guide to verified things worth doing tonight in Coeur d'Alene.",
   alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/cdatonight_logo.png", type: "image/png" },
+      { url: "/cdatonight_logo.png", type: "image/png", sizes: "512x512" }
+    ],
+    shortcut: "/cdatonight_logo.png",
+    apple: "/cdatonight_logo.png"
+  },
   openGraph: {
     title: "What's actually worth doing in CDA tonight?",
     description: "Verified local events ranked by source quality, freshness, timing and variety — with official sources and directions one tap away.",
@@ -26,6 +34,11 @@ export const metadata: Metadata = {
     description: "Verified picks for what to do tonight in Coeur d'Alene.",
     images: ["/cdatonight_prevew.png"]
   }
+};
+
+export const viewport: Viewport = {
+  colorScheme: "dark",
+  themeColor: "#090a0d"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
