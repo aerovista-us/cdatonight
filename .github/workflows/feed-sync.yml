@@ -1,6 +1,15 @@
 name: CDA Tonight Feed Sync
 
 on:
+  pull_request:
+    paths:
+      - "scripts/feed-sync.mjs"
+      - "data/source-seeds.json"
+      - "data/feed.ts"
+      - "data/sources.ts"
+      - "tsconfig.json"
+      - "package.json"
+      - ".github/workflows/feed-sync.yml"
   workflow_dispatch:
   schedule:
     - cron: "17 8,12,16,20 * * *"
@@ -10,7 +19,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: cda-tonight-feed-sync
+  group: cda-tonight-feed-sync-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -29,7 +38,13 @@ jobs:
           node-version: 24
 
       - name: Refresh trusted sources and discover candidates
-        run: node scripts/feed-sync.mjs
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            node scripts/feed-sync.mjs --dry-run
+          else
+            node scripts/feed-sync.mjs
+          fi
 
       - name: Install app dependencies
         run: npm install --no-audit --no-fund
@@ -38,6 +53,7 @@ jobs:
         run: npm run lint
 
       - name: Commit verified feed changes
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           if git diff --quiet -- data/auto-events.json data/source-candidates.json; then
