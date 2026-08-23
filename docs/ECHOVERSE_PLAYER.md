@@ -19,15 +19,16 @@ Approved MP3s live under:
 
 The visitor rotation is defined in `data/echoverse-player.ts`. The playlist route returns that manifest, and the browser preflights the listed files before enabling playback.
 
-Current expected filenames:
+Current live filenames:
 
-- `docklight-drip.mp3`
-- `swamphop-megahits.mp3`
-- `swamphop-worldwide-cda-midnight.mp3`
-- `bass-dont-lie.mp3`
-- `thirty-two-grand.mp3`
+- `cda-dont-sleep.mp3`
+- `call-it-corner.mp3`
+- `docklife-drip.mp3`
+- `echoverse-midnight-radio.mp3`
+- `fri-freeze.mp3`
+- `sub-below-sea-level.mp3`
 
-This mirrors the older EchoVerse player pattern, which used local `./audio/*.mp3` media rather than a public catalog API.
+The files are normalized to lowercase web-safe names while preserving the original uploaded audio blobs.
 
 ## Data flow
 
