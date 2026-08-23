@@ -5,8 +5,6 @@ import { useMemo, useState } from "react";
 import { eventCatalog, eventEnd } from "@/lib/catalog";
 import type { EventCategory, LocalEvent } from "@/data/events";
 import { trackEvent } from "@/lib/analytics";
-import autoFeed from "@/data/auto-events.json";
-import sourceCandidates from "@/data/source-candidates.json";
 
 const TZ = "America/Los_Angeles";
 type WeekendFilter = "all" | "free" | "live-music" | "family" | "date-night" | "food-drink" | "outdoors" | "nightlife";
@@ -99,23 +97,26 @@ export default function WeekendClient() {
     return [...map.entries()];
   }, [weekendEvents]);
 
-  const reviewReady = sourceCandidates.candidates.filter((candidate) => candidate.status === "review-ready").length;
-
   const chooseFilter = (next: WeekendFilter) => {
     setFilter(next);
     trackEvent("weekend_filter_select", { filter: next });
   };
 
+  const openLateEats = () => {
+    trackEvent("late_eats_nav_click", { placement: "weekend_handoff" });
+    window.dispatchEvent(new Event("cda:late-eats-open"));
+  };
+
   return (
     <>
       <section className="phase3-hero">
-        <p className="phase3-kicker">PHASE 3 · CONTINUITY MODE</p>
+        <p className="phase3-kicker">KEEP GOING · WEEKEND MODE</p>
         <h1>{range.label},<br />already sorted.</h1>
-        <p>Tonight stays the default. Weekend mode simply carries the same verified, source-attached approach through Friday, Saturday and Sunday so planning does not reset at midnight.</p>
+        <p>Tonight stays the default. Weekend mode carries the same verified, source-attached approach through Friday, Saturday and Sunday so planning does not reset at midnight.</p>
         <div className="weekend-meta">
           <span><strong>{weekendEvents.length}</strong> verified matches</span>
           <span>{dayLabel(range.start)} → {dayLabel(range.end)}</span>
-          <span><strong>{autoFeed.events.length}</strong> auto-fed records</span>
+          <span>Auto-refresh active</span>
         </div>
       </section>
 
@@ -145,10 +146,13 @@ export default function WeekendClient() {
         <div className="weekend-empty">No source-backed matches in this filter yet. The updater will keep checking durable sources; empty is better than invented.</div>
       )}
 
-      <section className="feed-health" aria-label="Autonomous feed health">
-        <div><strong>4×</strong><span>source checks daily</span></div>
-        <div><strong>{sourceCandidates.candidates.length}</strong><span>new source candidates found</span></div>
-        <div><strong>{reviewReady}</strong><span>candidates ready for human review</span></div>
+      <section className="weekend-after-dark">
+        <div>
+          <p className="phase3-kicker">KEEP GOING</p>
+          <h2>Plans first. Food after.</h2>
+          <p>Weekend mode handles what to do. Late Night Eats picks up when the kitchens start closing and everyone asks the next question.</p>
+        </div>
+        <button type="button" onClick={openLateEats}>Open Late Night Eats</button>
       </section>
     </>
   );
