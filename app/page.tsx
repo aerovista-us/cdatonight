@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { events, EventCategory, LocalEvent } from "@/data/events";
+import { nightlifeEvents, nightlifeSpots } from "@/data/nightlife";
 import { sourceFor, sourceKindLabel, sourceList } from "@/data/sources";
 import { trackEvent } from "@/lib/analytics";
 import { rankEvents, rankingReason } from "@/lib/ranking";
@@ -20,6 +21,7 @@ const filters: Array<{ id: Filter; label: string }> = [
 ];
 
 const TZ = "America/Los_Angeles";
+const allEvents = [...events, ...nightlifeEvents];
 
 function dayKey(date: Date) {
   const parts = new Intl.DateTimeFormat("en-CA", {
@@ -167,10 +169,12 @@ export default function Home() {
 
   const today = dayKey(now);
   const tonightEvents = useMemo(() => {
-    return events
+    return allEvents
       .filter((event) => dayKey(new Date(event.startsAt)) === today)
       .filter((event) => relativeGroup(event, now) !== "stale");
   }, [today, now]);
+
+  const tonightNightlife = nightlifeSpots.filter((spot) => spot.date === today);
 
   const visible = useMemo(
     () => rankEvents(tonightEvents.filter((event) => passesFilter(event, filter)), now),
@@ -181,7 +185,7 @@ export default function Home() {
   const happening = visible.filter((event) => relativeGroup(event, now) === "happening");
   const soon = visible.filter((event) => relativeGroup(event, now) === "soon");
   const later = visible.filter((event) => relativeGroup(event, now) === "later");
-  const nextVerified = events
+  const nextVerified = allEvents
     .filter((event) => new Date(event.startsAt).getTime() > now.getTime())
     .sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime())[0];
   const plan = buildNonOverlappingPlan(visible);
@@ -326,10 +330,39 @@ export default function Home() {
         </section>
       )}
 
+      {tonightNightlife.length > 0 && (
+        <section className="nightlife-card">
+          <div className="nightlife-heading">
+            <div>
+              <p className="eyebrow">NIGHTLIFE RADAR · TONIGHT</p>
+              <h2>Where to go after the event list ends.</h2>
+              <p>These are venue options, not invented events. Hours and venue identity were checked for tonight; use the source link before heading out if plans are time-sensitive.</p>
+            </div>
+            <button className="nightlife-filter-button" onClick={() => selectFilter("nightlife")}>Show nightlife events</button>
+          </div>
+          <div className="nightlife-grid">
+            {tonightNightlife.map((spot) => (
+              <article className="nightlife-spot" key={spot.id}>
+                <div className="nightlife-spot-topline">
+                  <strong>{spot.name}</strong>
+                  <span>{spot.hoursLabel}</span>
+                </div>
+                <p>{spot.vibe}</p>
+                <small>{spot.bestFor}</small>
+                <div className="nightlife-actions">
+                  <a href={spot.sourceUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_source_click", { spot_id: spot.id, source: spot.sourceLabel })}>Check venue ↗</a>
+                  <a href={spot.directionsUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_directions_click", { spot_id: spot.id })}>Directions ↗</a>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="source-card">
         <div><p className="eyebrow">SOURCE REGISTRY</p><h2>{sourceList.length} durable lanes</h2></div>
         <div>
-          <p>CDA Tonight now separates official organizers, official venues, ticketing calendars and community discovery sources. Ranking favors higher-confidence sources, recent verification, useful timing and variety.</p>
+          <p>CDA Tonight separates official organizers, official venues, ticketing calendars and community discovery sources. Ranking favors higher-confidence sources, recent verification, useful timing and variety.</p>
           <div className="source-list">
             {sourceList.map((source) => (
               <a

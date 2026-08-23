@@ -11,7 +11,8 @@ export type SourceId =
   | "cda-cruises"
   | "marina-market"
   | "visit-cda"
-  | "cda-flea";
+  | "cda-flea"
+  | "bandsintown";
 
 export type EventSource = {
   id: SourceId;
@@ -86,6 +87,15 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "CDA Flea markets and organizer events",
     priority: 9,
     note: "Primary organizer source for CDA Flea events."
+  },
+  bandsintown: {
+    id: "bandsintown",
+    name: "Bandsintown",
+    kind: "community-calendar",
+    url: "https://www.bandsintown.com/c/coeur-d%27alene-id",
+    coverage: "Artist-listed and venue-listed concert discovery",
+    priority: 7,
+    note: "Discovery/cross-check lane for exact local show listings; venue identity is verified separately when possible."
   }
 };
 
