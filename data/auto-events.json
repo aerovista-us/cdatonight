@@ -1,29 +1,48 @@
 {
-  "generatedAt": "2026-08-23T00:16:20.706Z",
+  "generatedAt": "2026-08-23T19:38:53.477Z",
   "events": [
     {
-      "id": "auto-visit-cda-dinner-under-the-stars-8211a32b",
-      "title": "Dinner Under the Stars",
-      "startsAt": "2026-08-23T00:30:00.000Z",
-      "endsAt": "2026-08-23T04:00:00.000Z",
-      "venue": "Visit Coeur d'Alene",
-      "address": "",
+      "id": "auto-visit-cda-stage-takeover-ft-jordan-paddock-and-them-boys-90f04fa5",
+      "title": "Stage Takeover ft. Jordan Paddock and Them Boys",
+      "startsAt": "2026-08-28T00:30:00.000Z",
+      "endsAt": "2026-08-28T04:00:00.000Z",
+      "venue": "The Club at Prairie Falls",
+      "address": "3200 N Spokane St, Post Falls, ID, 83854",
       "category": [
         "live-music",
-        "food-drink",
+        "nightlife",
         "outdoors",
-        "community",
         "date-night"
       ],
-      "cost": "paid",
-      "priceLabel": "$75",
+      "cost": "free",
       "status": "available",
       "sourceId": "visit-cda",
-      "sourceUrl": "https://coeurdalene.org/events/dinner-under-the-stars/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
+      "sourceUrl": "https://coeurdalene.org/events/stage-takeover-ft-jordan-paddock-and-them-boys/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-08-23T00:16:20.706Z",
-      "note": "&lt;p&gt;Join us for our annual Dinner Under the Stars — a beautiful evening in the garden filled with delicious food, live music, and a silent & live auction. This special night is also our biggest fundraiser of the yea"
+      "verifiedAt": "2026-08-23T19:38:53.477Z",
+      "note": "&lt;p&gt;Stage Takeover featuring Jordan Paddock and Them Boys Outdoor summer concert series at The Club Proudly sponsored by ICCUProudly sponsored by The Odom Corp 5:30pm Doors Open & Outdoor Event Kitchen Opens6:00pm J"
+    },
+    {
+      "id": "auto-visit-cda-hayden-senior-center-s-3rd-annual-miles-for-smiles-car-sho-d4d0b2cf",
+      "title": "Hayden Senior Center’s 3rd Annual Miles for Smiles Car Show & Cruise",
+      "startsAt": "2026-09-05T16:00:00.000Z",
+      "endsAt": "2026-09-05T22:00:00.000Z",
+      "venue": "Coeur d&#8217; Alene Shrine Club Event Center",
+      "address": "1250 W Lancaster Rd., Hayden, ID, 83835",
+      "category": [
+        "family",
+        "cruise",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/hayden-senior-centers-3rd-annual-miles-for-smiles-car-show-cruise/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=1250%20W%20Lancaster%20Rd.%2C%20Hayden%2C%20ID%2C%2083835",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-08-23T19:38:53.477Z",
+      "note": "&lt;p&gt;Enjoy a family-friendly afternoon visiting with local vintage car owners while they tell you their car stories. If you\\'re a car show enthusiast and you\\'d like to participate in the cruise and/or show, it\\'s on"
     }
   ]
 }
