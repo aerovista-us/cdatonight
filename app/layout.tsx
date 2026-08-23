@@ -6,6 +6,7 @@ import "./globals.css";
 import "./nightlife.css";
 import "./late-eats.css";
 import "./wide-layout.css";
+import "./hero-real.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cdatonight.aerovista.us";
 
