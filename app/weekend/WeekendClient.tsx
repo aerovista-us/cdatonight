@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { eventCatalog, eventEnd } from "@/lib/catalog";
 import type { EventCategory, LocalEvent } from "@/data/events";
 import { trackEvent } from "@/lib/analytics";
@@ -73,29 +73,31 @@ function matches(event: LocalEvent, filter: WeekendFilter) {
 
 export default function WeekendClient() {
   const [filter, setFilter] = useState<WeekendFilter>("all");
-  const now = new Date();
+  const [now, setNow] = useState<Date | null>(null);
+
+  useEffect(() => {
+    setNow(new Date());
+  }, []);
+
+  if (!now) return <div className="weekend-empty">Loading weekend…</div>;
+
   const range = weekendRange(now);
   const today = dayKey(now);
-
-  const weekendEvents = useMemo(() => {
-    return eventCatalog
-      .filter((event) => {
-        const key = localDateKey(event.startsAt);
-        if (key < range.start || key > range.end) return false;
-        if (key === today && eventEnd(event).getTime() <= now.getTime()) return false;
-        return matches(event, filter);
-      })
-      .sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
-  }, [filter, range.start, range.end, today]);
-
-  const days = useMemo(() => {
-    const map = new Map<string, LocalEvent[]>();
-    for (const event of weekendEvents) {
+  const weekendEvents = eventCatalog
+    .filter((event) => {
       const key = localDateKey(event.startsAt);
-      map.set(key, [...(map.get(key) || []), event]);
-    }
-    return [...map.entries()];
-  }, [weekendEvents]);
+      if (key < range.start || key > range.end) return false;
+      if (key === today && eventEnd(event).getTime() <= now.getTime()) return false;
+      return matches(event, filter);
+    })
+    .sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
+
+  const dayMap = new Map<string, LocalEvent[]>();
+  for (const event of weekendEvents) {
+    const key = localDateKey(event.startsAt);
+    dayMap.set(key, [...(dayMap.get(key) || []), event]);
+  }
+  const days = [...dayMap.entries()];
 
   const chooseFilter = (next: WeekendFilter) => {
     setFilter(next);

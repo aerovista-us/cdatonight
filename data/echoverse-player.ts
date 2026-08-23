@@ -8,39 +8,46 @@ export type EchoVerseLocalTrack = {
 
 export const ECHOVERSE_CDA_TRACKS: EchoVerseLocalTrack[] = [
   {
-    id: "docklight-drip",
-    title: "Docklight Drip",
+    id: "cda-dont-sleep",
+    title: "CDA Don't Sleep",
     artist: "EchoVerse Audio",
     album: "CDA SwampHop",
-    src: "/audio/echoverse/docklight-drip.mp3"
+    src: "/audio/echoverse/cda-dont-sleep.mp3"
   },
   {
-    id: "swamphop-megahits",
-    title: "SwampHop Megahits",
+    id: "call-it-corner",
+    title: "Call It Corner",
     artist: "EchoVerse Audio",
     album: "CDA SwampHop",
-    src: "/audio/echoverse/swamphop-megahits.mp3"
+    src: "/audio/echoverse/call-it-corner.mp3"
   },
   {
-    id: "swamphop-worldwide-cda-midnight",
-    title: "SwampHop Worldwide (CDA Midnight)",
+    id: "docklife-drip",
+    title: "Docklife Drip",
     artist: "EchoVerse Audio",
     album: "CDA SwampHop",
-    src: "/audio/echoverse/swamphop-worldwide-cda-midnight.mp3"
+    src: "/audio/echoverse/docklife-drip.mp3"
   },
   {
-    id: "bass-dont-lie",
-    title: "Bass Don't Lie",
+    id: "echoverse-midnight-radio",
+    title: "EchoVerse Midnight Radio",
     artist: "EchoVerse Audio",
     album: "CDA SwampHop",
-    src: "/audio/echoverse/bass-dont-lie.mp3"
+    src: "/audio/echoverse/echoverse-midnight-radio.mp3"
   },
   {
-    id: "thirty-two-grand",
-    title: "Thirty-Two Grand",
+    id: "fri-freeze",
+    title: "Fri Freeze",
     artist: "EchoVerse Audio",
     album: "CDA SwampHop",
-    src: "/audio/echoverse/thirty-two-grand.mp3"
+    src: "/audio/echoverse/fri-freeze.mp3"
+  },
+  {
+    id: "sub-below-sea-level",
+    title: "Sub Below Sea Level",
+    artist: "EchoVerse Audio",
+    album: "CDA SwampHop",
+    src: "/audio/echoverse/sub-below-sea-level.mp3"
   }
 ];
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { automatedEventCount, events, EventCategory, LocalEvent } from "@/data/feed";
 import { nightlifeEvents, nightlifeSpots } from "@/data/nightlife";
 import { sourceFor, sourceKindLabel, sourceList } from "@/data/sources";
@@ -135,22 +135,8 @@ function EventCard({ event, now }: { event: LocalEvent; now: Date }) {
         </div>
         {event.note && <p className="event-note">{event.note}</p>}
         <div className="event-actions">
-          <a
-            href={event.sourceUrl}
-            target="_blank"
-            rel="noreferrer"
-            onClick={() => trackEvent("official_source_click", { event_id: event.id, source: event.sourceLabel })}
-          >
-            Verify at source ↗
-          </a>
-          <a
-            href={event.directionsUrl}
-            target="_blank"
-            rel="noreferrer"
-            onClick={() => trackEvent("directions_click", { event_id: event.id })}
-          >
-            Directions ↗
-          </a>
+          <a href={event.sourceUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("official_source_click", { event_id: event.id, source: event.sourceLabel })}>Verify at source ↗</a>
+          <a href={event.directionsUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("directions_click", { event_id: event.id })}>Directions ↗</a>
         </div>
       </div>
     </article>
@@ -158,29 +144,34 @@ function EventCard({ event, now }: { event: LocalEvent; now: Date }) {
 }
 
 export default function Home() {
-  const [now, setNow] = useState(() => new Date());
+  const [now, setNow] = useState<Date | null>(null);
   const [filter, setFilter] = useState<Filter>("best");
   const [showPlan, setShowPlan] = useState(false);
 
   useEffect(() => {
+    const updateNow = () => setNow(new Date());
+    updateNow();
     trackEvent("journey_start", { surface: "tonight", phase: "post_phase3_ux" });
-    const id = window.setInterval(() => setNow(new Date()), 60_000);
+    const id = window.setInterval(updateNow, 60_000);
     return () => window.clearInterval(id);
   }, []);
 
+  if (!now) {
+    return (
+      <main className="shell app-boot" aria-busy="true" aria-label="Loading CDA Tonight">
+        <div className="app-boot-mark" aria-hidden="true" />
+        <span>Loading tonight…</span>
+      </main>
+    );
+  }
+
   const today = dayKey(now);
-  const tonightEvents = useMemo(() => {
-    return allEvents
-      .filter((event) => dayKey(new Date(event.startsAt)) === today)
-      .filter((event) => relativeGroup(event, now) !== "stale");
-  }, [today, now]);
-
+  const tonightEvents = allEvents
+    .filter((event) => dayKey(new Date(event.startsAt)) === today)
+    .filter((event) => relativeGroup(event, now) !== "stale");
   const tonightNightlife = nightlifeSpots.filter((spot) => spot.date === today);
-
-  const visible = useMemo(() => {
-    const ranked = rankEvents(tonightEvents.filter((event) => passesFilter(event, filter)), now);
-    return filter === "best" ? ranked.slice(0, 3) : ranked;
-  }, [tonightEvents, filter, now]);
+  const ranked = rankEvents(tonightEvents.filter((event) => passesFilter(event, filter)), now);
+  const visible = filter === "best" ? ranked.slice(0, 3) : ranked;
 
   const bestBets = visible.slice(0, 3);
   const happening = visible.filter((event) => relativeGroup(event, now) === "happening");
@@ -280,9 +271,7 @@ export default function Home() {
       <div className="content-stage">
         <nav className="filter-strip" id="event-filters" aria-label="Event filters">
           {filters.map((item) => (
-            <button key={item.id} className={filter === item.id ? "active" : ""} onClick={() => selectFilter(item.id)}>
-              {item.label}
-            </button>
+            <button key={item.id} className={filter === item.id ? "active" : ""} onClick={() => selectFilter(item.id)}>{item.label}</button>
           ))}
         </nav>
 
@@ -293,28 +282,14 @@ export default function Home() {
                 <div className="section-heading" aria-live="polite">
                   <div>
                     <p className="eyebrow">{filter === "best" ? "TONIGHT'S BEST BETS" : `${activeFilterLabel.toUpperCase()} · TONIGHT`}</p>
-                    <h2>
-                      {filter === "best"
-                        ? `${visible.length} top pick${visible.length === 1 ? "" : "s"}`
-                        : filter === "nightlife"
-                          ? `${visible.length} nightlife event${visible.length === 1 ? "" : "s"}`
-                          : `${visible.length} verified option${visible.length === 1 ? "" : "s"}`}
-                    </h2>
+                    <h2>{filter === "best" ? `${visible.length} top pick${visible.length === 1 ? "" : "s"}` : filter === "nightlife" ? `${visible.length} nightlife event${visible.length === 1 ? "" : "s"}` : `${visible.length} verified option${visible.length === 1 ? "" : "s"}`}</h2>
                   </div>
                   <button className="plan-button" onClick={createPlan}>Build My Night</button>
                 </div>
                 <div className="best-bet-grid">
                   {bestBets.map((event, index) => (
-                    <a
-                      className="best-bet-card"
-                      key={event.id}
-                      href={`#event-${event.id}`}
-                      onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}
-                    >
-                      <div className="best-bet-topline">
-                        <span className="rank-number">0{index + 1}</span>
-                        <span className="best-bet-category">{categoryLabel(event.category[0])}</span>
-                      </div>
+                    <a className="best-bet-card" key={event.id} href={`#event-${event.id}`} onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}>
+                      <div className="best-bet-topline"><span className="rank-number">0{index + 1}</span><span className="best-bet-category">{categoryLabel(event.category[0])}</span></div>
                       <span className="best-bet-clock">{timeLabel(event.startsAt)}</span>
                       <strong>{event.title}</strong>
                       <small>{event.venue}</small>
@@ -324,37 +299,16 @@ export default function Home() {
                 </div>
               </section>
 
-              {happening.length > 0 && (
-                <section className="event-section">
-                  <div className="section-label"><span className="live-dot" />Happening now</div>
-                  <div className="event-list">{happening.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
-                </section>
-              )}
-              {soon.length > 0 && (
-                <section className="event-section">
-                  <div className="section-label">Starting soon</div>
-                  <div className="event-list">{soon.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
-                </section>
-              )}
-              {later.length > 0 && (
-                <section className="event-section">
-                  <div className="section-label">Later tonight</div>
-                  <div className="event-list">{later.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div>
-                </section>
-              )}
+              {happening.length > 0 && <section className="event-section"><div className="section-label"><span className="live-dot" />Happening now</div><div className="event-list">{happening.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
+              {soon.length > 0 && <section className="event-section"><div className="section-label">Starting soon</div><div className="event-list">{soon.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
+              {later.length > 0 && <section className="event-section"><div className="section-label">Later tonight</div><div className="event-list">{later.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
             </>
           ) : (
             <section className="empty-card">
               <p className="eyebrow">{filter === "nightlife" ? "NIGHTLIFE · TONIGHT" : "CURATED FEED"}</p>
               <h2>No verified match in this filter right now.</h2>
               <p>We&apos;d rather show a thin list than make up or surface stale events. Try all verified picks, or use the next confirmed listing below.</p>
-              {nextVerified && (
-                <div className="next-up">
-                  <span>Next verified listing</span>
-                  <strong>{shortDateLabel(new Date(nextVerified.startsAt))} · {timeLabel(nextVerified.startsAt)}</strong>
-                  <p>{nextVerified.title}</p>
-                </div>
-              )}
+              {nextVerified && <div className="next-up"><span>Next verified listing</span><strong>{shortDateLabel(new Date(nextVerified.startsAt))} · {timeLabel(nextVerified.startsAt)}</strong><p>{nextVerified.title}</p></div>}
               {filter !== "all" && <button className="plan-button" onClick={() => selectFilter("all")}>Show all verified</button>}
             </section>
           )}
@@ -362,20 +316,8 @@ export default function Home() {
 
         {showPlan && (
           <section className="plan-card" id="my-night">
-            <div className="section-heading">
-              <div><p className="eyebrow">MY NIGHT</p><h2>{plan.length ? "Top picks without time conflicts." : "Nothing to plan yet."}</h2></div>
-              <button className="close-button" onClick={() => setShowPlan(false)}>Close</button>
-            </div>
-            {plan.length > 0 ? (
-              <div className="plan-list">
-                {plan.map((event, index) => (
-                  <div className="plan-stop" key={event.id}>
-                    <span>{index + 1}</span>
-                    <div><strong>{timeLabel(event.startsAt)} · {event.title}</strong><small>{event.venue}</small></div>
-                  </div>
-                ))}
-              </div>
-            ) : <p className="muted">The current filter has no available verified events to build from.</p>}
+            <div className="section-heading"><div><p className="eyebrow">MY NIGHT</p><h2>{plan.length ? "Top picks without time conflicts." : "Nothing to plan yet."}</h2></div><button className="close-button" onClick={() => setShowPlan(false)}>Close</button></div>
+            {plan.length > 0 ? <div className="plan-list">{plan.map((event, index) => <div className="plan-stop" key={event.id}><span>{index + 1}</span><div><strong>{timeLabel(event.startsAt)} · {event.title}</strong><small>{event.venue}</small></div></div>)}</div> : <p className="muted">The current filter has no available verified events to build from.</p>}
             <button className="primary-button" disabled={!plan.length} onClick={sharePlan}>Share My Night</button>
           </section>
         )}
@@ -383,24 +325,14 @@ export default function Home() {
         {tonightNightlife.length > 0 && (
           <section className="nightlife-card">
             <div className="nightlife-heading">
-              <div>
-                <p className="eyebrow">NIGHTLIFE RADAR · TONIGHT</p>
-                <h2>Where to go after the event list ends.</h2>
-                <p>These are venue options, not invented events. Hours and venue identity were checked for tonight; use the source link before heading out if plans are time-sensitive.</p>
-              </div>
-              <button className="nightlife-filter-button" onClick={() => revealNightlifeEvents("nightlife_radar")}>
-                {filter === "nightlife" ? "Nightlife events shown ↑" : "Show nightlife events ↑"}
-              </button>
+              <div><p className="eyebrow">NIGHTLIFE RADAR · TONIGHT</p><h2>Where to go after the event list ends.</h2><p>These are venue options, not invented events. Hours and venue identity were checked for tonight; use the source link before heading out if plans are time-sensitive.</p></div>
+              <button className="nightlife-filter-button" onClick={() => revealNightlifeEvents("nightlife_radar")}>{filter === "nightlife" ? "Nightlife events shown ↑" : "Show nightlife events ↑"}</button>
             </div>
             <div className="nightlife-grid">
               {tonightNightlife.map((spot) => (
                 <article className="nightlife-spot" key={spot.id}>
-                  <div className="nightlife-spot-topline">
-                    <strong>{spot.name}</strong>
-                    <span>{spot.hoursLabel}</span>
-                  </div>
-                  <p>{spot.vibe}</p>
-                  <small>{spot.bestFor}</small>
+                  <div className="nightlife-spot-topline"><strong>{spot.name}</strong><span>{spot.hoursLabel}</span></div>
+                  <p>{spot.vibe}</p><small>{spot.bestFor}</small>
                   <div className="nightlife-actions">
                     <a href={spot.sourceUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_source_click", { spot_id: spot.id, source: spot.sourceLabel })}>Check venue ↗</a>
                     <a href={spot.directionsUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("nightlife_directions_click", { spot_id: spot.id })}>Directions ↗</a>
@@ -412,10 +344,7 @@ export default function Home() {
         )}
       </div>
 
-      <footer>
-        <img src="/cdatonight_logo.png" alt="" aria-hidden="true" />
-        <span>CDA Tonight · An AeroVista Local utility · Coeur d&apos;Alene, Idaho</span>
-      </footer>
+      <footer><img src="/cdatonight_logo.png" alt="" aria-hidden="true" /><span>CDA Tonight · An AeroVista Local utility · Coeur d&apos;Alene, Idaho</span></footer>
     </main>
   );
 }
