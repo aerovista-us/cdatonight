@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import AeroVistaLocalBadge from "@/components/AeroVistaLocalBadge";
+import EchoVerseSponsoredPlayer from "@/components/EchoVerseSponsoredPlayer";
 import LateNightEats from "@/components/LateNightEats";
 import Phase3Nav from "@/components/Phase3Nav";
 import UmamiAnalytics from "@/components/UmamiAnalytics";
@@ -10,6 +11,7 @@ import "./wide-layout.css";
 import "./hero-real.css";
 import "./phase3.css";
 import "./keep-going.css";
+import "./echoverse-player.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cdatonight.aerovista.us";
 
@@ -54,6 +56,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         {children}
         <Phase3Nav />
+        <EchoVerseSponsoredPlayer />
         <LateNightEats />
         <AeroVistaLocalBadge />
         <UmamiAnalytics />
