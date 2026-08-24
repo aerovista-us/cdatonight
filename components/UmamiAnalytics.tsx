@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { flushQueuedEvents } from "@/lib/analytics";
 
 const DEFAULT_UMAMI_URL = "https://stats.aerocoreos.com";
+const DEFAULT_UMAMI_WEBSITE_ID = "8d3be7f4-0747-4581-b4b0-2d6f594b25bc";
 
 function hostAllowed(hostname: string, domains: string[]) {
   if (!domains.length) return true;
@@ -18,8 +19,7 @@ function hostAllowed(hostname: string, domains: string[]) {
 
 export default function UmamiAnalytics() {
   useEffect(() => {
-    const websiteId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID?.trim();
-    if (!websiteId) return;
+    const websiteId = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID?.trim() || DEFAULT_UMAMI_WEBSITE_ID;
     const url = (process.env.NEXT_PUBLIC_UMAMI_URL || DEFAULT_UMAMI_URL).replace(/\/$/, "");
     const allowedDomains = (process.env.NEXT_PUBLIC_UMAMI_DOMAINS || "").split(",").map((v) => v.trim()).filter(Boolean);
     const { hostname, protocol, search } = window.location;
