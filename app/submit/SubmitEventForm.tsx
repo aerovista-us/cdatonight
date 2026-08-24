@@ -3,7 +3,7 @@
 import { FormEvent, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
 
-const intakeEmail = "aerovistaus@gmail.com";
+const formspreeEndpoint = "https://formspree.io/f/xnjwverg";
 
 type Fields = {
   title: string;
@@ -17,6 +17,8 @@ type Fields = {
   cost: string;
   notes: string;
 };
+
+type SubmitState = "idle" | "submitting" | "success" | "error";
 
 const initial: Fields = { title: "", date: "", start: "", end: "", venue: "", address: "", sourceUrl: "", contact: "", cost: "", notes: "" };
 
@@ -44,15 +46,42 @@ function submissionText(fields: Fields) {
 export default function SubmitEventForm() {
   const [fields, setFields] = useState<Fields>(initial);
   const [copied, setCopied] = useState(false);
+  const [submitState, setSubmitState] = useState<SubmitState>("idle");
 
-  const update = (key: keyof Fields, value: string) => setFields((current) => ({ ...current, [key]: value }));
+  const update = (key: keyof Fields, value: string) => {
+    setFields((current) => ({ ...current, [key]: value }));
+    if (submitState !== "idle") setSubmitState("idle");
+  };
 
-  const send = (event: FormEvent) => {
+  const send = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const body = submissionText(fields);
-    trackEvent("event_submission_start", { has_end_time: Boolean(fields.end), has_contact: Boolean(fields.contact) });
+    setSubmitState("submitting");
+
     const subject = `[CDA Tonight submission] ${fields.title} — ${fields.date}`;
-    window.location.href = `mailto:${intakeEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const payload = new FormData();
+    Object.entries(fields).forEach(([key, value]) => payload.append(key, value));
+    payload.append("_subject", subject);
+    payload.append("submission", submissionText(fields));
+    payload.append("source", "CDA Tonight");
+
+    trackEvent("event_submission_start", { has_end_time: Boolean(fields.end), has_contact: Boolean(fields.contact) });
+
+    try {
+      const response = await fetch(formspreeEndpoint, {
+        method: "POST",
+        body: payload,
+        headers: { Accept: "application/json" }
+      });
+
+      if (!response.ok) throw new Error(`Formspree returned ${response.status}`);
+
+      trackEvent("event_submission_success", { event_title: fields.title || "untitled" });
+      setFields(initial);
+      setSubmitState("success");
+    } catch {
+      trackEvent("event_submission_error", { event_title: fields.title || "untitled" });
+      setSubmitState("error");
+    }
   };
 
   const copy = async () => {
@@ -78,8 +107,10 @@ export default function SubmitEventForm() {
         <label>Organizer / contact<input value={fields.contact} onChange={(e) => update("contact", e.target.value)} placeholder="Name, email or phone (optional)" /></label>
         <label className="full">Notes<textarea value={fields.notes} onChange={(e) => update("notes", e.target.value)} placeholder="Age limits, ticket notes, schedule details, anything useful for verification." /></label>
         <div className="submit-policy">Moderation rule: a submission is only an intake lead. The event does not become trusted merely because someone submitted it; timing, existence, price and availability still need a source.</div>
-        <div className="submit-actions"><button type="submit">Open review email</button><button className="secondary" type="button" onClick={copy}>Copy submission</button></div>
-        {copied && <span className="submit-success">Submission copied.</span>}
+        <div className="submit-actions"><button type="submit" disabled={submitState === "submitting"}>{submitState === "submitting" ? "Sending…" : "Submit for review"}</button><button className="secondary" type="button" onClick={copy}>Copy submission</button></div>
+        {submitState === "success" && <span className="submit-success" role="status">Submission received. We’ll review the source before anything is published.</span>}
+        {submitState === "error" && <span className="submit-success" role="alert">Submission could not be sent. Please try again, or use “Copy submission” as a fallback.</span>}
+        {copied && <span className="submit-success" role="status">Submission copied.</span>}
       </form>
     </section>
   );
