@@ -12,11 +12,13 @@ function eventKey(event: LocalEvent) {
 
 const generatedEvents = generatedFeed.events as unknown as LocalEvent[];
 const merged = new Map<string, LocalEvent>();
+const supersededPhase3Ids = new Set(["museum-cemetery-walking-tour-aug28"]);
+const activePhase3Events = phase3Events.filter((event) => !supersededPhase3Ids.has(event.id));
 
 // Curated records always win when an automated record overlaps one. Automated
 // calendars often omit or rename venue fields, so title + exact start time is
 // the safer identity boundary than title + time + venue.
-for (const event of [...curatedEvents, ...tonightAug28Events, ...phase3Events]) merged.set(eventKey(event), event);
+for (const event of [...curatedEvents, ...tonightAug28Events, ...activePhase3Events]) merged.set(eventKey(event), event);
 for (const event of generatedEvents) {
   const key = eventKey(event);
   if (!merged.has(key)) merged.set(key, event);
