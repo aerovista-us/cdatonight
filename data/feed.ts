@@ -2,6 +2,7 @@ import generatedFeed from "@/data/auto-events.json";
 import { events as curatedEvents } from "./events";
 import { phase3Events } from "./phase3-events";
 import { tonightAug28Events } from "./tonight-2026-08-28";
+import { weekendAug29Aug30Events } from "./weekend-2026-08-29-30";
 import type { EventCategory, LocalEvent } from "./events";
 
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
@@ -18,7 +19,9 @@ const activePhase3Events = phase3Events.filter((event) => !supersededPhase3Ids.h
 // Curated records always win when an automated record overlaps one. Automated
 // calendars often omit or rename venue fields, so title + exact start time is
 // the safer identity boundary than title + time + venue.
-for (const event of [...curatedEvents, ...tonightAug28Events, ...activePhase3Events]) merged.set(eventKey(event), event);
+for (const event of [...curatedEvents, ...tonightAug28Events, ...weekendAug29Aug30Events, ...activePhase3Events]) {
+  merged.set(eventKey(event), event);
+}
 for (const event of generatedEvents) {
   const key = eventKey(event);
   if (!merged.has(key)) merged.set(key, event);
