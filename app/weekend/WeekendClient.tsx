@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { eventCatalog, eventEnd } from "@/lib/catalog";
+import { eventCatalog } from "@/lib/catalog";
 import type { EventCategory, LocalEvent } from "@/data/events";
 import { trackEvent } from "@/lib/analytics";
 
@@ -82,12 +82,10 @@ export default function WeekendClient() {
   if (!now) return <div className="weekend-empty">Loading weekend…</div>;
 
   const range = weekendRange(now);
-  const today = dayKey(now);
   const weekendEvents = eventCatalog
     .filter((event) => {
       const key = localDateKey(event.startsAt);
       if (key < range.start || key > range.end) return false;
-      if (key === today && eventEnd(event).getTime() <= now.getTime()) return false;
       return matches(event, filter);
     })
     .sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime());
@@ -114,7 +112,7 @@ export default function WeekendClient() {
       <section className="phase3-hero">
         <p className="phase3-kicker">KEEP GOING · WEEKEND MODE</p>
         <h1>{range.label},<br />already sorted.</h1>
-        <p>Tonight stays the default. Weekend mode carries the same verified, source-attached approach through Friday, Saturday and Sunday so planning does not reset at midnight.</p>
+        <p>Full-day Friday, Saturday and Sunday coverage with the same verified, source-attached approach. Finished events stay visible for the day so the weekend schedule never collapses into a misleading partial list.</p>
         <div className="weekend-meta">
           <span><strong>{weekendEvents.length}</strong> verified matches</span>
           <span>{dayLabel(range.start)} → {dayLabel(range.end)}</span>
