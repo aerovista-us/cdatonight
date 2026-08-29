@@ -14,6 +14,10 @@ export type SourceId =
   | "cda-flea"
   | "downtown-cda"
   | "koep-concerts"
+  | "north-idaho-college"
+  | "ticketstripe"
+  | "getoutgarage"
+  | "stayhappening"
   | "bandsintown";
 
 export type EventSource = {
@@ -107,6 +111,42 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "Free City Park, McEuen Park and Hayden summer concert series",
     priority: 10,
     note: "Official organizer schedule for KOEP's North Idaho community concert series."
+  },
+  "north-idaho-college": {
+    id: "north-idaho-college",
+    name: "North Idaho College",
+    kind: "official-organizer",
+    url: "https://nic.edu/fun-run/",
+    coverage: "North Idaho College public events and campus activities",
+    priority: 10,
+    note: "Official NIC source for campus events such as the Color Fun Run."
+  },
+  ticketstripe: {
+    id: "ticketstripe",
+    name: "Ticketstripe",
+    kind: "official-ticketing",
+    url: "https://ticketstripe.com/",
+    coverage: "Ticketed independent venue events, including Black Lodge listings",
+    priority: 9,
+    note: "Ticketing source used when an event page is directly published for the local venue."
+  },
+  getoutgarage: {
+    id: "getoutgarage",
+    name: "GetOutGarage",
+    kind: "community-calendar",
+    url: "https://www.getoutgarage.com/",
+    coverage: "Local automotive meetups and car events",
+    priority: 6,
+    note: "Community discovery source; listings are kept conservative and retain verification notes."
+  },
+  stayhappening: {
+    id: "stayhappening",
+    name: "StayHappening",
+    kind: "community-calendar",
+    url: "https://stayhappening.com/coeur%2Bd%2Balene",
+    coverage: "Local nightlife, music and community event discovery",
+    priority: 6,
+    note: "Discovery source used for events with a named host and venue; details are cross-checked when possible."
   },
   bandsintown: {
     id: "bandsintown",
