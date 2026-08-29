@@ -15,6 +15,7 @@ export type NightlifeSpot = {
 };
 
 const verifiedAt = "2026-08-22T17:05:00-07:00";
+const weekendVerifiedAt = "2026-08-28T22:32:00-07:00";
 
 export const nightlifeEvents: LocalEvent[] = [
   {
@@ -36,6 +37,84 @@ export const nightlifeEvents: LocalEvent[] = [
 ];
 
 export const nightlifeSpots: NightlifeSpot[] = [
+  {
+    id: "iron-horse-aug28",
+    name: "Iron Horse",
+    date: "2026-08-28",
+    address: "407 E Sherman Ave, Coeur d'Alene, ID 83814",
+    hoursLabel: "Friday · The Hipsters 9 PM–1 AM",
+    vibe: "Classic Sherman bar · high-energy live dance rock tonight",
+    bestFor: "A band-first downtown stop that is still going late",
+    sourceUrl: "https://stayhappening.com/e/the-hipsters-at-the-iron-horse-in-coeur-dalene-id-E2ISYPF8HEQ",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=407+E+Sherman+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Hipsters · Iron Horse listing",
+    verifiedAt: weekendVerifiedAt
+  },
+  {
+    id: "moose-lounge-aug28",
+    name: "Moose Lounge",
+    date: "2026-08-28",
+    address: "401 E Sherman Ave, Coeur d'Alene, ID 83814",
+    hoursLabel: "Friday · set time not published",
+    vibe: "The Inlander lists All Panic No Disco here tonight; exact set time was not published",
+    bestFor: "A Sherman bar lead when you want another live-band option",
+    sourceUrl: "https://fliphtml5.com/ajffv/08-20-2026-Inlander/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=401+E+Sherman+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Inlander weekly music listings",
+    verifiedAt: weekendVerifiedAt
+  },
+  {
+    id: "treehouse-cda-aug28",
+    name: "TreeHouse CDA",
+    date: "2026-08-28",
+    address: "314 N 4th St, Coeur d'Alene, ID 83814",
+    hoursLabel: "Friday · Luau 10 PM–2 AM",
+    vibe: "Late-night downtown summer-sendoff party hosted by The Brad & Tad Show",
+    bestFor: "Keeping the night going after the earlier concerts end",
+    sourceUrl: "https://stayhappening.com/e/beach-please-end-of-summer-luau-E2ISYTTJKQM",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=314+N+4th+St+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "TreeHouse CDA event listing",
+    verifiedAt: weekendVerifiedAt
+  },
+  {
+    id: "iron-horse-aug29",
+    name: "Iron Horse",
+    date: "2026-08-29",
+    address: "407 E Sherman Ave, Coeur d'Alene, ID 83814",
+    hoursLabel: "Saturday · The Hipsters 9 PM–1 AM",
+    vibe: "Second night of the high-energy dance-rock weekend run",
+    bestFor: "A late live-band finish after the Fair or downtown dinner",
+    sourceUrl: "https://stayhappening.com/e/the-hipsters-at-the-iron-horse-in-coeur-dalene-id-E2ISYPF8HEQ",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=407+E+Sherman+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Hipsters · Iron Horse listing",
+    verifiedAt: weekendVerifiedAt
+  },
+  {
+    id: "moose-lounge-aug29",
+    name: "Moose Lounge",
+    date: "2026-08-29",
+    address: "401 E Sherman Ave, Coeur d'Alene, ID 83814",
+    hoursLabel: "Saturday · set time not published",
+    vibe: "The Inlander lists All Panic No Disco for a second night; exact set time was not published",
+    bestFor: "A second Sherman live-music lead without pretending we know the clock time",
+    sourceUrl: "https://fliphtml5.com/ajffv/08-20-2026-Inlander/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=401+E+Sherman+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Inlander weekly music listings",
+    verifiedAt: weekendVerifiedAt
+  },
+  {
+    id: "black-lodge-aug29",
+    name: "Black Lodge",
+    date: "2026-08-29",
+    address: "206 N 3rd St, Coeur d'Alene, ID 83814",
+    hoursLabel: "Saturday · doors 6 PM · show 7 PM",
+    vibe: "Fat Lady + J. Graves + Carson Floyd · garage rock, dance punk and roots songwriting",
+    bestFor: "Independent live music with pizza and a smaller-room crowd",
+    sourceUrl: "https://ticketstripe.com/events/4605109284821762",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=206+N+3rd+St+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "Black Lodge · Ticketstripe",
+    verifiedAt: weekendVerifiedAt
+  },
   {
     id: "black-lodge",
     name: "Black Lodge",
