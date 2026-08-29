@@ -1,6 +1,7 @@
 import type { LocalEvent } from "./events";
 
 const verifiedAt = "2026-08-28T15:53:00-07:00";
+const lateVerifiedAt = "2026-08-28T22:32:00-07:00";
 const fairAddress = "4056 N Government Way, Coeur d'Alene, ID 83815";
 const fairDirections = "https://www.google.com/maps/search/?api=1&query=4056+N+Government+Way+Coeur+d%27Alene+ID+83815";
 
@@ -77,6 +78,23 @@ export const tonightAug28Events: LocalEvent[] = [
     featured: true
   },
   {
+    id: "broken-mantle-stellas-aug28",
+    title: "Broken Mantle Band Live at Stella's On The Hill",
+    startsAt: "2026-08-28T19:00:00-07:00",
+    endsAt: "2026-08-28T21:00:00-07:00",
+    venue: "Stella's On The Hill",
+    address: "4176 E Potlatch Hill Rd, Coeur d'Alene, ID 83814",
+    category: ["live-music", "food-drink", "date-night", "outdoors"],
+    cost: "unknown",
+    status: "unknown",
+    sourceId: "stayhappening",
+    sourceUrl: "https://stayhappening.com/e/broken-mantle-band-live-at-stellas-on-the-hill-E2ISYQ83JVL",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=4176+E+Potlatch+Hill+Rd+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "Stella's On The Hill event listing",
+    verifiedAt: lateVerifiedAt,
+    note: "Live band set from 7–9 PM with cocktails, beer, wine, food and an outdoor lake-view setting. All ages listed by the event host."
+  },
+  {
     id: "spaventures-sunset-aug28",
     title: "SpaVentures Sunset Cruise",
     startsAt: "2026-08-28T19:00:00-07:00",
@@ -93,6 +111,24 @@ export const tonightAug28Events: LocalEvent[] = [
     sourceLabel: "Visit Coeur d'Alene · SpaVentures USA",
     verifiedAt,
     note: "Two-hour private heated SpaBoat sunset session. Bring drinks and snacks, play your own music, and use code SUNSET for the advertised discount; verify booking availability before heading over.",
+    featured: true
+  },
+  {
+    id: "sunset-dinner-cruise-aug28",
+    title: "Sunset Dinner Cruise",
+    startsAt: "2026-08-28T19:30:00-07:00",
+    endsAt: "2026-08-28T21:30:00-07:00",
+    venue: "Lake Coeur d'Alene Cruises · Independence Point",
+    address: "115 S 2nd St, Coeur d'Alene, ID 83814",
+    category: ["cruise", "food-drink", "date-night"],
+    cost: "paid",
+    status: "available",
+    sourceId: "cda-cruises",
+    sourceUrl: "https://tickets.cdacruises.com/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=Independence+Point+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "Lake Coeur d'Alene Cruises",
+    verifiedAt,
+    note: "Two-hour sunset dinner sailing with buffet and full no-host bar. The official ticket calendar lists tonight's 7:30 PM departure as available.",
     featured: true
   },
   {
@@ -130,21 +166,39 @@ export const tonightAug28Events: LocalEvent[] = [
     note: "The later 90-minute Forest Cemetery walking tour. Check the organizer for current ticket inventory."
   },
   {
-    id: "sunset-dinner-cruise-aug28",
-    title: "Sunset Dinner Cruise",
-    startsAt: "2026-08-28T19:30:00-07:00",
-    endsAt: "2026-08-28T21:30:00-07:00",
-    venue: "Lake Coeur d'Alene Cruises · Independence Point",
-    address: "1000 S Marina Dr, Coeur d'Alene, ID 83814",
-    category: ["cruise", "food-drink", "date-night"],
-    cost: "paid",
-    status: "available",
-    sourceId: "cda-cruises",
-    sourceUrl: "https://tickets.cdacruises.com/",
-    directionsUrl: "https://www.google.com/maps/search/?api=1&query=1000+S+Marina+Dr+Coeur+d%27Alene+ID+83814",
-    sourceLabel: "Lake Coeur d'Alene Cruises",
-    verifiedAt,
-    note: "Two-hour sunset dinner sailing with buffet and full no-host bar. The official ticket calendar currently lists tonight's 7:30 PM departure as available.",
+    id: "hipsters-iron-horse-aug28",
+    title: "The Hipsters at The Iron Horse",
+    startsAt: "2026-08-28T21:00:00-07:00",
+    endsAt: "2026-08-29T01:00:00-07:00",
+    venue: "Iron Horse",
+    address: "407 E Sherman Ave, Coeur d'Alene, ID 83814",
+    category: ["live-music", "nightlife", "date-night"],
+    cost: "unknown",
+    status: "unknown",
+    sourceId: "stayhappening",
+    sourceUrl: "https://stayhappening.com/e/the-hipsters-at-the-iron-horse-in-coeur-dalene-id-E2ISYPF8HEQ",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=407+E+Sherman+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Hipsters · Iron Horse listing",
+    verifiedAt: lateVerifiedAt,
+    note: "Friday and Saturday high-energy dance-rock weekend with 2000s-to-current pop-punk, emo and alternative favorites. The listing begins Friday at 9 PM and runs through the late-night weekend sets.",
+    featured: true
+  },
+  {
+    id: "beach-please-treehouse-aug28",
+    title: "Beach Please! · End of Summer Luau",
+    startsAt: "2026-08-28T22:00:00-07:00",
+    endsAt: "2026-08-29T02:00:00-07:00",
+    venue: "Treehouse CDA",
+    address: "314 N 4th St, Coeur d'Alene, ID 83814",
+    category: ["nightlife", "food-drink", "date-night"],
+    cost: "unknown",
+    status: "unknown",
+    sourceId: "stayhappening",
+    sourceUrl: "https://stayhappening.com/e/beach-please-end-of-summer-luau-E2ISYTTJKQM",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=314+N+4th+St+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Brad & Tad Show · Treehouse CDA listing",
+    verifiedAt: lateVerifiedAt,
+    note: "Late-night downtown summer sendoff from 10 PM–2 AM. This is a nightlife event, not a verified live-band listing.",
     featured: true
   }
 ];
