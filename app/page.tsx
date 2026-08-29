@@ -8,6 +8,7 @@ import { trackEvent } from "@/lib/analytics";
 import { rankEvents, rankingReason } from "@/lib/ranking";
 
 type Filter = "best" | "all" | "free" | EventCategory;
+type RelativeGroup = "happening" | "soon" | "later" | "earlier";
 
 const filters: Array<{ id: Filter; label: string }> = [
   { id: "best", label: "Best bets" },
@@ -67,7 +68,7 @@ function eventEnd(event: LocalEvent) {
     : new Date(new Date(event.startsAt).getTime() + 3 * 60 * 60 * 1000);
 }
 
-function relativeGroup(event: LocalEvent, now: Date) {
+function relativeGroup(event: LocalEvent, now: Date): RelativeGroup {
   const start = new Date(event.startsAt);
   const end = eventEnd(event);
   const deltaMinutes = (start.getTime() - now.getTime()) / 60000;
@@ -75,7 +76,7 @@ function relativeGroup(event: LocalEvent, now: Date) {
   if (start.getTime() <= now.getTime() && end.getTime() > now.getTime()) return "happening";
   if (deltaMinutes > 0 && deltaMinutes <= 120) return "soon";
   if (deltaMinutes > 120) return "later";
-  return "stale";
+  return "earlier";
 }
 
 function passesFilter(event: LocalEvent, filter: Filter) {
@@ -119,7 +120,7 @@ function EventCard({ event, now }: { event: LocalEvent; now: Date }) {
       <div className="event-time">
         <strong>{timeLabel(event.startsAt)}</strong>
         {event.endsAt && <small>to {timeLabel(event.endsAt)}</small>}
-        <span>{group === "happening" ? "Happening now" : group === "soon" ? "Starting soon" : "Tonight"}</span>
+        <span>{group === "happening" ? "Happening now" : group === "soon" ? "Starting soon" : group === "earlier" ? "Ended" : "Tonight"}</span>
       </div>
       <div className="event-body">
         <div className="event-topline">
@@ -166,21 +167,25 @@ export default function Home() {
   }
 
   const today = dayKey(now);
-  const tonightEvents = allEvents
-    .filter((event) => dayKey(new Date(event.startsAt)) === today)
-    .filter((event) => relativeGroup(event, now) !== "stale");
+  const tonightEvents = allEvents.filter((event) => dayKey(new Date(event.startsAt)) === today);
   const tonightNightlife = nightlifeSpots.filter((spot) => spot.date === today);
-  const ranked = rankEvents(tonightEvents.filter((event) => passesFilter(event, filter)), now);
-  const visible = filter === "best" ? ranked.slice(0, 3) : ranked;
+  const filteredTonight = tonightEvents.filter((event) => passesFilter(event, filter));
+  const activeFiltered = filteredTonight.filter((event) => relativeGroup(event, now) !== "earlier");
+  const rankedActive = rankEvents(activeFiltered, now);
+  const visibleActive = filter === "best" ? rankedActive.slice(0, 3) : rankedActive;
+  const earlier = filteredTonight
+    .filter((event) => relativeGroup(event, now) === "earlier")
+    .sort((a, b) => new Date(b.startsAt).getTime() - new Date(a.startsAt).getTime());
+  const visibleCount = visibleActive.length + earlier.length;
 
-  const bestBets = visible.slice(0, 3);
-  const happening = visible.filter((event) => relativeGroup(event, now) === "happening");
-  const soon = visible.filter((event) => relativeGroup(event, now) === "soon");
-  const later = visible.filter((event) => relativeGroup(event, now) === "later");
+  const bestBets = visibleActive.slice(0, 3);
+  const happening = visibleActive.filter((event) => relativeGroup(event, now) === "happening");
+  const soon = visibleActive.filter((event) => relativeGroup(event, now) === "soon");
+  const later = visibleActive.filter((event) => relativeGroup(event, now) === "later");
   const nextVerified = allEvents
     .filter((event) => new Date(event.startsAt).getTime() > now.getTime())
     .sort((a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime())[0];
-  const plan = buildNonOverlappingPlan(visible);
+  const plan = buildNonOverlappingPlan(visibleActive);
   const activeSourceIds = new Set(tonightEvents.map((event) => event.sourceId));
   const activeSources = sourceList.filter((source) => activeSourceIds.has(source.id));
   const newestVerification = tonightEvents.length
@@ -195,7 +200,10 @@ export default function Home() {
 
   const jumpToPicks = () => {
     selectFilter("best");
-    document.getElementById("best-bets")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.setTimeout(() => {
+      const target = document.getElementById("best-bets") || document.getElementById("earlier-tonight") || document.getElementById("event-results");
+      target?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 40);
   };
 
   const revealNightlifeEvents = (placement: "hero" | "nightlife_radar") => {
@@ -276,38 +284,41 @@ export default function Home() {
         </nav>
 
         <div id="event-results" className="event-results-anchor">
-          {visible.length ? (
+          {visibleCount ? (
             <>
-              <section className="best-bets" id="best-bets">
-                <div className="section-heading" aria-live="polite">
-                  <div>
-                    <p className="eyebrow">{filter === "best" ? "TONIGHT'S BEST BETS" : `${activeFilterLabel.toUpperCase()} · TONIGHT`}</p>
-                    <h2>{filter === "best" ? `${visible.length} top pick${visible.length === 1 ? "" : "s"}` : filter === "nightlife" ? `${visible.length} nightlife event${visible.length === 1 ? "" : "s"}` : `${visible.length} verified option${visible.length === 1 ? "" : "s"}`}</h2>
+              {bestBets.length > 0 && (
+                <section className="best-bets" id="best-bets">
+                  <div className="section-heading" aria-live="polite">
+                    <div>
+                      <p className="eyebrow">{filter === "best" ? "TONIGHT'S BEST BETS" : `${activeFilterLabel.toUpperCase()} · TONIGHT`}</p>
+                      <h2>{filter === "best" ? `${bestBets.length} top pick${bestBets.length === 1 ? "" : "s"}` : filter === "nightlife" ? `${visibleCount} nightlife event${visibleCount === 1 ? "" : "s"}` : `${visibleCount} verified option${visibleCount === 1 ? "" : "s"}`}</h2>
+                    </div>
+                    <button className="plan-button" onClick={createPlan}>Build My Night</button>
                   </div>
-                  <button className="plan-button" onClick={createPlan}>Build My Night</button>
-                </div>
-                <div className="best-bet-grid">
-                  {bestBets.map((event, index) => (
-                    <a className="best-bet-card" key={event.id} href={`#event-${event.id}`} onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}>
-                      <div className="best-bet-topline"><span className="rank-number">0{index + 1}</span><span className="best-bet-category">{categoryLabel(event.category[0])}</span></div>
-                      <span className="best-bet-clock">{timeLabel(event.startsAt)}</span>
-                      <strong>{event.title}</strong>
-                      <small>{event.venue}</small>
-                      <em>{rankingReason(event, now)}</em>
-                    </a>
-                  ))}
-                </div>
-              </section>
+                  <div className="best-bet-grid">
+                    {bestBets.map((event, index) => (
+                      <a className="best-bet-card" key={event.id} href={`#event-${event.id}`} onClick={() => trackEvent("best_bet_click", { event_id: event.id, rank: index + 1 })}>
+                        <div className="best-bet-topline"><span className="rank-number">0{index + 1}</span><span className="best-bet-category">{categoryLabel(event.category[0])}</span></div>
+                        <span className="best-bet-clock">{timeLabel(event.startsAt)}</span>
+                        <strong>{event.title}</strong>
+                        <small>{event.venue}</small>
+                        <em>{rankingReason(event, now)}</em>
+                      </a>
+                    ))}
+                  </div>
+                </section>
+              )}
 
               {happening.length > 0 && <section className="event-section"><div className="section-label"><span className="live-dot" />Happening now</div><div className="event-list">{happening.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
               {soon.length > 0 && <section className="event-section"><div className="section-label">Starting soon</div><div className="event-list">{soon.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
               {later.length > 0 && <section className="event-section"><div className="section-label">Later tonight</div><div className="event-list">{later.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
+              {earlier.length > 0 && <section className="event-section" id="earlier-tonight"><div className="section-label">Earlier tonight · verified lineup</div><div className="event-list">{earlier.map((event) => <div id={`event-${event.id}`} key={event.id}><EventCard event={event} now={now} /></div>)}</div></section>}
             </>
           ) : (
             <section className="empty-card">
               <p className="eyebrow">{filter === "nightlife" ? "NIGHTLIFE · TONIGHT" : "CURATED FEED"}</p>
-              <h2>No verified match in this filter right now.</h2>
-              <p>We&apos;d rather show a thin list than make up or surface stale events. Try all verified picks, or use the next confirmed listing below.</p>
+              <h2>No verified match in this filter tonight.</h2>
+              <p>Try all verified picks, or use the next confirmed listing below.</p>
               {nextVerified && <div className="next-up"><span>Next verified listing</span><strong>{shortDateLabel(new Date(nextVerified.startsAt))} · {timeLabel(nextVerified.startsAt)}</strong><p>{nextVerified.title}</p></div>}
               {filter !== "all" && <button className="plan-button" onClick={() => selectFilter("all")}>Show all verified</button>}
             </section>
@@ -316,8 +327,8 @@ export default function Home() {
 
         {showPlan && (
           <section className="plan-card" id="my-night">
-            <div className="section-heading"><div><p className="eyebrow">MY NIGHT</p><h2>{plan.length ? "Top picks without time conflicts." : "Nothing to plan yet."}</h2></div><button className="close-button" onClick={() => setShowPlan(false)}>Close</button></div>
-            {plan.length > 0 ? <div className="plan-list">{plan.map((event, index) => <div className="plan-stop" key={event.id}><span>{index + 1}</span><div><strong>{timeLabel(event.startsAt)} · {event.title}</strong><small>{event.venue}</small></div></div>)}</div> : <p className="muted">The current filter has no available verified events to build from.</p>}
+            <div className="section-heading"><div><p className="eyebrow">MY NIGHT</p><h2>{plan.length ? "Top picks without time conflicts." : "No remaining events to plan."}</h2></div><button className="close-button" onClick={() => setShowPlan(false)}>Close</button></div>
+            {plan.length > 0 ? <div className="plan-list">{plan.map((event, index) => <div className="plan-stop" key={event.id}><span>{index + 1}</span><div><strong>{timeLabel(event.startsAt)} · {event.title}</strong><small>{event.venue}</small></div></div>)}</div> : <p className="muted">Completed events remain visible below for reference, but they are excluded from Build My Night.</p>}
             <button className="primary-button" disabled={!plan.length} onClick={sharePlan}>Share My Night</button>
           </section>
         )}
