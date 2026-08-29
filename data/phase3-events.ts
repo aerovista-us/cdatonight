@@ -1,6 +1,7 @@
 import type { LocalEvent } from "./events";
 
 const phase3VerifiedAt = "2026-08-22T18:55:00-07:00";
+const weekendVerifiedAt = "2026-08-28T22:32:00-07:00";
 const downtownDirections = "https://www.google.com/maps/search/?api=1&query=Downtown+Coeur+d%27Alene+ID";
 
 export const phase3Events: LocalEvent[] = [
@@ -49,13 +50,13 @@ export const phase3Events: LocalEvent[] = [
     category: ["cruise", "live-music", "food-drink", "date-night"],
     cost: "paid",
     priceLabel: "$79.50",
-    status: "unknown",
+    status: "sold-out",
     sourceId: "cda-cruises",
-    sourceUrl: "https://www.cdacruises.com/national-jimmy-buffett-day/",
+    sourceUrl: "https://tickets.cdacruises.com/",
     directionsUrl: downtownDirections,
     sourceLabel: "Lake Coeur d'Alene Cruises",
-    verifiedAt: phase3VerifiedAt,
-    note: "Official cruise information lists a 4:30–6:30 PM sailing with live Jimmy Buffett tribute music, dinner and tropical cocktails; boarding begins at 4 PM."
+    verifiedAt: weekendVerifiedAt,
+    note: "The Nobody Famous Band performs Jimmy Buffett favorites on the 4:30–6:30 PM dinner cruise. The official ticket calendar currently lists this sailing as sold out."
   },
   {
     id: "jimmy-buffett-day-cruise-aug29-late",
@@ -67,13 +68,13 @@ export const phase3Events: LocalEvent[] = [
     category: ["cruise", "live-music", "food-drink", "date-night"],
     cost: "paid",
     priceLabel: "$79.50",
-    status: "unknown",
+    status: "sold-out",
     sourceId: "cda-cruises",
-    sourceUrl: "https://www.cdacruises.com/national-jimmy-buffett-day/",
+    sourceUrl: "https://tickets.cdacruises.com/",
     directionsUrl: downtownDirections,
     sourceLabel: "Lake Coeur d'Alene Cruises",
-    verifiedAt: phase3VerifiedAt,
-    note: "Official cruise information lists a 7:30–9:30 PM sailing with live Jimmy Buffett tribute music, dinner and tropical cocktails; boarding begins at 7 PM."
+    verifiedAt: weekendVerifiedAt,
+    note: "The Nobody Famous Band performs Jimmy Buffett favorites on the 7:30–9:30 PM sunset dinner cruise. The official ticket calendar currently lists this sailing as sold out."
   },
   {
     id: "koep-city-park-soul-proprietor-aug30",
@@ -84,12 +85,12 @@ export const phase3Events: LocalEvent[] = [
     address: "415 W Fort Grounds Dr, Coeur d'Alene, ID 83814",
     category: ["live-music", "family", "outdoors", "community"],
     cost: "free",
-    status: "unknown",
+    status: "available",
     sourceId: "koep-concerts",
     sourceUrl: "https://koepconcerts.com/concert-schedule/",
     directionsUrl: "https://www.google.com/maps/search/?api=1&query=Coeur+d%27Alene+City+Park+Rotary+Bandshell",
     sourceLabel: "KOEP Concerts",
-    verifiedAt: phase3VerifiedAt,
-    note: "Official KOEP schedule lists Soul Proprietor for the City Park season finale from 1–4 PM. Free community concert."
+    verifiedAt: weekendVerifiedAt,
+    note: "Free all-ages season finale from 1–4 PM. Soul Proprietor brings a horn-heavy mix of soul, blues, Motown, R&B and classic rock."
   }
 ];
