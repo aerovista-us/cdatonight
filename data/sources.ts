@@ -15,6 +15,7 @@ export type SourceId =
   | "downtown-cda"
   | "koep-concerts"
   | "north-idaho-college"
+  | "cda-library"
   | "ticketstripe"
   | "getoutgarage"
   | "stayhappening"
@@ -120,6 +121,15 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "North Idaho College public events and campus activities",
     priority: 10,
     note: "Official NIC source for campus events such as the Color Fun Run."
+  },
+  "cda-library": {
+    id: "cda-library",
+    name: "Coeur d'Alene Public Library",
+    kind: "official-organizer",
+    url: "https://cdalibrary.org/",
+    coverage: "Library programs, community activities and special events",
+    priority: 10,
+    note: "Official library source for public programs and registration-based events."
   },
   ticketstripe: {
     id: "ticketstripe",
