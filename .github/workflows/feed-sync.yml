@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/feed-sync.mjs"
       - "scripts/visit-cda-supplement.mjs"
+      - "data/*.ts"
       - "data/source-seeds.json"
       - "data/feed.ts"
       - "data/sources.ts"
@@ -16,6 +17,7 @@ on:
     paths:
       - "scripts/feed-sync.mjs"
       - "scripts/visit-cda-supplement.mjs"
+      - "data/*.ts"
       - "data/source-seeds.json"
       - "data/feed.ts"
       - "data/sources.ts"
