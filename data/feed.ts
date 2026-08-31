@@ -8,6 +8,7 @@ import { weekAug31Sep4Events } from "./week-2026-08-31-09-04";
 import { weekAug31Sep4DeepEvents } from "./week-2026-08-31-09-04-deep";
 import { weekAug31Sep4ThirdPassEvents } from "./week-2026-08-31-09-04-third-pass";
 import { weekAug31Sep4SportsEvents } from "./week-2026-08-31-09-04-sports";
+import { weekAug31Sep4RecurringEvents } from "./week-2026-08-31-09-04-recurring";
 import type { EventCategory, LocalEvent } from "./events";
 
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
@@ -33,6 +34,7 @@ for (const event of [
   ...weekAug31Sep4DeepEvents,
   ...weekAug31Sep4ThirdPassEvents,
   ...weekAug31Sep4SportsEvents,
+  ...weekAug31Sep4RecurringEvents,
   ...activePhase3Events
 ]) {
   merged.set(eventKey(event), event);
