@@ -126,6 +126,28 @@ export const activityOptions: ActivityOption[] = [
     directionsUrl: "https://www.google.com/maps/search/?api=1&query=764+S+Clearwater+Loop+Post+Falls+ID+83854",
     sourceLabel: "Coeur Climbing Company",
     verifiedAt
+  },
+  {
+    id: "triple-play-hayden",
+    name: "Triple Play Family Fun Park + Raptor Reef",
+    address: "175 W Orchard Ave, Hayden, ID 83835",
+    areaLabel: "Hayden · nearby",
+    schedule: {
+      Sun: "10 AM–10 PM",
+      Mon: "10 AM–10 PM",
+      Tue: "10 AM–10 PM",
+      Wed: "10 AM–10 PM",
+      Thu: "10 AM–10 PM",
+      Fri: "Fun Park 10 AM–11 PM · waterpark to 10 PM",
+      Sat: "Fun Park 10 AM–11 PM · waterpark to 10 PM"
+    },
+    priceLabel: "Passes + à la carte",
+    vibe: "Bowling, laser tag, mini golf, go-karts, ropes course, arcade and an indoor waterpark in one stop.",
+    bestFor: "Families, mixed-age groups and an easy all-day or late-afternoon fallback about 15 minutes north of CDA.",
+    sourceUrl: "https://www.3play.com/visit/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=175+W+Orchard+Ave+Hayden+ID+83835",
+    sourceLabel: "Triple Play Family Fun Park",
+    verifiedAt
   }
 ];
 
