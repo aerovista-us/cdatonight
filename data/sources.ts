@@ -26,7 +26,16 @@ export type SourceId =
   | "uidaho"
   | "cda-casino"
   | "idaho-sports"
-  | "eats-post-falls";
+  | "eats-post-falls"
+  | "recovery-208"
+  | "idaho-doi"
+  | "kootenai-farmers"
+  | "levity-theatre"
+  | "seasons-cda"
+  | "unity-center"
+  | "cda-taphouse"
+  | "litefeet"
+  | "idaho-labor";
 
 export type EventSource = {
   id: SourceId;
@@ -236,6 +245,87 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "Post Falls live music, community parties and outdoor events",
     priority: 10,
     note: "Official venue calendar for scheduled music and community programming."
+  },
+  "recovery-208": {
+    id: "recovery-208",
+    name: "208 Recovery",
+    kind: "official-organizer",
+    url: "https://208recovery.org/events",
+    coverage: "Recovery, remembrance and public community events in North Idaho",
+    priority: 10,
+    note: "Organizer-operated source for public recovery-community events such as the Overdose Awareness vigil."
+  },
+  "idaho-doi": {
+    id: "idaho-doi",
+    name: "Idaho Department of Insurance",
+    kind: "official-organizer",
+    url: "https://doi.idaho.gov/events/",
+    coverage: "SHIBA Medicare workshops and public insurance education",
+    priority: 10,
+    note: "State government source for local SHIBA workshops and public education sessions."
+  },
+  "kootenai-farmers": {
+    id: "kootenai-farmers",
+    name: "Kootenai County Farmers' Markets",
+    kind: "official-organizer",
+    url: "https://kootenaifarmersmarkets.org/",
+    coverage: "Riverstone and Kootenai County farmers market schedules",
+    priority: 10,
+    note: "Organizer-operated source for recurring market dates, hours and locations."
+  },
+  "levity-theatre": {
+    id: "levity-theatre",
+    name: "Levity Theatre",
+    kind: "official-organizer",
+    url: "https://www.levitytheatre.com/",
+    coverage: "Coeur d'Alene improv classes, workshops and performances",
+    priority: 9,
+    note: "Local organizer source; ticket details may be cross-checked against its ticketing partner."
+  },
+  "seasons-cda": {
+    id: "seasons-cda",
+    name: "Seasons of Coeur d'Alene",
+    kind: "official-venue",
+    url: "https://seasonsofcda.com/-specials",
+    coverage: "Scheduled restaurant live music and recurring weekday specials",
+    priority: 10,
+    note: "Official venue source for dated live-music and food-and-drink programming."
+  },
+  "unity-center": {
+    id: "unity-center",
+    name: "Unity Center of Spiritual Growth",
+    kind: "official-organizer",
+    url: "https://unitycenter.org/events",
+    coverage: "Yoga, wellness, creative and community gatherings",
+    priority: 9,
+    note: "Organizer-operated calendar used for exact public class and gathering times."
+  },
+  "cda-taphouse": {
+    id: "cda-taphouse",
+    name: "CDA Taphouse",
+    kind: "official-venue",
+    url: "https://www.cdataphouse.com/events/",
+    coverage: "Downtown trivia and recurring taproom events",
+    priority: 10,
+    note: "Official venue calendar; Tuesday trivia is published with exact weekly hours."
+  },
+  litefeet: {
+    id: "litefeet",
+    name: "LiteFeet Dance",
+    kind: "official-organizer",
+    url: "https://mylitefeet.com/calendar/",
+    coverage: "Post Falls dance lessons, socials and recurring weekday dance nights",
+    priority: 10,
+    note: "Official dance-studio calendar with dated class and social schedules."
+  },
+  "idaho-labor": {
+    id: "idaho-labor",
+    name: "Idaho Department of Labor",
+    kind: "official-organizer",
+    url: "https://www.labor.idaho.gov/calendar/",
+    coverage: "Post Falls job-search, computer-skills and workforce workshops",
+    priority: 10,
+    note: "State government source for public workforce workshops with exact local dates and locations."
   }
 };
 
