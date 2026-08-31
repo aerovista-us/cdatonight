@@ -19,7 +19,14 @@ export type SourceId =
   | "ticketstripe"
   | "getoutgarage"
   | "stayhappening"
-  | "bandsintown";
+  | "bandsintown"
+  | "idaho-veterans"
+  | "veterans-club"
+  | "pinots-cda"
+  | "uidaho"
+  | "cda-casino"
+  | "idaho-sports"
+  | "eats-post-falls";
 
 export type EventSource = {
   id: SourceId;
@@ -166,6 +173,69 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "Artist-listed and venue-listed concert discovery",
     priority: 7,
     note: "Discovery/cross-check lane for exact local show listings; venue identity is verified separately when possible."
+  },
+  "idaho-veterans": {
+    id: "idaho-veterans",
+    name: "Idaho Division of Veterans Services",
+    kind: "official-organizer",
+    url: "https://veterans.idaho.gov/events/",
+    coverage: "North Idaho veteran and first-responder community events",
+    priority: 9,
+    note: "State government calendar used for public veteran/community programming with exact local details."
+  },
+  "veterans-club": {
+    id: "veterans-club",
+    name: "The Veterans Club",
+    kind: "official-organizer",
+    url: "https://theveteransclub.org/events/",
+    coverage: "Veteran and first-responder meetups, meals and special events",
+    priority: 10,
+    note: "Organizer-operated event calendar for local Patriot Pour and related programming."
+  },
+  "pinots-cda": {
+    id: "pinots-cda",
+    name: "Pinot's Palette Coeur d'Alene",
+    kind: "official-venue",
+    url: "https://www.pinotspalette.com/cda/events",
+    coverage: "Paint-and-sip classes and open studio sessions",
+    priority: 10,
+    note: "Official local studio calendar with exact class times and prices."
+  },
+  uidaho: {
+    id: "uidaho",
+    name: "University of Idaho",
+    kind: "official-organizer",
+    url: "https://www.uidaho.edu/events",
+    coverage: "University and alumni watch parties and regional community events",
+    priority: 10,
+    note: "Official university event source for North Idaho Vandal activities."
+  },
+  "cda-casino": {
+    id: "cda-casino",
+    name: "Coeur d'Alene Casino Resort Hotel",
+    kind: "official-venue",
+    url: "https://www.cdacasino.com/events/",
+    coverage: "Regional concerts, entertainment and casino events",
+    priority: 10,
+    note: "Official venue calendar for ticketed entertainment in Worley."
+  },
+  "idaho-sports": {
+    id: "idaho-sports",
+    name: "IdahoSports.com",
+    kind: "community-calendar",
+    url: "https://www.idahosports.com/",
+    coverage: "North Idaho high-school sports schedules and matchups",
+    priority: 7,
+    note: "Local sports discovery source; school and venue identity are cross-checked against official school/IHSAA information."
+  },
+  "eats-post-falls": {
+    id: "eats-post-falls",
+    name: "Eats on Spokane Street",
+    kind: "official-venue",
+    url: "https://www.eatsonspokanest.com/event-calendar",
+    coverage: "Post Falls live music, community parties and outdoor events",
+    priority: 10,
+    note: "Official venue calendar for scheduled music and community programming."
   }
 };
 
