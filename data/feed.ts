@@ -2,6 +2,7 @@ import generatedFeed from "@/data/auto-events.json";
 import { events as curatedEvents } from "./events";
 import { phase3Events } from "./phase3-events";
 import { tonightAug28Events } from "./tonight-2026-08-28";
+import { tonightAug31DeepEvents } from "./tonight-2026-08-31-deep";
 import { weekendAug29Aug30Events } from "./weekend-2026-08-29-30";
 import { weekAug31Sep4Events } from "./week-2026-08-31-09-04";
 import { weekAug31Sep4DeepEvents } from "./week-2026-08-31-09-04-deep";
@@ -26,6 +27,7 @@ const activePhase3Events = phase3Events.filter((event) => !supersededPhase3Ids.h
 for (const event of [
   ...curatedEvents,
   ...tonightAug28Events,
+  ...tonightAug31DeepEvents,
   ...weekendAug29Aug30Events,
   ...weekAug31Sep4Events,
   ...weekAug31Sep4DeepEvents,
