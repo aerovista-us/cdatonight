@@ -19,7 +19,13 @@ export type SourceId =
   | "ticketstripe"
   | "getoutgarage"
   | "stayhappening"
-  | "bandsintown";
+  | "bandsintown"
+  | "pinots-palette"
+  | "blue-shell"
+  | "sunset-bowling"
+  | "school-sports"
+  | "cda-casino"
+  | "eats-spokane";
 
 export type EventSource = {
   id: SourceId;
@@ -166,6 +172,60 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "Artist-listed and venue-listed concert discovery",
     priority: 7,
     note: "Discovery/cross-check lane for exact local show listings; venue identity is verified separately when possible."
+  },
+  "pinots-palette": {
+    id: "pinots-palette",
+    name: "Pinot's Palette Coeur d'Alene",
+    kind: "official-venue",
+    url: "https://www.pinotspalette.com/cda/events",
+    coverage: "Scheduled paint-and-sip classes, open studio and creative workshops",
+    priority: 10,
+    note: "Official CDA studio calendar with exact class times, prices and booking state."
+  },
+  "blue-shell": {
+    id: "blue-shell",
+    name: "The Blue Shell",
+    kind: "official-venue",
+    url: "https://theblueshellcda.com/events",
+    coverage: "Tabletop gaming, Magic events and bar/game nights",
+    priority: 9,
+    note: "Official venue event calendar for the East Sherman gaming bar."
+  },
+  "sunset-bowling": {
+    id: "sunset-bowling",
+    name: "Sunset Bowling Center",
+    kind: "official-venue",
+    url: "https://sunsetbowling.net/About",
+    coverage: "Recurring late-night and special-price bowling sessions",
+    priority: 9,
+    note: "Official bowling center schedule and published special-event pricing."
+  },
+  "school-sports": {
+    id: "school-sports",
+    name: "North Idaho School Sports",
+    kind: "community-calendar",
+    url: "https://www.nfhsnetwork.com/",
+    coverage: "Public high-school varsity sports in Coeur d'Alene",
+    priority: 7,
+    note: "Schedule discovery lane using NFHS Network and MaxPreps; exact matchup pages remain attached to each event."
+  },
+  "cda-casino": {
+    id: "cda-casino",
+    name: "Coeur d'Alene Casino Resort Hotel",
+    kind: "official-venue",
+    url: "https://www.cdacasino.com/events/",
+    coverage: "Nearby Worley concerts and live entertainment",
+    priority: 8,
+    note: "Official venue calendar; nearby-region items are labeled in event notes rather than presented as downtown CDA."
+  },
+  "eats-spokane": {
+    id: "eats-spokane",
+    name: "Eats On Spokane Street",
+    kind: "official-venue",
+    url: "https://www.eatsonspokanest.com/event-calendar",
+    coverage: "Post Falls live music and community activity weekends",
+    priority: 8,
+    note: "Official venue calendar used for nearby Post Falls options."
   }
 };
 
