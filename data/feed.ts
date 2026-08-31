@@ -5,6 +5,7 @@ import { tonightAug28Events } from "./tonight-2026-08-28";
 import { weekendAug29Aug30Events } from "./weekend-2026-08-29-30";
 import { weekAug31Sep4Events } from "./week-2026-08-31-09-04";
 import { deepDiveWeekEvents } from "./deep-dive-2026-08-31-09-04";
+import { deepDiveCommunityEvents } from "./deep-dive-community-2026-09-01-04";
 import type { EventCategory, LocalEvent } from "./events";
 
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
@@ -27,6 +28,7 @@ for (const event of [
   ...weekendAug29Aug30Events,
   ...weekAug31Sep4Events,
   ...deepDiveWeekEvents,
+  ...deepDiveCommunityEvents,
   ...activePhase3Events
 ]) {
   merged.set(eventKey(event), event);
