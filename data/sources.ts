@@ -25,7 +25,11 @@ export type SourceId =
   | "sunset-bowling"
   | "school-sports"
   | "cda-casino"
-  | "eats-spokane";
+  | "eats-spokane"
+  | "kootenai-farmers-market"
+  | "idaho-veterans"
+  | "museum-north-idaho"
+  | "veterans-club";
 
 export type EventSource = {
   id: SourceId;
@@ -204,10 +208,10 @@ export const sources: Record<SourceId, EventSource> = {
     id: "school-sports",
     name: "North Idaho School Sports",
     kind: "community-calendar",
-    url: "https://www.nfhsnetwork.com/",
+    url: "https://www.idahosports.com/",
     coverage: "Public high-school varsity sports in Coeur d'Alene",
     priority: 7,
-    note: "Schedule discovery lane using NFHS Network and MaxPreps; exact matchup pages remain attached to each event."
+    note: "Schedule discovery lane using IdahoSports, NFHS Network and MaxPreps; exact matchup pages remain attached to each event."
   },
   "cda-casino": {
     id: "cda-casino",
@@ -226,6 +230,42 @@ export const sources: Record<SourceId, EventSource> = {
     coverage: "Post Falls live music and community activity weekends",
     priority: 8,
     note: "Official venue calendar used for nearby Post Falls options."
+  },
+  "kootenai-farmers-market": {
+    id: "kootenai-farmers-market",
+    name: "Kootenai County Farmers' Markets",
+    kind: "official-organizer",
+    url: "https://kootenaifarmersmarkets.org/events-2/",
+    coverage: "Wednesday Riverstone and Saturday Hayden producer-only markets",
+    priority: 10,
+    note: "Primary organizer calendar with exact market dates, times and locations."
+  },
+  "idaho-veterans": {
+    id: "idaho-veterans",
+    name: "Idaho Division of Veterans Services",
+    kind: "official-organizer",
+    url: "https://veterans.idaho.gov/events/",
+    coverage: "Public veteran programs, social gatherings and service events",
+    priority: 10,
+    note: "Official Idaho state calendar; eligibility is retained in each event note."
+  },
+  "museum-north-idaho": {
+    id: "museum-north-idaho",
+    name: "Museum of North Idaho",
+    kind: "official-organizer",
+    url: "https://museumni.org/events/",
+    coverage: "History tours, museum programs and Fort Sherman experiences",
+    priority: 10,
+    note: "Primary Museum of North Idaho event calendar."
+  },
+  "veterans-club": {
+    id: "veterans-club",
+    name: "The Veterans Club",
+    kind: "official-organizer",
+    url: "https://theveteransclub.org/events/",
+    coverage: "Veteran and first-responder community events across North Idaho",
+    priority: 9,
+    note: "Official nonprofit event calendar; invitation/eligibility details remain explicit on CDA Tonight."
   }
 };
 
