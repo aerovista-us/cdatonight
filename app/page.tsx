@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { activitiesForDay, ActivityDay } from "@/data/activities";
 import { automatedEventCount, events, EventCategory, LocalEvent } from "@/data/feed";
 import { nightlifeEvents, nightlifeSpots } from "@/data/nightlife";
 import { sourceFor, sourceKindLabel, sourceList } from "@/data/sources";
@@ -34,6 +35,10 @@ function dayKey(date: Date) {
   }).formatToParts(date);
   const map = Object.fromEntries(parts.map((part) => [part.type, part.value]));
   return `${map.year}-${map.month}-${map.day}`;
+}
+
+function weekdayKey(date: Date): ActivityDay {
+  return new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "short" }).format(date) as ActivityDay;
 }
 
 function timeLabel(iso: string) {
@@ -167,8 +172,10 @@ export default function Home() {
   }
 
   const today = dayKey(now);
+  const weekday = weekdayKey(now);
   const tonightEvents = allEvents.filter((event) => dayKey(new Date(event.startsAt)) === today);
   const tonightNightlife = nightlifeSpots.filter((spot) => spot.date === today);
+  const todayActivities = activitiesForDay(weekday);
   const filteredTonight = tonightEvents.filter((event) => passesFilter(event, filter));
   const activeFiltered = filteredTonight.filter((event) => relativeGroup(event, now) !== "earlier");
   const rankedActive = rankEvents(activeFiltered, now);
@@ -324,6 +331,31 @@ export default function Home() {
             </section>
           )}
         </div>
+
+        {todayActivities.length > 0 && (
+          <section className="nightlife-card" id="anytime-activities">
+            <div className="nightlife-heading">
+              <div>
+                <p className="eyebrow">DO SOMETHING ANYWAY · {weekday.toUpperCase()}</p>
+                <h2>Bookable and drop-in activities for today.</h2>
+                <p>These are not invented events. They are verified local activities with today&apos;s published booking or operating window attached—useful when the scheduled calendar is thin or you just want a Plan B.</p>
+              </div>
+            </div>
+            <div className="nightlife-grid">
+              {todayActivities.map((activity) => (
+                <article className="nightlife-spot" key={activity.id}>
+                  <div className="nightlife-spot-topline"><strong>{activity.name}</strong><span>{activity.schedule[weekday]}</span></div>
+                  <p>{activity.vibe}</p>
+                  <small>{activity.areaLabel} · {activity.priceLabel} · {activity.bestFor}</small>
+                  <div className="nightlife-actions">
+                    <a href={activity.sourceUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("activity_source_click", { activity_id: activity.id, source: activity.sourceLabel })}>Check activity ↗</a>
+                    <a href={activity.directionsUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("activity_directions_click", { activity_id: activity.id })}>Directions ↗</a>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
 
         {showPlan && (
           <section className="plan-card" id="my-night">
