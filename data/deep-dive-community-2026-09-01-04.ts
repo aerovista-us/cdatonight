@@ -15,14 +15,14 @@ export const deepDiveCommunityEvents: LocalEvent[] = [
     venue: "VFW Post 889",
     address: "406 N 4th St, Coeur d'Alene, ID 83814",
     category: ["community", "food-drink"],
-    cost: "free",
+    cost: "unknown",
     status: "available",
     sourceId: "idaho-veterans",
     sourceUrl: "https://veterans.idaho.gov/event/coeur-dalene-vfw-889-coffee-donuts-30/",
     directionsUrl: "https://www.google.com/maps/search/?api=1&query=406+N+4th+St+Coeur+d%27Alene+ID+83814",
     sourceLabel: "Idaho Division of Veterans Services",
     verifiedAt,
-    note: "Open to all veterans. The official Idaho veterans calendar lists social time with coffee and breakfast treats from 8-10 AM."
+    note: "Open to all veterans. The official Idaho veterans calendar lists social time with coffee and breakfast treats from 8-10 AM; no cost is asserted because the page does not publish one."
   },
   {
     id: "cda-girls-soccer-sandpoint-sep1",
