@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "scripts/feed-sync.mjs"
+      - "scripts/visit-cda-supplement.mjs"
       - "data/source-seeds.json"
       - "data/feed.ts"
       - "data/sources.ts"
@@ -14,6 +15,7 @@ on:
     branches: [main]
     paths:
       - "scripts/feed-sync.mjs"
+      - "scripts/visit-cda-supplement.mjs"
       - "data/source-seeds.json"
       - "data/feed.ts"
       - "data/sources.ts"
@@ -52,8 +54,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             node scripts/feed-sync.mjs --dry-run
+            node scripts/visit-cda-supplement.mjs --dry-run
           else
             node scripts/feed-sync.mjs
+            node scripts/visit-cda-supplement.mjs
           fi
 
       - name: Install app dependencies
