@@ -38,6 +38,23 @@ export const weekAug31Sep4DeepEvents: LocalEvent[] = [
     note: "Recurring Tuesday Patriot Pour gathering for veterans and first responders at The Bunker Bar."
   },
   {
+    id: "post-falls-veterans-coffee-sep2",
+    title: "Veterans Coffee & Donuts · Post Falls",
+    startsAt: "2026-09-02T08:00:00-07:00",
+    endsAt: "2026-09-02T10:00:00-07:00",
+    venue: "American Legion Post 143",
+    address: "1138 E Poleline Ave, Post Falls, ID 83854",
+    category: ["community", "food-drink"],
+    cost: "unknown",
+    status: "available",
+    sourceId: "idaho-veterans",
+    sourceUrl: "https://veterans.idaho.gov/events/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=1138+E+Poleline+Ave+Post+Falls+ID+83854",
+    sourceLabel: "Idaho Division of Veterans Services",
+    verifiedAt,
+    note: "Wednesday coffee and camaraderie at American Legion Post 143; all veterans are welcome."
+  },
+  {
     id: "patriot-pour-hayden-sep2",
     title: "Patriot Pour · Hayden",
     startsAt: "2026-09-02T09:00:00-07:00",
@@ -89,6 +106,40 @@ export const weekAug31Sep4DeepEvents: LocalEvent[] = [
     sourceLabel: "Pinot's Palette Coeur d'Alene",
     verifiedAt,
     note: "Drop-in-style Open Studio block listed on the official calendar from 11:30 AM-4 PM."
+  },
+  {
+    id: "patriot-pour-cda-sep3",
+    title: "Patriot Pour · Coeur d'Alene",
+    startsAt: "2026-09-03T08:00:00-07:00",
+    endsAt: "2026-09-03T10:00:00-07:00",
+    venue: "Best Western Plus Coeur d'Alene Inn",
+    address: "506 W Appleway Ave, Coeur d'Alene, ID 83814",
+    category: ["community", "food-drink"],
+    cost: "unknown",
+    status: "available",
+    sourceId: "idaho-veterans",
+    sourceUrl: "https://veterans.idaho.gov/events/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=506+W+Appleway+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "Idaho Division of Veterans Services",
+    verifiedAt,
+    note: "Weekly Thursday Patriot Pour. The state calendar lists all veterans and first responders as welcome."
+  },
+  {
+    id: "patriot-pour-post-falls-2-sep3",
+    title: "Patriot Pour · Post Falls",
+    startsAt: "2026-09-03T11:00:00-07:00",
+    endsAt: "2026-09-03T13:00:00-07:00",
+    venue: "American Legion Post 143",
+    address: "1138 E Poleline Ave, Post Falls, ID 83854",
+    category: ["community", "food-drink"],
+    cost: "unknown",
+    status: "available",
+    sourceId: "veterans-club",
+    sourceUrl: "https://theveteransclub.org/events/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=1138+E+Poleline+Ave+Post+Falls+ID+83854",
+    sourceLabel: "The Veterans Club",
+    verifiedAt,
+    note: "The Veterans Club lists its second weekly Post Falls Patriot Pour at American Legion Post 143."
   },
   {
     id: "vandal-watch-party-hayden-sep3",
@@ -176,6 +227,23 @@ export const weekAug31Sep4DeepEvents: LocalEvent[] = [
     sourceLabel: "Eats on Spokane Street",
     verifiedAt,
     note: "Friday block of the venue's End of Summer Party with live country music from Luke Yates, western theme and root-beer-float specials."
+  },
+  {
+    id: "keanu-cda-casino-sep4",
+    title: "Keanu · Chinook Lounge",
+    startsAt: "2026-09-04T18:00:00-07:00",
+    endsAt: "2026-09-04T21:30:00-07:00",
+    venue: "Coeur d'Alene Casino Resort Hotel · Chinook Lounge",
+    address: "37914 S Nukwalqw Rd, Worley, ID 83876",
+    category: ["live-music", "date-night", "nightlife"],
+    cost: "unknown",
+    status: "available",
+    sourceId: "cda-casino",
+    sourceUrl: "https://www.cdacasino.com/events/",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=37914+S+Nukwalqw+Rd+Worley+ID+83876",
+    sourceLabel: "Coeur d'Alene Casino Resort Hotel",
+    verifiedAt,
+    note: "Official casino calendar lists Keanu in the Chinook Lounge from 6-9:30 PM Friday."
   },
   {
     id: "cda-vikings-football-sep4",
