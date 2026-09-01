@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-23T19:38:53.477Z",
+  "generatedAt": "2026-09-01T18:35:20.372Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
       "name": "The Club at Prairie Falls",
       "url": "https://www.prairiefallsgolfclub.com/",
       "status": "review-ready",
-      "score": 30,
+      "score": 42,
       "firstSeen": "2026-08-23T19:38:53.477Z",
-      "lastSeen": "2026-08-23T19:38:53.477Z",
+      "lastSeen": "2026-09-01T18:35:20.372Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Stage Takeover ft. Last Chance Band",
@@ -49,6 +49,22 @@
           "kind": "organizer",
           "url": "https://www.prairiefallsgolfclub.com/",
           "eventTitle": "Stage Takeover ft. Jordan Paddock and Them Boys"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Comedy Night ft. Chad Prather",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.prairiefallsgolfclub.com/",
+          "eventTitle": "Comedy Night ft. Chad Prather"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Kinsey Rose",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.prairiefallsgolfclub.com/",
+          "eventTitle": "Kinsey Rose"
         }
       ]
     },
@@ -92,6 +108,41 @@
           "kind": "organizer",
           "url": "https://www.stoneridgeidaho.com/",
           "eventTitle": "Advanced Junior Golf Camp"
+        }
+      ]
+    },
+    {
+      "domain": "cdaresort.com",
+      "name": "The Coeur d&#8217;Alene Resort",
+      "url": "https://www.cdaresort.com/",
+      "status": "review-ready",
+      "score": 18,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-09-01T18:35:20.372Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|Live Music at Marina Cantina",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "Live Music at Marina Cantina"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|Whiskey Barrel Weekend 2026",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "Whiskey Barrel Weekend 2026"
         }
       ]
     },
@@ -193,29 +244,29 @@
       ]
     },
     {
-      "domain": "cdaresort.com",
-      "name": "The Coeur d&#8217;Alene Resort",
-      "url": "https://www.cdaresort.com/",
+      "domain": "nictf.org",
+      "name": "North Idaho Centennial Trail Foundation",
+      "url": "http://www.nictf.org/",
       "status": "review-ready",
       "score": 12,
-      "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-08-23T19:38:53.477Z",
+      "firstSeen": "2026-08-23T19:38:53.477Z",
+      "lastSeen": "2026-09-01T18:35:20.372Z",
       "evidence": [
         {
-          "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
+          "signature": "visit-cda|organizer|http://www.nictf.org/|Ales for the Trail",
           "fromSourceId": "visit-cda",
           "fromSourceName": "Visit Coeur d'Alene",
           "kind": "organizer",
-          "url": "https://www.cdaresort.com/",
-          "eventTitle": "The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration"
+          "url": "http://www.nictf.org/",
+          "eventTitle": "Ales for the Trail"
         },
         {
-          "signature": "visit-cda|organizer|https://www.cdaresort.com/|Live Music at Marina Cantina",
+          "signature": "visit-cda|organizer|http://www.nictf.org/|Riverstone Block Party & Brewfest",
           "fromSourceId": "visit-cda",
           "fromSourceName": "Visit Coeur d'Alene",
           "kind": "organizer",
-          "url": "https://www.cdaresort.com/",
-          "eventTitle": "Live Music at Marina Cantina"
+          "url": "http://www.nictf.org/",
+          "eventTitle": "Riverstone Block Party & Brewfest"
         }
       ]
     },
@@ -258,25 +309,6 @@
       ]
     },
     {
-      "domain": "nictf.org",
-      "name": "North Idaho Centennial Trail Foundation",
-      "url": "http://www.nictf.org/",
-      "status": "candidate",
-      "score": 6,
-      "firstSeen": "2026-08-23T19:38:53.477Z",
-      "lastSeen": "2026-08-23T19:38:53.477Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|http://www.nictf.org/|Ales for the Trail",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "http://www.nictf.org/",
-          "eventTitle": "Ales for the Trail"
-        }
-      ]
-    },
-    {
       "domain": "panhandlekiwanis.org",
       "name": "Panhandle Kiwanis",
       "url": "https://www.panhandlekiwanis.org/",
@@ -292,6 +324,25 @@
           "kind": "organizer",
           "url": "https://www.panhandlekiwanis.org/",
           "eventTitle": "The 2026 Taste of Coeur d&#8217;Alene"
+        }
+      ]
+    },
+    {
+      "domain": "snridaho.org",
+      "name": "Specialized Needs Recreation",
+      "url": "https://snridaho.org/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-09-01T18:35:20.372Z",
+      "lastSeen": "2026-09-01T18:35:20.372Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://snridaho.org/|Gems and Jeans Fundraiser to benefit Specialized Needs Recreation",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://snridaho.org/",
+          "eventTitle": "Gems and Jeans Fundraiser to benefit Specialized Needs Recreation"
         }
       ]
     },
