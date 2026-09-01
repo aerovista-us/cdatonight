@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:51:49.731Z",
+  "generatedAt": "2026-09-01T08:44:17.196Z",
   "events": [
     {
       "id": "auto-visit-cda-bayview-labor-day-treasure-hunt-96086991",
@@ -17,14 +17,33 @@
       "sourceUrl": "https://coeurdalene.org/events/bayview-labor-day-treasure-hunt-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-01T01:51:49.731Z",
+      "verifiedAt": "2026-09-01T08:44:17.196Z",
       "note": "&lt;p&gt;The Sonar Hunt is back! Search for hidden mini rocks throughout the weekend, visit local businesses to uncover clues, and collect them all for your chance to win prizes along the way. Each mini rock could lead t"
     },
     {
-      "id": "auto-visit-cda-comedy-night-ft-chad-prather-d84ef201",
+      "id": "auto-visit-cda-girls-in-aviation-day-8211-s-t-e-m-event-37326b30",
+      "title": "Girls In Aviation Day &#8211; S.T.E.M. Event",
+      "startsAt": "2026-09-19T17:00:00.000Z",
+      "endsAt": "2026-09-19T20:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Aviation",
+      "address": "11101 N Airport Dr, Hayden, 83835",
+      "category": [
+        "community"
+      ],
+      "cost": "free",
+      "status": "available",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-09-01T08:44:17.196Z",
+      "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
+    },
+    {
+      "id": "auto-visit-cda-comedy-night-ft-chad-prather-e0339d3d",
       "title": "Comedy Night ft. Chad Prather",
-      "startsAt": "2026-09-19T01:00:00.000Z",
-      "endsAt": "2026-09-19T04:00:00.000Z",
+      "startsAt": "2026-09-20T01:00:00.000Z",
+      "endsAt": "2026-09-20T04:00:00.000Z",
       "venue": "The Club at Prairie Falls",
       "address": "3200 N Spokane St, Post Falls, ID, 83854",
       "category": [
@@ -33,11 +52,11 @@
       "cost": "unknown",
       "status": "available",
       "sourceId": "visit-cda",
-      "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
+      "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-01T01:51:49.731Z",
-      "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
+      "verifiedAt": "2026-09-01T08:44:17.196Z",
+      "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     }
   ]
 }
