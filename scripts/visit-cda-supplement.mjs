@@ -206,6 +206,8 @@ function extractEventLinks(html) {
 const listOffsets = [0, 6, 12, 18];
 const detailLinks = new Set();
 const errors = [];
+let listPagesSucceeded = 0;
+let detailPagesSucceeded = 0;
 
 for (const offsetDays of listOffsets) {
   const date = new Date(now.getTime() + offsetDays * 24 * 60 * 60 * 1000);
@@ -213,6 +215,7 @@ for (const offsetDays of listOffsets) {
   const listUrl = `${baseUrl}/events/list/?hide_subsequent_recurrences=1&tribe-bar-date=${dateParam}`;
   try {
     const html = await fetchHtml(listUrl);
+    listPagesSucceeded += 1;
     for (const link of extractEventLinks(html)) detailLinks.add(link);
   } catch (error) {
     errors.push(error.message);
@@ -223,6 +226,7 @@ const extracted = [];
 for (const detailUrl of [...detailLinks].slice(0, 60)) {
   try {
     const html = await fetchHtml(detailUrl);
+    detailPagesSucceeded += 1;
     for (const node of extractJsonLd(html).filter(isEvent)) {
       const event = normalizeEvent(node, detailUrl);
       if (event) extracted.push(event);
@@ -232,18 +236,68 @@ for (const detailUrl of [...detailLinks].slice(0, 60)) {
   }
 }
 
+const existingVisitCda = (feed.events || []).filter((event) => event.sourceId === "visit-cda");
+const otherSources = (feed.events || []).filter((event) => event.sourceId !== "visit-cda");
+
 if (!extracted.length) {
-  console.error(`Visit CDA supplement found no publishable events. ${errors.slice(0, 5).join(" | ")}`);
-  process.exitCode = 1;
+  console.warn(
+    `Visit CDA supplement degraded: no publishable events extracted; retaining ${existingVisitCda.length} existing Visit CDA events.`
+  );
+  if (errors.length) console.warn(errors.slice(0, 10).join("\n"));
+  console.log(JSON.stringify({
+    source: "visit-cda-supplement",
+    status: "degraded",
+    listPagesAttempted: listOffsets.length,
+    listPagesSucceeded,
+    detailLinks: detailLinks.size,
+    detailPagesSucceeded,
+    extractedEvents: 0,
+    retainedExistingEvents: existingVisitCda.length,
+    errors: errors.length,
+    dryRun
+  }, null, 2));
 } else {
   const unique = new Map(extracted.map((event) => [`${event.title.toLowerCase()}|${event.startsAt}`, event]));
   const freshVisitCda = [...unique.values()].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
-  const otherSources = (feed.events || []).filter((event) => event.sourceId !== "visit-cda");
-  const nextEvents = [...otherSources, ...freshVisitCda].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
+  const degraded = errors.length > 0 || listPagesSucceeded < listOffsets.length || detailPagesSucceeded < Math.min(detailLinks.size, 60);
 
+  let nextVisitCda;
+  if (degraded) {
+    // A partial crawl must never delete previously verified events just because one
+    // list/detail page timed out or returned an upstream error. Fresh records win;
+    // untouched older records remain until a complete crawl can authoritatively replace them.
+    const merged = new Map(
+      existingVisitCda.map((event) => [`${event.title.toLowerCase()}|${event.startsAt}`, event])
+    );
+    for (const event of freshVisitCda) {
+      merged.set(`${event.title.toLowerCase()}|${event.startsAt}`, event);
+    }
+    nextVisitCda = [...merged.values()].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
+  } else {
+    nextVisitCda = freshVisitCda;
+  }
+
+  const nextEvents = [...otherSources, ...nextVisitCda].sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
   const changed = JSON.stringify(feed.events || []) !== JSON.stringify(nextEvents);
-  console.log(`Visit CDA supplement: ${freshVisitCda.length} events from ${detailLinks.size} detail links${dryRun ? " (dry run)" : ""}.`);
+
+  console.log(
+    `Visit CDA supplement: ${freshVisitCda.length} fresh events from ${detailLinks.size} detail links${degraded ? " (degraded merge)" : ""}${dryRun ? " (dry run)" : ""}.`
+  );
   if (errors.length) console.warn(errors.slice(0, 10).join("\n"));
+  console.log(JSON.stringify({
+    source: "visit-cda-supplement",
+    status: degraded ? "degraded" : "ok",
+    listPagesAttempted: listOffsets.length,
+    listPagesSucceeded,
+    detailLinks: detailLinks.size,
+    detailPagesSucceeded,
+    extractedEvents: freshVisitCda.length,
+    retainedExistingEvents: degraded ? Math.max(0, nextVisitCda.length - freshVisitCda.length) : 0,
+    outputEvents: nextVisitCda.length,
+    changed,
+    errors: errors.length,
+    dryRun
+  }, null, 2));
 
   if (changed && !dryRun) {
     await fs.writeFile(feedPath, `${JSON.stringify({ generatedAt: verifiedAt, events: nextEvents }, null, 2)}\n`);
