@@ -1,6 +1,7 @@
 import type { LocalEvent } from "./events";
 
 const verifiedAt = "2026-08-31T10:08:00-07:00";
+const userVerifiedAt = "2026-09-03T03:13:00-07:00";
 const liteFeetAddress = "4029 W Riverbend Ave, Post Falls, ID 83854";
 const liteFeetDirections = "https://www.google.com/maps/search/?api=1&query=4029+W+Riverbend+Ave+Post+Falls+ID+83854";
 
@@ -91,5 +92,22 @@ export const weekAug31Sep4RecurringEvents: LocalEvent[] = [
     sourceLabel: "LiteFeet Dance",
     verifiedAt,
     note: "Wednesday West Coast Swing lessons and social. Official calendar lists a 6-10 PM block and describes it as suitable for beginners through improving dancers."
+  },
+  {
+    id: "little-white-lies-backwoods-sep3",
+    title: "Little White Lies Party! · Thirsty Thursday",
+    startsAt: "2026-09-03T22:00:00-07:00",
+    endsAt: "2026-09-04T02:00:00-07:00",
+    venue: "Backwoods Bar",
+    address: "1920 E Sherman Ave, Coeur d'Alene, ID 83814",
+    category: ["nightlife", "food-drink", "date-night"],
+    cost: "unknown",
+    status: "available",
+    sourceId: "stayhappening",
+    sourceUrl: "https://stayhappening.com/e/thirsty-thursday-backwoods-bar-E2ISYTTD0SB",
+    directionsUrl: "https://www.google.com/maps/search/?api=1&query=1920+E+Sherman+Ave+Coeur+d%27Alene+ID+83814",
+    sourceLabel: "The Brad & Tad Show · Backwoods Bar",
+    verifiedAt: userVerifiedAt,
+    note: "User-supplied Facebook event confirms the Sep. 3 Little White Lies edition from 10 PM-2 AM, hosted by The Brad & Tad Show and Journey360 Media. StayHappening corroborates the recurring Thirsty Thursday series at the same venue and time."
   }
 ];
