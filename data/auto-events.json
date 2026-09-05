@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:32:54.439Z",
+  "generatedAt": "2026-09-05T01:02:32.343Z",
   "events": [
     {
       "id": "auto-visit-cda-bayview-labor-day-treasure-hunt-96086991",
@@ -17,7 +17,7 @@
       "sourceUrl": "https://coeurdalene.org/events/bayview-labor-day-treasure-hunt-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-04T21:32:54.439Z",
+      "verifiedAt": "2026-09-05T01:02:32.343Z",
       "note": "&lt;p&gt;The Sonar Hunt is back! Search for hidden mini rocks throughout the weekend, visit local businesses to uncover clues, and collect them all for your chance to win prizes along the way. Each mini rock could lead t"
     },
     {
@@ -38,7 +38,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-senior-centers-3rd-annual-miles-for-smiles-car-show-cruise/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=1250%20W%20Lancaster%20Rd.%2C%20Hayden%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-04T21:32:54.439Z",
+      "verifiedAt": "2026-09-05T01:02:32.343Z",
       "note": "&lt;p&gt;Enjoy a family-friendly afternoon visiting with local vintage car owners while they tell you their car stories. If you\\'re a car show enthusiast and you\\'d like to participate in the cruise and/or show, it\\'s on"
     },
     {
@@ -59,7 +59,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-09-11/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-04T21:32:54.439Z",
+      "verifiedAt": "2026-09-05T01:02:32.343Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -118,6 +118,27 @@
       "sourceLabel": "Visit Coeur d'Alene",
       "verifiedAt": "2026-09-02T01:04:02.914Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
+    },
+    {
+      "id": "auto-visit-cda-kinsey-rose-247f9bb7",
+      "title": "Kinsey Rose",
+      "startsAt": "2026-09-26T00:30:00.000Z",
+      "endsAt": "2026-09-26T04:00:00.000Z",
+      "venue": "The Club at Prairie Falls",
+      "address": "3200 N Spokane St, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "available",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-09-05T01:02:32.343Z",
+      "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for one intimate concert evening! A Kentucky native who started writing songs at just ten years old, K"
     }
   ]
 }
