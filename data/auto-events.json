@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:30:01.611Z",
+  "generatedAt": "2026-09-10T21:41:31.919Z",
   "events": [
     {
       "id": "auto-pinots-cda-moonlit-marigolds-701a2fca",
@@ -156,7 +156,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-09-11/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:30:01.611Z",
+      "verifiedAt": "2026-09-10T21:41:31.919Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -541,6 +541,25 @@
       "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
     },
     {
+      "id": "auto-visit-cda-comedy-night-ft-chad-prather-d84ef201",
+      "title": "Comedy Night ft. Chad Prather",
+      "startsAt": "2026-09-19T01:00:00.000Z",
+      "endsAt": "2026-09-19T04:00:00.000Z",
+      "venue": "The Club at Prairie Falls",
+      "address": "3200 N Spokane St, Post Falls, ID, 83854",
+      "category": [
+        "nightlife"
+      ],
+      "cost": "unknown",
+      "status": "available",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-09-10T21:41:31.919Z",
+      "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
+    },
+    {
       "id": "auto-pinots-cda-moonlit-journey-1176930c",
       "title": "Moonlit Journey",
       "startsAt": "2026-09-19T12:00:00.000Z",
@@ -581,6 +600,25 @@
       "note": "Sign up for Sat Sep 19, 2026 3:30-5:30PM - Through the Trees. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-visit-cda-girls-in-aviation-day-8211-s-t-e-m-event-37326b30",
+      "title": "Girls In Aviation Day &#8211; S.T.E.M. Event",
+      "startsAt": "2026-09-19T17:00:00.000Z",
+      "endsAt": "2026-09-19T20:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Aviation",
+      "address": "11101 N Airport Dr, Hayden, 83835",
+      "category": [
+        "community"
+      ],
+      "cost": "free",
+      "status": "available",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-09-10T21:41:31.919Z",
+      "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
+    },
+    {
       "id": "auto-pinots-cda-exclusive-verity-experience-secrets-on-still-water-f2ebffe1",
       "title": "Exclusive Verity Experience: Secrets on Still Water",
       "startsAt": "2026-09-19T19:00:00.000Z",
@@ -599,6 +637,25 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Sat Sep 19, 2026 7:00-9:15PM - Exclusive Verity Experience: Secrets on Still Water. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-visit-cda-comedy-night-ft-chad-prather-e0339d3d",
+      "title": "Comedy Night ft. Chad Prather",
+      "startsAt": "2026-09-20T01:00:00.000Z",
+      "endsAt": "2026-09-20T04:00:00.000Z",
+      "venue": "The Club at Prairie Falls",
+      "address": "3200 N Spokane St, Post Falls, ID, 83854",
+      "category": [
+        "nightlife"
+      ],
+      "cost": "unknown",
+      "status": "available",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-09-10T21:41:31.919Z",
+      "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
       "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-816eb56e",
@@ -899,7 +956,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:30:01.611Z",
+      "verifiedAt": "2026-09-10T21:41:31.919Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for one intimate concert evening! A Kentucky native who started writing songs at just ten years old, K"
     },
     {
