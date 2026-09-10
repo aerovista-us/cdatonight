@@ -9,12 +9,17 @@ import { weekAug31Sep4DeepEvents } from "./week-2026-08-31-09-04-deep";
 import { weekAug31Sep4ThirdPassEvents } from "./week-2026-08-31-09-04-third-pass";
 import { weekAug31Sep4SportsEvents } from "./week-2026-08-31-09-04-sports";
 import { weekAug31Sep4RecurringEvents } from "./week-2026-08-31-09-04-recurring";
+import { fortnightSep10Sep24Events } from "./fortnight-2026-09-10-09-24";
 import type { EventCategory, LocalEvent } from "./events";
 
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
 
 function eventKey(event: LocalEvent) {
-  return [event.title.trim().toLowerCase(), event.startsAt].join("|");
+  // Normalize equivalent local-offset and UTC timestamps before de-duping.
+  // Curated records are inserted first, so they remain authoritative when
+  // the automated feed discovers the same event in a different ISO format.
+  const normalizedStart = new Date(event.startsAt).toISOString();
+  return [event.title.trim().toLowerCase(), normalizedStart].join("|");
 }
 
 const generatedEvents = generatedFeed.events as unknown as LocalEvent[];
@@ -23,8 +28,8 @@ const supersededPhase3Ids = new Set(["museum-cemetery-walking-tour-aug28"]);
 const activePhase3Events = phase3Events.filter((event) => !supersededPhase3Ids.has(event.id));
 
 // Curated records always win when an automated record overlaps one. Automated
-// calendars often omit or rename venue fields, so title + exact start time is
-// the safer identity boundary than title + time + venue.
+// calendars often omit or rename venue fields, so title + normalized start
+// time is the safer identity boundary than title + time + venue.
 for (const event of [
   ...curatedEvents,
   ...tonightAug28Events,
@@ -35,6 +40,7 @@ for (const event of [
   ...weekAug31Sep4ThirdPassEvents,
   ...weekAug31Sep4SportsEvents,
   ...weekAug31Sep4RecurringEvents,
+  ...fortnightSep10Sep24Events,
   ...activePhase3Events
 ]) {
   merged.set(eventKey(event), event);
