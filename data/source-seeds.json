@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "horizonDays": 21,
   "detailLimitPerSource": 10,
   "sources": [
@@ -78,6 +78,66 @@
       "name": "Visit Coeur d'Alene",
       "url": "https://coeurdalene.org/events/",
       "aliases": ["coeurdalene.org"],
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "pinots-cda",
+      "name": "Pinot's Palette Coeur d'Alene",
+      "url": "https://www.pinotspalette.com/cda/events",
+      "aliases": ["pinotspalette.com"],
+      "publish": true,
+      "discover": true,
+      "crawlDetails": false,
+      "localOnly": true
+    },
+    {
+      "sourceId": "litefeet",
+      "name": "LiteFeet Dance",
+      "url": "https://mylitefeet.com/calendar/",
+      "aliases": ["mylitefeet.com"],
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "kootenai-farmers",
+      "name": "Kootenai County Farmers' Markets",
+      "url": "https://kootenaifarmersmarkets.org/events-2/",
+      "aliases": ["kootenaifarmersmarkets.org"],
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": true
+    },
+    {
+      "sourceId": "cda-casino",
+      "name": "Coeur d'Alene Casino Resort Hotel",
+      "url": "https://www.cdacasino.com/events/",
+      "aliases": ["cdacasino.com"],
+      "publish": true,
+      "discover": true,
+      "crawlDetails": true,
+      "localOnly": false
+    },
+    {
+      "sourceId": "cda-taphouse",
+      "name": "CDA Taphouse",
+      "url": "https://www.cdataphouse.com/events/",
+      "aliases": ["cdataphouse.com"],
+      "publish": true,
+      "discover": true,
+      "crawlDetails": false,
+      "localOnly": true
+    },
+    {
+      "sourceId": "recovery-208",
+      "name": "208 Recovery",
+      "url": "https://208recovery.org/events",
+      "aliases": ["208recovery.org"],
       "publish": true,
       "discover": true,
       "crawlDetails": true,
