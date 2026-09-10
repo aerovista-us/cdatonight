@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T08:12:13.211Z",
+  "generatedAt": "2026-09-10T20:28:54.620Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -294,25 +294,6 @@
           "kind": "organizer",
           "url": "https://artonthegreencda.com/",
           "eventTitle": "Art on the Green"
-        }
-      ]
-    },
-    {
-      "domain": "cdacasino.com",
-      "name": "Coeur d&#8217;Alene Casino Hotel Resort",
-      "url": "https://www.cdacasino.com/",
-      "status": "candidate",
-      "score": 6,
-      "firstSeen": "2026-08-23T19:38:53.477Z",
-      "lastSeen": "2026-08-23T19:38:53.477Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|https://www.cdacasino.com/|Tools 2 Schools",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://www.cdacasino.com/",
-          "eventTitle": "Tools 2 Schools"
         }
       ]
     },
