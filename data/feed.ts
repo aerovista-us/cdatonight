@@ -10,6 +10,7 @@ import { weekAug31Sep4ThirdPassEvents } from "./week-2026-08-31-09-04-third-pass
 import { weekAug31Sep4SportsEvents } from "./week-2026-08-31-09-04-sports";
 import { weekAug31Sep4RecurringEvents } from "./week-2026-08-31-09-04-recurring";
 import { fortnightSep10Sep24Events } from "./fortnight-2026-09-10-09-24";
+import { featuredFortnightEvents } from "./featured-overrides";
 import type { EventCategory, LocalEvent } from "./events";
 
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
@@ -41,6 +42,7 @@ for (const event of [
   ...weekAug31Sep4SportsEvents,
   ...weekAug31Sep4RecurringEvents,
   ...fortnightSep10Sep24Events,
+  ...featuredFortnightEvents,
   ...activePhase3Events
 ]) {
   merged.set(eventKey(event), event);
