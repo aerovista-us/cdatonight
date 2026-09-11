@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:47:41.405Z",
+  "generatedAt": "2026-09-11T22:45:49.219Z",
   "events": [
     {
       "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-003ffb55",
@@ -58,7 +58,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-09-11/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:47:41.405Z",
+      "verifiedAt": "2026-09-11T22:45:49.219Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -100,6 +100,47 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Sat Sep 12, 2026 7:00-9:30PM - Klimt Style Dragonfly. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-3eb5b811",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-09-12T19:00:00.000Z",
+      "endsAt": "2026-09-12T21:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/910998",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
+      "note": "Sign up for Sat Sep 12, 2026 7:00-9:30PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-079d5c7c",
+      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-09-13T02:00:00.000Z",
+      "endsAt": "2026-09-13T03:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-09-12/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
+      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-5cf212c0",
@@ -403,6 +444,25 @@
       "note": "Sign up for Fri Sep 18, 2026 3:00-5:30PM - Coming Soon. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-18b8c8fe",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-09-18T19:00:00.000Z",
+      "endsAt": "2026-09-18T20:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-18/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-10T20:28:54.620Z",
+      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+    },
+    {
       "id": "auto-pinots-cda-monet-s-water-lilies-at-sunset-285b302a",
       "title": "Monet’s Water Lilies at Sunset",
       "startsAt": "2026-09-18T19:00:00.000Z",
@@ -423,25 +483,6 @@
       "note": "Sign up for Fri Sep 18, 2026 7:00-9:30PM - Monet’s Water Lilies at Sunset. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-18b8c8fe",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-18T19:00:00.000Z",
-      "endsAt": "2026-09-18T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-18/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
-    },
-    {
       "id": "auto-visit-cda-comedy-night-ft-chad-prather-d84ef201",
       "title": "Comedy Night ft. Chad Prather",
       "startsAt": "2026-09-19T01:00:00.000Z",
@@ -457,7 +498,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:47:41.405Z",
+      "verifiedAt": "2026-09-11T22:45:49.219Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
     },
     {
@@ -516,7 +557,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:47:41.405Z",
+      "verifiedAt": "2026-09-11T22:45:49.219Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -555,8 +596,29 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:47:41.405Z",
+      "verifiedAt": "2026-09-11T22:45:49.219Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
+    },
+    {
+      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-816eb56e",
+      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-09-20T02:00:00.000Z",
+      "endsAt": "2026-09-20T03:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-09-19/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
+      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-4cc88788",
@@ -760,6 +822,25 @@
       "note": "Sign up for Fri Sep 25, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-09-25T19:00:00.000Z",
+      "endsAt": "2026-09-25T20:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-25/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
+      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
+    },
+    {
       "id": "auto-pinots-cda-rustic-pumpkin-patch-fa8766e5",
       "title": "Rustic Pumpkin Patch",
       "startsAt": "2026-09-25T19:00:00.000Z",
@@ -800,25 +881,6 @@
       "note": "Sign up for Fri Sep 25, 2026 7:00-9:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-25T19:00:00.000Z",
-      "endsAt": "2026-09-25T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-25/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
-    },
-    {
       "id": "auto-visit-cda-kinsey-rose-247f9bb7",
       "title": "Kinsey Rose",
       "startsAt": "2026-09-26T00:30:00.000Z",
@@ -836,7 +898,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:47:41.405Z",
+      "verifiedAt": "2026-09-11T22:45:49.219Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for one intimate concert evening! A Kentucky native who started writing songs at just ten years old, K"
     },
     {
@@ -900,8 +962,8 @@
       "note": "Sign up for Sat Sep 26, 2026 7:30-9:30PM - Autumn Brook. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-3df14ea1",
-      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
+      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-3cbdc6d1",
+      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
       "startsAt": "2026-09-27T02:00:00.000Z",
       "endsAt": "2026-09-27T03:00:00.000Z",
       "venue": "The Nashville North",
@@ -917,8 +979,27 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-09-26/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-11T08:07:16.246Z",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
       "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
+    },
+    {
+      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-3df14ea1",
+      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-09-27T02:00:00.000Z",
+      "endsAt": "2026-09-27T03:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-09-26/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
+      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
     },
     {
       "id": "auto-pinots-cda-available-for-team-building-f0b1510c",
