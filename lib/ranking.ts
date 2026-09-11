@@ -31,7 +31,9 @@ export function baseEventScore(event: LocalEvent, now: Date) {
 
   if (event.status === "available") score += 8;
   if (event.status === "sold-out") score -= 24;
-  if (event.featured) score += 6;
+  // Featured is intentionally a strong editorial signal. These are rare,
+  // monthly, annual, festival, or otherwise special-date local happenings.
+  if (event.featured) score += 42;
   if (event.cost === "free") score += 3;
 
   return score;
@@ -73,6 +75,7 @@ export function rankingReason(event: LocalEvent, now: Date) {
   const startHours = hoursBetween(new Date(event.startsAt), now);
   const end = event.endsAt ? new Date(event.endsAt) : undefined;
 
+  if (event.featured) return "Featured tonight · special local event";
   if (startHours <= 0 && end && end.getTime() > now.getTime()) return "Happening now · high-confidence source";
   if (startHours > 0 && startHours <= 1.5) return "Starting soon · high-confidence source";
   if (event.cost === "free") return "Free · verified source";
