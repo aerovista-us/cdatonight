@@ -5,6 +5,7 @@ import LateNightEats from "@/components/LateNightEats";
 import Phase3Nav from "@/components/Phase3Nav";
 import UmamiAnalytics from "@/components/UmamiAnalytics";
 import "./globals.css";
+import "./featured.css";
 import "./nightlife.css";
 import "./late-eats.css";
 import "./wide-layout.css";
