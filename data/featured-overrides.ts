@@ -17,10 +17,13 @@ const featuredTitles = new Set([
   "St Joe River Cruise"
 ]);
 
+const artWalkVerifiedAt = "2026-09-11T15:37:00-07:00";
+
 export const featuredFortnightEvents: LocalEvent[] = fortnightSep10Sep24Events
   .filter((event) => featuredTitles.has(event.title))
   .map((event) => ({
     ...event,
     id: `featured-${event.id}`,
-    featured: true
+    featured: true,
+    verifiedAt: event.title === "2nd Friday ArtWalk" ? artWalkVerifiedAt : event.verifiedAt
   }));
