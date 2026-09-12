@@ -1,47 +1,6 @@
 {
-  "generatedAt": "2026-09-12T01:13:01.240Z",
+  "generatedAt": "2026-09-12T07:59:31.224Z",
   "events": [
-    {
-      "id": "auto-pinots-cda-follow-the-yellow-brick-road-13170604",
-      "title": "Follow the Yellow Brick Road",
-      "startsAt": "2026-09-11T19:30:00.000Z",
-      "endsAt": "2026-09-11T21:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$39",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/916609",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Fri Sep 11, 2026 7:30-9:30PM - Follow the Yellow Brick Road. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-visit-cda-2nd-friday-artwalk-aefbf927",
-      "title": "2nd Friday ArtWalk",
-      "startsAt": "2026-09-12T00:00:00.000Z",
-      "endsAt": "2026-09-12T03:00:00.000Z",
-      "venue": "Visit Coeur d'Alene",
-      "address": "",
-      "category": [
-        "live-music",
-        "community",
-        "date-night"
-      ],
-      "cost": "free",
-      "status": "available",
-      "sourceId": "visit-cda",
-      "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-09-11/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
-      "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-12T01:13:01.240Z",
-      "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
-    },
     {
       "id": "auto-cda-casino-nick-wiebe-25187333",
       "title": "Nick Wiebe",
@@ -425,25 +384,6 @@
       "note": "Sign up for Fri Sep 18, 2026 3:00-5:30PM - Coming Soon. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-18b8c8fe",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-18T19:00:00.000Z",
-      "endsAt": "2026-09-18T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-18/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
-    },
-    {
       "id": "auto-pinots-cda-monet-s-water-lilies-at-sunset-285b302a",
       "title": "Monet’s Water Lilies at Sunset",
       "startsAt": "2026-09-18T19:00:00.000Z",
@@ -464,6 +404,25 @@
       "note": "Sign up for Fri Sep 18, 2026 7:00-9:30PM - Monet’s Water Lilies at Sunset. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-18b8c8fe",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-09-18T19:00:00.000Z",
+      "endsAt": "2026-09-18T20:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-18/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-10T20:28:54.620Z",
+      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+    },
+    {
       "id": "auto-visit-cda-comedy-night-ft-chad-prather-d84ef201",
       "title": "Comedy Night ft. Chad Prather",
       "startsAt": "2026-09-19T01:00:00.000Z",
@@ -479,7 +438,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-12T01:13:01.240Z",
+      "verifiedAt": "2026-09-12T07:59:31.224Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
     },
     {
@@ -538,7 +497,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-12T01:13:01.240Z",
+      "verifiedAt": "2026-09-12T07:59:31.224Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -577,7 +536,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-12T01:13:01.240Z",
+      "verifiedAt": "2026-09-12T07:59:31.224Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
@@ -803,25 +762,6 @@
       "note": "Sign up for Fri Sep 25, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-25T19:00:00.000Z",
-      "endsAt": "2026-09-25T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-25/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-11T22:44:16.816Z",
-      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
-    },
-    {
       "id": "auto-pinots-cda-rustic-pumpkin-patch-fa8766e5",
       "title": "Rustic Pumpkin Patch",
       "startsAt": "2026-09-25T19:00:00.000Z",
@@ -862,6 +802,25 @@
       "note": "Sign up for Fri Sep 25, 2026 7:00-9:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-09-25T19:00:00.000Z",
+      "endsAt": "2026-09-25T20:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-25/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-11T22:44:16.816Z",
+      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
+    },
+    {
       "id": "auto-visit-cda-kinsey-rose-247f9bb7",
       "title": "Kinsey Rose",
       "startsAt": "2026-09-26T00:30:00.000Z",
@@ -879,7 +838,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-12T01:13:01.240Z",
+      "verifiedAt": "2026-09-12T07:59:31.224Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for one intimate concert evening! A Kentucky native who started writing songs at just ten years old, K"
     },
     {
