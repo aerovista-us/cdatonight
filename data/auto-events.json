@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-09-11T22:45:49.219Z",
+  "generatedAt": "2026-09-12T01:13:01.240Z",
   "events": [
-    {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-003ffb55",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-11T19:00:00.000Z",
-      "endsAt": "2026-09-11T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-11/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-11T08:07:16.246Z",
-      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
-    },
     {
       "id": "auto-pinots-cda-follow-the-yellow-brick-road-13170604",
       "title": "Follow the Yellow Brick Road",
@@ -58,7 +39,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-09-11/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T22:45:49.219Z",
+      "verifiedAt": "2026-09-12T01:13:01.240Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -498,7 +479,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T22:45:49.219Z",
+      "verifiedAt": "2026-09-12T01:13:01.240Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
     },
     {
@@ -557,7 +538,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T22:45:49.219Z",
+      "verifiedAt": "2026-09-12T01:13:01.240Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -596,7 +577,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T22:45:49.219Z",
+      "verifiedAt": "2026-09-12T01:13:01.240Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
@@ -898,7 +879,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-11T22:45:49.219Z",
+      "verifiedAt": "2026-09-12T01:13:01.240Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for one intimate concert evening! A Kentucky native who started writing songs at just ten years old, K"
     },
     {
