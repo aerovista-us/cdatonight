@@ -1,85 +1,6 @@
 {
-  "generatedAt": "2026-09-13T08:24:49.793Z",
+  "generatedAt": "2026-09-13T18:15:12.716Z",
   "events": [
-    {
-      "id": "auto-cda-casino-lucky-7-bingo-8211-sept-13th-394ffa58",
-      "title": "Lucky 7 Bingo &#8211; Sept. 13th",
-      "startsAt": "2026-09-13T07:00:00.000Z",
-      "endsAt": "2026-09-14T06:59:59.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/lucky-7-bingo-sept-13th/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-09-12T17:45:09.823Z",
-      "note": "&lt;p&gt;Lucky 7 Bingo $7 buy-in on regular bingo session and if you bingo on any number ending in 7, you win $77 Extra Play Cash. Sunday, September 13th $7 Buy-In | Regular Session Admission Opens | 11 AM Session Begins"
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-bb47eec0",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-09-13T10:30:00.000Z",
-      "endsAt": "2026-09-13T17:15:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:45:23.794Z",
-      "note": "Sign up for Sun Sep 13, 2026 10:30-5:15PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-golden-hour-blooms-0305d1ac",
-      "title": "Golden Hour Blooms",
-      "startsAt": "2026-09-13T11:00:00.000Z",
-      "endsAt": "2026-09-13T13:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$41",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928153",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sun Sep 13, 2026 11:00-1:30PM - Golden Hour Blooms. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-8023aece",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-09-13T12:00:00.000Z",
-      "endsAt": "2026-09-13T22:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-11T21:45:23.794Z",
-      "note": "Sign up for Sun Sep 13, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-pinots-cda-an-enchanted-lotus-0ef3dda4",
       "title": "An Enchanted Lotus",
@@ -99,6 +20,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Sun Sep 13, 2026 3:00-5:15PM - An Enchanted Lotus. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-take-home-paint-kits-c31d5938",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-09-14T13:00:00.000Z",
+      "endsAt": "2026-09-14T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-13T18:14:06.043Z",
+      "note": "Sign up for Mon Sep 14, 2026 1:00-4:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-f75f9633",
@@ -242,6 +183,26 @@
       "note": "Sign up for Wed Sep 16, 2026 7:30-9:45PM - Lavender Moonlight. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-create-a-scented-candle-7949f555",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-09-17T12:00:00.000Z",
+      "endsAt": "2026-09-17T22:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-13T18:14:06.043Z",
+      "note": "Sign up for Thu Sep 17, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-59cf811f",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-09-17T19:00:00.000Z",
@@ -322,25 +283,6 @@
       "note": "Sign up for Fri Sep 18, 2026 3:00-5:30PM - Coming Soon. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-18b8c8fe",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-18T19:00:00.000Z",
-      "endsAt": "2026-09-18T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-18/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
-    },
-    {
       "id": "auto-pinots-cda-monet-s-water-lilies-at-sunset-285b302a",
       "title": "Monet’s Water Lilies at Sunset",
       "startsAt": "2026-09-18T19:00:00.000Z",
@@ -361,6 +303,25 @@
       "note": "Sign up for Fri Sep 18, 2026 7:00-9:30PM - Monet’s Water Lilies at Sunset. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-18b8c8fe",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-09-18T19:00:00.000Z",
+      "endsAt": "2026-09-18T20:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-18/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-10T20:28:54.620Z",
+      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+    },
+    {
       "id": "auto-visit-cda-comedy-night-ft-chad-prather-d84ef201",
       "title": "Comedy Night ft. Chad Prather",
       "startsAt": "2026-09-19T01:00:00.000Z",
@@ -376,7 +337,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-13T08:24:49.793Z",
+      "verifiedAt": "2026-09-13T18:15:12.716Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
     },
     {
@@ -435,7 +396,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-13T08:24:49.793Z",
+      "verifiedAt": "2026-09-13T18:15:12.716Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -474,7 +435,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-13T08:24:49.793Z",
+      "verifiedAt": "2026-09-13T18:15:12.716Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
@@ -530,12 +491,12 @@
       ],
       "cost": "paid",
       "priceLabel": "$60",
-      "status": "available",
+      "status": "sold-out",
       "sourceId": "pinots-cda",
       "sourceUrl": "https://www.pinotspalette.com/cda/events/916352",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
+      "verifiedAt": "2026-09-13T18:14:06.043Z",
       "note": "Sign up for Sun Sep 20, 2026 11:30-2:30PM - Project Pet. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
@@ -679,25 +640,6 @@
       "note": "Sign up for Fri Sep 25, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-09-25T19:00:00.000Z",
-      "endsAt": "2026-09-25T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-25/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-13T01:04:15.794Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
-    },
-    {
       "id": "auto-pinots-cda-rustic-pumpkin-patch-fa8766e5",
       "title": "Rustic Pumpkin Patch",
       "startsAt": "2026-09-25T19:00:00.000Z",
@@ -738,6 +680,25 @@
       "note": "Sign up for Fri Sep 25, 2026 7:00-9:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-09-25T19:00:00.000Z",
+      "endsAt": "2026-09-25T20:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-09-25/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-09-13T01:04:15.794Z",
+      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+    },
+    {
       "id": "auto-visit-cda-kinsey-rose-247f9bb7",
       "title": "Kinsey Rose",
       "startsAt": "2026-09-26T00:30:00.000Z",
@@ -755,7 +716,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-13T08:24:49.793Z",
+      "verifiedAt": "2026-09-13T18:15:12.716Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for one intimate concert evening! A Kentucky native who started writing songs at just ten years old, K"
     },
     {
