@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:28:54.620Z",
+  "generatedAt": "2026-09-15T08:45:15.622Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -298,6 +298,25 @@
       ]
     },
     {
+      "domain": "cdasymphony.org",
+      "name": "Coeur d&#8217;Alene Symphony Orchestra",
+      "url": "https://www.cdasymphony.org/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-09-15T08:45:15.622Z",
+      "lastSeen": "2026-09-15T08:45:15.622Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|Rhythms of America",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdasymphony.org/",
+          "eventTitle": "Rhythms of America"
+        }
+      ]
+    },
+    {
       "domain": "panhandlekiwanis.org",
       "name": "Panhandle Kiwanis",
       "url": "https://www.panhandlekiwanis.org/",
@@ -313,6 +332,25 @@
           "kind": "organizer",
           "url": "https://www.panhandlekiwanis.org/",
           "eventTitle": "The 2026 Taste of Coeur d&#8217;Alene"
+        }
+      ]
+    },
+    {
+      "domain": "silverwoodthemepark.com",
+      "name": "Silverwood Theme Park",
+      "url": "https://www.silverwoodthemepark.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-09-15T08:45:15.622Z",
+      "lastSeen": "2026-09-15T08:45:15.622Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.silverwoodthemepark.com/|Scarywood Haunted Nights",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.silverwoodthemepark.com/",
+          "eventTitle": "Scarywood Haunted Nights"
         }
       ]
     },
