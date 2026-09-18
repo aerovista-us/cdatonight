@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-15T08:45:15.622Z",
+  "generatedAt": "2026-09-18T01:18:25.324Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
       "name": "The Club at Prairie Falls",
       "url": "https://www.prairiefallsgolfclub.com/",
       "status": "review-ready",
-      "score": 42,
+      "score": 48,
       "firstSeen": "2026-08-23T19:38:53.477Z",
-      "lastSeen": "2026-09-01T18:35:20.372Z",
+      "lastSeen": "2026-09-18T01:18:25.324Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Stage Takeover ft. Last Chance Band",
@@ -65,6 +65,14 @@
           "kind": "organizer",
           "url": "https://www.prairiefallsgolfclub.com/",
           "eventTitle": "Kinsey Rose"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Kinsey Rose | FRIDAY SHOW",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.prairiefallsgolfclub.com/",
+          "eventTitle": "Kinsey Rose | FRIDAY SHOW"
         }
       ]
     },
