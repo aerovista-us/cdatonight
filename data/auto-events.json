@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:05:39.428Z",
+  "generatedAt": "2026-09-19T21:30:11.224Z",
   "events": [
     {
       "id": "auto-cda-casino-lucky-7-bingo-weekend-8211-september-f0e5ddc3",
@@ -56,7 +56,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T18:05:39.428Z",
+      "verifiedAt": "2026-09-19T21:30:11.224Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -115,7 +115,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T18:05:39.428Z",
+      "verifiedAt": "2026-09-19T21:30:11.224Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
@@ -136,6 +136,26 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-09-19T08:07:14.646Z",
       "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
+    },
+    {
+      "id": "auto-pinots-cda-take-home-paint-kits-a2378d57",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-09-20T11:00:00.000Z",
+      "endsAt": "2026-09-20T18:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-19T21:28:34.271Z",
+      "note": "Sign up for Sun Sep 20, 2026 11:00-6:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-project-pet-7f7ab3bc",
@@ -435,7 +455,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T18:05:39.428Z",
+      "verifiedAt": "2026-09-19T21:30:11.224Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for an intimate concert evening! A Kentucky native who started writing songs at just ten years old, Ki"
     },
     {
@@ -700,6 +720,26 @@
       "note": "Sign up for Thu Oct 01, 2026 7:00-9:00PM - Blood Moon. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-8b218cfd",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-10-02T13:00:00.000Z",
+      "endsAt": "2026-10-02T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/826999",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-19T21:28:34.271Z",
+      "note": "Sign up for Fri Oct 02, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-c46dcee2",
       "title": "Friday Night Line Dancing at the Nashville North",
       "startsAt": "2026-10-02T19:00:00.000Z",
@@ -776,7 +816,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T18:05:39.428Z",
+      "verifiedAt": "2026-09-19T21:30:11.224Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -795,7 +835,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T18:05:39.428Z",
+      "verifiedAt": "2026-09-19T21:30:11.224Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     }
   ]
