@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T08:09:29.784Z",
+  "generatedAt": "2026-09-19T18:05:39.428Z",
   "events": [
     {
       "id": "auto-cda-casino-lucky-7-bingo-weekend-8211-september-f0e5ddc3",
@@ -19,66 +19,6 @@
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
       "verifiedAt": "2026-09-18T08:19:19.327Z",
       "note": "&lt;p&gt;Lucky 7 Bingo Weekend $7 buy-in on regular bingo session and if you bingo on any number ending in 7, you win $77 Extra Play Cash. Friday, September 18th $7 Buy-In | Regular Session Admission Opens | 4 PM Session"
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-2205da0b",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-09-19T11:30:00.000Z",
-      "endsAt": "2026-09-19T21:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-18T21:43:25.667Z",
-      "note": "Sign up for Sat Sep 19, 2026 11:30-9:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-de839a8f",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-09-19T12:00:00.000Z",
-      "endsAt": "2026-09-19T22:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922223",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-15T01:31:46.885Z",
-      "note": "Sign up for Sat Sep 19, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-moonlit-journey-1176930c",
-      "title": "Moonlit Journey",
-      "startsAt": "2026-09-19T12:00:00.000Z",
-      "endsAt": "2026-09-19T13:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/916618",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sat Sep 19, 2026 12:00-1:45PM - Moonlit Journey. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-violet-stardust-57345005",
@@ -116,7 +56,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T08:09:29.784Z",
+      "verifiedAt": "2026-09-19T18:05:39.428Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -175,7 +115,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T08:09:29.784Z",
+      "verifiedAt": "2026-09-19T18:05:39.428Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
@@ -196,26 +136,6 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-09-19T08:07:14.646Z",
       "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
-    },
-    {
-      "id": "auto-pinots-cda-available-for-private-event-a6ed4ef2",
-      "title": "Available for Private Event",
-      "startsAt": "2026-09-20T08:00:00.000Z",
-      "endsAt": "2026-09-20T23:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$33",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/74806",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sun Sep 20, 2026 8:00-11:00PM - Available for Private Event. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-project-pet-7f7ab3bc",
@@ -398,6 +318,26 @@
       "note": "Sign up for Fri Sep 25, 2026 8:00-11:00PM - Available for Private Event. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-create-a-scented-candle-94b35e2c",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-09-25T12:00:00.000Z",
+      "endsAt": "2026-09-25T22:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922223",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-19T18:04:31.087Z",
+      "note": "Sign up for Fri Sep 25, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-2e1683ba",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-09-25T13:00:00.000Z",
@@ -495,7 +435,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T08:09:29.784Z",
+      "verifiedAt": "2026-09-19T18:05:39.428Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for an intimate concert evening! A Kentucky native who started writing songs at just ten years old, Ki"
     },
     {
@@ -740,6 +680,26 @@
       "note": "Sign up for Wed Sep 30, 2026 6:30-9:00PM - Welcome Home Haunted House Porch Leaner. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-blood-moon-5e830210",
+      "title": "Blood Moon",
+      "startsAt": "2026-10-01T19:00:00.000Z",
+      "endsAt": "2026-10-01T21:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$37",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/916613",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-19T18:04:31.087Z",
+      "note": "Sign up for Thu Oct 01, 2026 7:00-9:00PM - Blood Moon. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-c46dcee2",
       "title": "Friday Night Line Dancing at the Nashville North",
       "startsAt": "2026-10-02T19:00:00.000Z",
@@ -816,8 +776,27 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T08:09:29.784Z",
+      "verifiedAt": "2026-09-19T18:05:39.428Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
+    },
+    {
+      "id": "auto-visit-cda-hayden-lake-marathon-57bcd5da",
+      "title": "Hayden Lake Marathon",
+      "startsAt": "2026-10-10T14:30:00.000Z",
+      "endsAt": "2026-10-10T20:00:00.000Z",
+      "venue": "Hayden Lake",
+      "address": "2369 E Honeysuckle Ave, Hayden Lake, ID, 83835",
+      "category": [
+        "outdoors"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "visit-cda",
+      "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
+      "sourceLabel": "Visit Coeur d'Alene",
+      "verifiedAt": "2026-09-19T18:05:39.428Z",
+      "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     }
   ]
 }
