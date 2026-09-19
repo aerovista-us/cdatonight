@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:15:53.998Z",
+  "generatedAt": "2026-09-19T08:09:29.784Z",
   "events": [
     {
       "id": "auto-cda-casino-lucky-7-bingo-weekend-8211-september-f0e5ddc3",
@@ -19,25 +19,6 @@
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
       "verifiedAt": "2026-09-18T08:19:19.327Z",
       "note": "&lt;p&gt;Lucky 7 Bingo Weekend $7 buy-in on regular bingo session and if you bingo on any number ending in 7, you win $77 Extra Play Cash. Friday, September 18th $7 Buy-In | Regular Session Admission Opens | 4 PM Session"
-    },
-    {
-      "id": "auto-visit-cda-comedy-night-ft-chad-prather-d84ef201",
-      "title": "Comedy Night ft. Chad Prather",
-      "startsAt": "2026-09-19T01:00:00.000Z",
-      "endsAt": "2026-09-19T04:00:00.000Z",
-      "venue": "The Club at Prairie Falls",
-      "address": "3200 N Spokane St, Post Falls, ID, 83854",
-      "category": [
-        "nightlife"
-      ],
-      "cost": "unknown",
-      "status": "available",
-      "sourceId": "visit-cda",
-      "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather-2/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T01:15:53.998Z",
-      "note": "&lt;p&gt;Comedy Night at the Club is BACK! Get your weekend started right. On Friday, September 18, The Club at Prairie Falls\\' Event Center welcomes comedian, podcaster, and cultural commentator Chad Prather for opening"
     },
     {
       "id": "auto-pinots-cda-take-home-paint-kits-2205da0b",
@@ -135,7 +116,7 @@
       "sourceUrl": "https://coeurdalene.org/events/girls-in-aviation-day-s-t-e-m-event/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=11101%20N%20Airport%20Dr%2C%20Hayden%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T01:15:53.998Z",
+      "verifiedAt": "2026-09-19T08:09:29.784Z",
       "note": "&lt;p&gt;Welcome to the Girls in Aviation Day event! 🛩️ Join us for a day filled with inspiring stories, hands-on activities, and networking opportunities with industry leaders. This S.T.E.M. event is all about empoweri"
     },
     {
@@ -194,33 +175,12 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-chad-prather/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T01:15:53.998Z",
+      "verifiedAt": "2026-09-19T08:09:29.784Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Chad Prather returns to The Club at Prairie Falls for night two — same big laughs, brand-new set. On Saturday, September 19, the Event Center hosts round two of this two-night s"
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-4cc88788",
       "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-09-20T02:00:00.000Z",
-      "endsAt": "2026-09-20T03:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-09-19/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-11T08:07:16.246Z",
-      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
-    },
-    {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-816eb56e",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
       "startsAt": "2026-09-20T02:00:00.000Z",
       "endsAt": "2026-09-20T03:00:00.000Z",
       "venue": "The Nashville North",
@@ -234,7 +194,7 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-09-19/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-09-19T01:14:01.564Z",
+      "verifiedAt": "2026-09-19T08:07:14.646Z",
       "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
     },
     {
@@ -296,26 +256,6 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Sun Sep 20, 2026 4:00-6:30PM - Monet‘s Misty Meadow. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-3fdc1daf",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-09-20T16:00:00.000Z",
-      "endsAt": "2026-09-20T18:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/911635",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-16T22:12:52.796Z",
-      "note": "Sign up for Sun Sep 20, 2026 4:00-6:30PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-create-a-scented-candle-1f5987c5",
@@ -478,26 +418,6 @@
       "note": "Sign up for Fri Sep 25, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-pinots-cda-rustic-pumpkin-patch-fa8766e5",
-      "title": "Rustic Pumpkin Patch",
-      "startsAt": "2026-09-25T19:00:00.000Z",
-      "endsAt": "2026-09-25T21:15:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$39",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/910525",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Fri Sep 25, 2026 7:00-9:15PM - Rustic Pumpkin Patch. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-dbbba64e",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-09-25T19:00:00.000Z",
@@ -516,6 +436,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Fri Sep 25, 2026 7:00-9:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-rustic-pumpkin-patch-fa8766e5",
+      "title": "Rustic Pumpkin Patch",
+      "startsAt": "2026-09-25T19:00:00.000Z",
+      "endsAt": "2026-09-25T21:15:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/910525",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-10T20:28:54.620Z",
+      "note": "Sign up for Fri Sep 25, 2026 7:00-9:15PM - Rustic Pumpkin Patch. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3c175136",
@@ -555,7 +495,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T01:15:53.998Z",
+      "verifiedAt": "2026-09-19T08:09:29.784Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for an intimate concert evening! A Kentucky native who started writing songs at just ten years old, Ki"
     },
     {
@@ -876,7 +816,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-19T01:15:53.998Z",
+      "verifiedAt": "2026-09-19T08:09:29.784Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     }
   ]
