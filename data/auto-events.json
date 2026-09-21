@@ -1,66 +1,6 @@
 {
-  "generatedAt": "2026-09-21T09:03:57.362Z",
+  "generatedAt": "2026-09-21T20:02:36.161Z",
   "events": [
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-1f5987c5",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-09-21T12:00:00.000Z",
-      "endsAt": "2026-09-21T22:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-18T21:43:25.667Z",
-      "note": "Sign up for Mon Sep 21, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-43ffbe2d",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-09-21T12:00:00.000Z",
-      "endsAt": "2026-09-21T16:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-20T18:12:55.653Z",
-      "note": "Sign up for Mon Sep 21, 2026 12:00-4:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-e0352ae1",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-09-21T13:00:00.000Z",
-      "endsAt": "2026-09-21T16:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/893281",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Mon Sep 21, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-cda-casino-7-young-at-heart-mondays-4247960a",
       "title": "$7 Young at Heart Mondays",
@@ -103,6 +43,26 @@
       "note": "Sign up for Tue Sep 22, 2026 6:30-8:30PM - Firefly Friends. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-take-home-paint-kits-f01c736d",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-09-23T12:00:00.000Z",
+      "endsAt": "2026-09-23T20:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-21T20:00:53.105Z",
+      "note": "Sign up for Wed Sep 23, 2026 12:00-8:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-8ed61c61",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-09-23T13:00:00.000Z",
@@ -141,6 +101,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Wed Sep 23, 2026 6:30-8:30PM - Autumn Moonlight Delight. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-create-a-scented-candle-504bdcd2",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-09-24T12:00:00.000Z",
+      "endsAt": "2026-09-24T22:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-21T20:00:53.105Z",
+      "note": "Sign up for Thu Sep 24, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-c67a5246",
@@ -320,7 +300,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-21T09:03:57.362Z",
+      "verifiedAt": "2026-09-21T20:02:36.161Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for an intimate concert evening! A Kentucky native who started writing songs at just ten years old, Ki"
     },
     {
@@ -761,7 +741,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-21T09:03:57.362Z",
+      "verifiedAt": "2026-09-21T20:02:36.161Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -780,7 +760,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-21T09:03:57.362Z",
+      "verifiedAt": "2026-09-21T20:02:36.161Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     },
     {
