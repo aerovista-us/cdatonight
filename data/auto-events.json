@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T22:15:37.139Z",
+  "generatedAt": "2026-09-23T01:33:45.089Z",
   "events": [
     {
       "id": "auto-cda-casino-two-peas-in-a-pod-21a01f06",
@@ -19,26 +19,6 @@
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
       "verifiedAt": "2026-09-22T08:37:00.779Z",
       "note": "&lt;p&gt;TUESDAYS IN SEPTEMBER On Tuesdays in September, introduce someone new to the fun and rewards of playing at Coeur d’Alene Casino by signing a new member up for a Coeur Rewards card. You and your friend both get $"
-    },
-    {
-      "id": "auto-pinots-cda-firefly-friends-7ce2e595",
-      "title": "Firefly Friends",
-      "startsAt": "2026-09-22T18:30:00.000Z",
-      "endsAt": "2026-09-22T20:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$37",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/916601",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Tue Sep 22, 2026 6:30-8:30PM - Firefly Friends. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-take-home-paint-kits-f01c736d",
@@ -278,7 +258,7 @@
       "sourceUrl": "https://coeurdalene.org/events/kinsey-rose/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-22T22:15:37.139Z",
+      "verifiedAt": "2026-09-23T01:33:45.089Z",
       "note": "&lt;p&gt;Nashville-based country artist Kinsey Rose is bringing her soulful storytelling to The Club at Prairie Falls for an intimate concert evening! A Kentucky native who started writing songs at just ten years old, Ki"
     },
     {
@@ -801,7 +781,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-22T22:15:37.139Z",
+      "verifiedAt": "2026-09-23T01:33:45.089Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -820,7 +800,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-22T22:15:37.139Z",
+      "verifiedAt": "2026-09-23T01:33:45.089Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     },
     {
