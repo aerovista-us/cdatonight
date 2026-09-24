@@ -16,22 +16,11 @@ import type { EventCategory, LocalEvent } from "./events";
 export type { EventCategory, EventStatus, LocalEvent } from "./events";
 
 function eventKey(event: LocalEvent) {
-  // Normalize equivalent local-offset and UTC timestamps before de-duping.
-  // Curated records are inserted first, so they remain authoritative when
-  // the automated feed discovers the same event in a different ISO format.
   const normalizedStart = new Date(event.startsAt).toISOString();
   return [event.title.trim().toLowerCase(), normalizedStart].join("|");
 }
 
-const generatedEvents = generatedFeed.events as unknown as LocalEvent[];
-const merged = new Map<string, LocalEvent>();
-const supersededPhase3Ids = new Set(["museum-cemetery-walking-tour-aug28"]);
-const activePhase3Events = phase3Events.filter((event) => !supersededPhase3Ids.has(event.id));
-
-// Curated records always win when an automated record overlaps one. Automated
-// calendars often omit or rename venue fields, so title + normalized start
-// time is the safer identity boundary than title + time + venue.
-for (const event of [
+const curatedFeedEvents: LocalEvent[] = [
   ...curatedEvents,
   ...tonightAug28Events,
   ...tonightAug31DeepEvents,
@@ -43,17 +32,28 @@ for (const event of [
   ...weekAug31Sep4RecurringEvents,
   ...fortnightSep10Sep24Events,
   ...featuredFortnightEvents,
-  ...activePhase3Events
-]) {
-  merged.set(eventKey(event), event);
-}
-for (const event of generatedEvents) {
-  const key = eventKey(event);
-  if (!merged.has(key)) merged.set(key, event);
+  ...phase3Events.filter((event) => event.id !== "museum-cemetery-walking-tour-aug28")
+];
+
+export function mergeGeneratedEvents(generatedEvents: LocalEvent[]) {
+  const merged = new Map<string, LocalEvent>();
+
+  for (const event of curatedFeedEvents) {
+    merged.set(eventKey(event), event);
+  }
+  for (const event of generatedEvents) {
+    const key = eventKey(event);
+    if (!merged.has(key)) merged.set(key, event);
+  }
+
+  return [...merged.values()].sort(
+    (a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime()
+  );
 }
 
-export const events: LocalEvent[] = [...merged.values()].sort(
-  (a, b) => new Date(a.startsAt).getTime() - new Date(b.startsAt).getTime()
-);
+const bundledGeneratedEvents = generatedFeed.events as unknown as LocalEvent[];
 
-export const automatedEventCount = generatedEvents.length;
+// Bundled data is a safe fallback. The client refreshes generated events through
+// /api/feed, so routine feed-sync commits no longer require a Vercel deployment.
+export const events: LocalEvent[] = mergeGeneratedEvents(bundledGeneratedEvents);
+export const automatedEventCount = bundledGeneratedEvents.length;
