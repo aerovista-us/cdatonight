@@ -17,20 +17,31 @@ if (!previous || /^0+$/.test(previous)) {
   build("no previous successful deployment SHA is available");
 }
 
+let base = previous;
+try {
+  execFileSync("git", ["merge-base", "--is-ancestor", previous, current], { stdio: "ignore" });
+} catch {
+  // The last successful Vercel deployment can be a Preview commit that is not
+  // an ancestor of a squash/merge on main. Comparing those two trees can make
+  // a real Production change look empty. Fall back to the current first parent.
+  base = `${current}^`;
+  console.log(`[vercel-guard] ${previous} is not an ancestor of ${current}; using ${base}`);
+}
+
 let changedFiles;
 try {
-  changedFiles = execFileSync("git", ["diff", "--name-only", previous, current, "--"], {
+  changedFiles = execFileSync("git", ["diff", "--name-only", base, current, "--"], {
     encoding: "utf8"
   })
     .split("\n")
     .map((file) => file.trim())
     .filter(Boolean);
 } catch (error) {
-  build(`could not compare ${previous}..${current}: ${error.message}`);
+  build(`could not compare ${base}..${current}: ${error.message}`);
 }
 
 if (changedFiles.length === 0) {
-  skip("no files changed since the last successful deployment");
+  skip("no files changed since the deployment baseline");
 }
 
 const exactRuntimeFiles = new Set([
