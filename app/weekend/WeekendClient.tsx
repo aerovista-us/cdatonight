@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { eventCatalog } from "@/lib/catalog";
-import type { EventCategory, LocalEvent } from "@/data/events";
+import type { EventCategory, LocalEvent } from "@/data/feed";
 import { trackEvent } from "@/lib/analytics";
+import { useLiveEventFeed } from "@/lib/use-live-feed";
 
 const TZ = "America/Los_Angeles";
 type WeekendFilter = "all" | "free" | "live-music" | "family" | "date-night" | "food-drink" | "outdoors" | "nightlife";
@@ -72,6 +72,7 @@ function matches(event: LocalEvent, filter: WeekendFilter) {
 }
 
 export default function WeekendClient() {
+  const { eventCatalog } = useLiveEventFeed();
   const [filter, setFilter] = useState<WeekendFilter>("all");
   const [now, setNow] = useState<Date | null>(null);
 
@@ -132,12 +133,22 @@ export default function WeekendClient() {
             <section className="weekend-day" key={key}>
               <div className="weekend-day-head"><h2>{dayLabel(key)}</h2><span>{events.length} verified</span></div>
               <div className="weekend-grid">
-                {events.map((event) => (
-                  <Link className="weekend-event" href={`/event/${event.id}`} key={event.id} onClick={() => trackEvent("event_deep_link_open", { event_id: event.id, placement: "weekend" })}>
-                    <div className="weekend-event-time"><strong>{timeLabel(event.startsAt)}</strong><span>{event.cost === "free" ? "Free" : event.status === "sold-out" ? "Sold out" : "Verified"}</span></div>
-                    <div className="weekend-event-body"><small>{event.category.slice(0, 3).map(categoryLabel).join(" · ")}</small><h3>{event.title}</h3><p>{event.venue}</p></div>
-                  </Link>
-                ))}
+                {events.map((event) => {
+                  const generated = event.id.startsWith("auto-");
+                  return (
+                    <Link
+                      className="weekend-event"
+                      href={generated ? event.sourceUrl : `/event/${event.id}`}
+                      target={generated ? "_blank" : undefined}
+                      rel={generated ? "noreferrer" : undefined}
+                      key={event.id}
+                      onClick={() => trackEvent("event_deep_link_open", { event_id: event.id, placement: "weekend" })}
+                    >
+                      <div className="weekend-event-time"><strong>{timeLabel(event.startsAt)}</strong><span>{event.cost === "free" ? "Free" : event.status === "sold-out" ? "Sold out" : "Verified"}</span></div>
+                      <div className="weekend-event-body"><small>{event.category.slice(0, 3).map(categoryLabel).join(" · ")}</small><h3>{event.title}</h3><p>{event.venue}</p></div>
+                    </Link>
+                  );
+                })}
               </div>
             </section>
           ))}

@@ -5,9 +5,19 @@ on:
     paths:
       - "app/**"
       - "components/**"
-      - "data/**"
+      - "lib/**"
+      - "data/**/*.ts"
+      - "data/**/*.tsx"
       - "public/**"
       - "package.json"
+      - "package-lock.json"
+      - "pnpm-lock.yaml"
+      - "yarn.lock"
+      - "tsconfig.json"
+      - "next.config.*"
+      - "middleware.*"
+      - "vercel.json"
+      - "scripts/vercel-ignore-build.mjs"
       - ".github/workflows/app-smoke.yml"
   workflow_dispatch:
 

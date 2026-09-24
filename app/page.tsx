@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { automatedEventCount, events, EventCategory, LocalEvent } from "@/data/feed";
-import { nightlifeEvents, nightlifeSpots } from "@/data/nightlife";
+import { type EventCategory, type LocalEvent } from "@/data/feed";
+import { nightlifeSpots } from "@/data/nightlife";
 import { sourceFor, sourceKindLabel, sourceList } from "@/data/sources";
 import { trackEvent } from "@/lib/analytics";
 import { rankEvents, rankingReason } from "@/lib/ranking";
+import { useLiveEventFeed } from "@/lib/use-live-feed";
 
 type Filter = "best" | "all" | "free" | EventCategory;
 type RelativeGroup = "happening" | "soon" | "later" | "earlier";
@@ -23,7 +24,6 @@ const filters: Array<{ id: Filter; label: string }> = [
 ];
 
 const TZ = "America/Los_Angeles";
-const allEvents = [...events, ...nightlifeEvents];
 
 function dayKey(date: Date) {
   const parts = new Intl.DateTimeFormat("en-CA", {
@@ -145,6 +145,7 @@ function EventCard({ event, now }: { event: LocalEvent; now: Date }) {
 }
 
 export default function Home() {
+  const { eventCatalog: allEvents, automatedEventCount } = useLiveEventFeed();
   const [now, setNow] = useState<Date | null>(null);
   const [filter, setFilter] = useState<Filter>("best");
   const [showPlan, setShowPlan] = useState(false);
