@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T18:38:15.627Z",
+  "generatedAt": "2026-09-26T22:01:22.651Z",
   "events": [
     {
       "id": "auto-cda-casino-two-peas-in-a-pod-21a01f06",
@@ -19,26 +19,6 @@
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
       "verifiedAt": "2026-09-22T08:37:00.779Z",
       "note": "&lt;p&gt;TUESDAYS IN SEPTEMBER On Tuesdays in September, introduce someone new to the fun and rewards of playing at Coeur d’Alene Casino by signing a new member up for a Coeur Rewards card. You and your friend both get $"
-    },
-    {
-      "id": "auto-pinots-cda-a-touch-of-gold-ff6eb304",
-      "title": "A Touch of Gold",
-      "startsAt": "2026-09-26T15:30:00.000Z",
-      "endsAt": "2026-09-26T17:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$39",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/916611",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sat Sep 26, 2026 3:30-5:45PM - A Touch of Gold. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-3df14ea1",
@@ -660,6 +640,26 @@
       "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
     },
     {
+      "id": "auto-pinots-cda-a-white-winter-d968d97b",
+      "title": "A White Winter",
+      "startsAt": "2026-10-09T19:30:00.000Z",
+      "endsAt": "2026-10-09T21:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/905817",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-26T21:58:54.954Z",
+      "note": "Sign up for Fri Oct 09, 2026 7:30-9:45PM - A White Winter. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-visit-cda-2nd-friday-artwalk-8e9ca6eb",
       "title": "2nd Friday ArtWalk",
       "startsAt": "2026-10-10T00:00:00.000Z",
@@ -677,8 +677,28 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T18:38:15.627Z",
+      "verifiedAt": "2026-09-26T22:01:22.651Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
+    },
+    {
+      "id": "auto-pinots-cda-together-purrever-9ee71d60",
+      "title": "Together Purrever",
+      "startsAt": "2026-10-10T12:00:00.000Z",
+      "endsAt": "2026-10-10T13:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922063",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-26T21:58:54.954Z",
+      "note": "Sign up for Sat Oct 10, 2026 12:00-1:45PM - Together Purrever. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-visit-cda-hayden-lake-marathon-57bcd5da",
@@ -696,7 +716,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T18:38:15.627Z",
+      "verifiedAt": "2026-09-26T22:01:22.651Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     },
     {
@@ -756,7 +776,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T18:38:15.627Z",
+      "verifiedAt": "2026-09-26T22:01:22.651Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     }
   ]
