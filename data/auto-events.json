@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:41:43.948Z",
+  "generatedAt": "2026-09-26T18:38:15.627Z",
   "events": [
     {
       "id": "auto-cda-casino-two-peas-in-a-pod-21a01f06",
@@ -19,86 +19,6 @@
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
       "verifiedAt": "2026-09-22T08:37:00.779Z",
       "note": "&lt;p&gt;TUESDAYS IN SEPTEMBER On Tuesdays in September, introduce someone new to the fun and rewards of playing at Coeur d’Alene Casino by signing a new member up for a Coeur Rewards card. You and your friend both get $"
-    },
-    {
-      "id": "auto-pinots-cda-available-for-private-event-85e632b6",
-      "title": "Available for Private Event",
-      "startsAt": "2026-09-26T08:00:00.000Z",
-      "endsAt": "2026-09-26T23:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$42",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/759808",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-23T22:20:29.533Z",
-      "note": "Sign up for Sat Sep 26, 2026 8:00-11:00PM - Available for Private Event. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-11b042f0",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-09-26T12:00:00.000Z",
-      "endsAt": "2026-09-26T13:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/935857",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-20T08:39:48.653Z",
-      "note": "Sign up for Sat Sep 26, 2026 12:00-1:45PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-boo-tiful-blooms-dc13379e",
-      "title": "Boo-tiful Blooms",
-      "startsAt": "2026-09-26T12:00:00.000Z",
-      "endsAt": "2026-09-26T13:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/916619",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sat Sep 26, 2026 12:00-1:45PM - Boo-tiful Blooms. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-e60802f8",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-09-26T12:30:00.000Z",
-      "endsAt": "2026-09-26T17:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-26T08:40:09.318Z",
-      "note": "Sign up for Sat Sep 26, 2026 12:30-5:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-a-touch-of-gold-ff6eb304",
@@ -140,24 +60,24 @@
       "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
     },
     {
-      "id": "auto-pinots-cda-available-for-team-building-f0b1510c",
-      "title": "Available for Team Building!",
-      "startsAt": "2026-09-27T08:00:00.000Z",
-      "endsAt": "2026-09-27T23:00:00.000Z",
+      "id": "auto-pinots-cda-jimothy-af2fb26c",
+      "title": "Jimothy",
+      "startsAt": "2026-09-27T11:00:00.000Z",
+      "endsAt": "2026-09-27T13:15:00.000Z",
       "venue": "Pinot's Palette - Coeur d'Alene",
       "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
       "category": [
         "community"
       ],
       "cost": "paid",
-      "priceLabel": "$42",
+      "priceLabel": "$39",
       "status": "available",
       "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/241243",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/930467",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sun Sep 27, 2026 8:00-11:00PM - Available for Team Building!. Join the paint and sip party at this Coeur d'Alene , ID studio."
+      "note": "Sign up for Sun Sep 27, 2026 11:00-1:15PM - Jimothy. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-0bb90ff9",
@@ -180,24 +100,24 @@
       "note": "Sign up for Sun Sep 27, 2026 11:00-1:15PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-pinots-cda-jimothy-af2fb26c",
-      "title": "Jimothy",
+      "id": "auto-pinots-cda-take-home-paint-kits-046dbd2c",
+      "title": "Take Home Paint Kits",
       "startsAt": "2026-09-27T11:00:00.000Z",
-      "endsAt": "2026-09-27T13:15:00.000Z",
+      "endsAt": "2026-09-27T17:30:00.000Z",
       "venue": "Pinot's Palette - Coeur d'Alene",
       "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
       "category": [
         "community"
       ],
       "cost": "paid",
-      "priceLabel": "$39",
+      "priceLabel": "$31",
       "status": "available",
       "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/930467",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-10T20:28:54.620Z",
-      "note": "Sign up for Sun Sep 27, 2026 11:00-1:15PM - Jimothy. Join the paint and sip party at this Coeur d'Alene , ID studio."
+      "verifiedAt": "2026-09-26T18:37:44.815Z",
+      "note": "Sign up for Sun Sep 27, 2026 11:00-5:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-van-gogh-s-starry-night-halloween-9aef4e9d",
@@ -681,6 +601,46 @@
       "note": "Sign up for Wed Oct 07, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-boo-tiful-harvest-bc373c7c",
+      "title": "Boo-tiful Harvest",
+      "startsAt": "2026-10-08T19:00:00.000Z",
+      "endsAt": "2026-10-08T21:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/905816",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-26T18:37:44.815Z",
+      "note": "Sign up for Thu Oct 08, 2026 7:00-9:00PM - Boo-tiful Harvest. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-12e2948e",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-10-09T13:00:00.000Z",
+      "endsAt": "2026-10-09T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/929971",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-26T18:37:44.815Z",
+      "note": "Sign up for Fri Oct 09, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-8b6d4fcb",
       "title": "Friday Night Line Dancing at the Nashville North",
       "startsAt": "2026-10-09T19:00:00.000Z",
@@ -717,7 +677,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T08:41:43.948Z",
+      "verifiedAt": "2026-09-26T18:38:15.627Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -736,7 +696,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T08:41:43.948Z",
+      "verifiedAt": "2026-09-26T18:38:15.627Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     },
     {
@@ -796,7 +756,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T08:41:43.948Z",
+      "verifiedAt": "2026-09-26T18:38:15.627Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     }
   ]
