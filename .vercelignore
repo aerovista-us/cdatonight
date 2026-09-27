@@ -1,0 +1,9 @@
+# Repository-only material
+.github/
+README.md
+docs/
+.env.example
+
+# Legacy public assets with no runtime references.
+public/cdanight.png
+public/audio/echoverse/stingers/
