@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T22:01:22.651Z",
+  "generatedAt": "2026-09-27T01:33:15.227Z",
   "events": [
     {
       "id": "auto-cda-casino-two-peas-in-a-pod-21a01f06",
@@ -60,26 +60,6 @@
       "note": "Sign up for Sun Sep 27, 2026 11:00-1:15PM - Jimothy. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-0bb90ff9",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-09-27T11:00:00.000Z",
-      "endsAt": "2026-09-27T13:15:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/931224",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-26T08:40:09.318Z",
-      "note": "Sign up for Sun Sep 27, 2026 11:00-1:15PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-take-home-paint-kits-046dbd2c",
       "title": "Take Home Paint Kits",
       "startsAt": "2026-09-27T11:00:00.000Z",
@@ -98,6 +78,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-26T18:37:44.815Z",
       "note": "Sign up for Sun Sep 27, 2026 11:00-5:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-0bb90ff9",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-09-27T11:00:00.000Z",
+      "endsAt": "2026-09-27T13:15:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/931224",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-26T08:40:09.318Z",
+      "note": "Sign up for Sun Sep 27, 2026 11:00-1:15PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-van-gogh-s-starry-night-halloween-9aef4e9d",
@@ -198,26 +198,6 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-10T20:28:54.620Z",
       "note": "Sign up for Tue Sep 29, 2026 6:30-8:30PM - Cool Autumn Morning. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-a746973a",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-09-30T12:00:00.000Z",
-      "endsAt": "2026-09-30T22:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-26T01:37:44.396Z",
-      "note": "Sign up for Wed Sep 30, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-62afcff0",
@@ -677,7 +657,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T22:01:22.651Z",
+      "verifiedAt": "2026-09-27T01:33:15.227Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -701,6 +681,26 @@
       "note": "Sign up for Sat Oct 10, 2026 12:00-1:45PM - Together Purrever. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-create-a-scented-candle-eb2f7b81",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-10-10T12:00:00.000Z",
+      "endsAt": "2026-10-10T21:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-27T01:31:24.435Z",
+      "note": "Sign up for Sat Oct 10, 2026 12:00-9:30PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-visit-cda-hayden-lake-marathon-57bcd5da",
       "title": "Hayden Lake Marathon",
       "startsAt": "2026-10-10T14:30:00.000Z",
@@ -716,8 +716,28 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T22:01:22.651Z",
+      "verifiedAt": "2026-09-27T01:33:15.227Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
+    },
+    {
+      "id": "auto-pinots-cda-cozy-rustic-snowman-da18b70a",
+      "title": "Cozy Rustic Snowman",
+      "startsAt": "2026-10-10T15:00:00.000Z",
+      "endsAt": "2026-10-10T17:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$43",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/916604",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-27T01:31:24.435Z",
+      "note": "Sign up for Sat Oct 10, 2026 3:00-5:30PM - Cozy Rustic Snowman. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-d096bbb6",
@@ -776,7 +796,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-26T22:01:22.651Z",
+      "verifiedAt": "2026-09-27T01:33:15.227Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     }
   ]
