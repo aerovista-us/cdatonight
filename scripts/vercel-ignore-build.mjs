@@ -45,6 +45,7 @@ if (changedFiles.length === 0) {
 }
 
 const exactRuntimeFiles = new Set([
+  ".vercelignore",
   "package.json",
   "package-lock.json",
   "pnpm-lock.yaml",
