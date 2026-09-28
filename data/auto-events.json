@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-09-28T01:44:10.595Z",
+  "generatedAt": "2026-09-28T09:54:46.467Z",
   "events": [
-    {
-      "id": "auto-cda-casino-two-peas-in-a-pod-21a01f06",
-      "title": "Two Peas in a Pod",
-      "startsAt": "2026-09-22T15:00:00.000Z",
-      "endsAt": "2026-10-22T06:00:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/two-peas-in-a-pod/2026-09-22/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-09-22T08:37:00.779Z",
-      "note": "&lt;p&gt;TUESDAYS IN SEPTEMBER On Tuesdays in September, introduce someone new to the fun and rewards of playing at Coeur d’Alene Casino by signing a new member up for a Coeur Rewards card. You and your friend both get $"
-    },
     {
       "id": "auto-pinots-cda-create-a-scented-candle-51bb15b2",
       "title": "Create a Scented Candle",
@@ -79,6 +60,27 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-27T18:59:53.089Z",
       "note": "Sign up for Mon Sep 28, 2026 1:00-8:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-cda-casino-7-young-at-heart-mondays-b1491a5f",
+      "title": "$7 Young at Heart Mondays",
+      "startsAt": "2026-09-28T14:00:00.000Z",
+      "endsAt": "2026-09-29T06:59:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "nightlife",
+        "food-drink",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/7-young-at-heart-mondays-2/2026-09-28/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-09-28T09:53:30.143Z",
+      "note": "&lt;p&gt;Young at Heart Mondays Calling all Coeur Rewards members ages 55 or better! Enjoy $7 Extra Play Cash and $5 off breakfast, lunch or dinner entrée at the Red Tail Bar & Grill on Mondays! EPC offer is redeemable a"
     },
     {
       "id": "auto-pinots-cda-witchy-boo-bbb3995c",
@@ -599,7 +601,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-28T01:44:10.595Z",
+      "verifiedAt": "2026-09-28T09:54:46.467Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -658,7 +660,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-28T01:44:10.595Z",
+      "verifiedAt": "2026-09-28T09:54:46.467Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     },
     {
@@ -798,7 +800,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-28T01:44:10.595Z",
+      "verifiedAt": "2026-09-28T09:54:46.467Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -839,7 +841,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-09-28T01:44:10.595Z",
+      "verifiedAt": "2026-09-28T09:54:46.467Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     }
   ]
