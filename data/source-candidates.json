@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:31:24.435Z",
+  "generatedAt": "2026-10-01T20:21:46.602Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -89,9 +89,9 @@
       "name": "The Coeur d&#8217;Alene Resort",
       "url": "https://www.cdaresort.com/",
       "status": "review-ready",
-      "score": 24,
+      "score": 30,
       "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-09-10T08:12:13.211Z",
+      "lastSeen": "2026-10-01T20:21:46.602Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
@@ -124,6 +124,57 @@
           "kind": "organizer",
           "url": "https://www.cdaresort.com/",
           "eventTitle": "Shipwrecked at The Cedars: A Haunted Dining Experience"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|Monster’s Ball Halloween Party 2026",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "Monster’s Ball Halloween Party 2026"
+        }
+      ]
+    },
+    {
+      "domain": "museumni.org",
+      "name": "Museum of North Idaho",
+      "url": "http://museumni.org/",
+      "status": "review-ready",
+      "score": 24,
+      "firstSeen": "2026-08-23T19:38:53.477Z",
+      "lastSeen": "2026-10-01T20:21:46.602Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|http://museumni.org/|Fort Sherman Chapel: Explore the Artifacts of Fort Sherman’s Past",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://museumni.org/",
+          "eventTitle": "Fort Sherman Chapel: Explore the Artifacts of Fort Sherman’s Past"
+        },
+        {
+          "signature": "visit-cda|organizer|http://museumni.org/|Cemetery Walking Tours",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://museumni.org/",
+          "eventTitle": "Cemetery Walking Tours"
+        },
+        {
+          "signature": "visit-cda|organizer|http://museumni.org/|Walking Through History Tours",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://museumni.org/",
+          "eventTitle": "Walking Through History Tours"
+        },
+        {
+          "signature": "visit-cda|organizer|http://museumni.org/|Harvest Festival",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://museumni.org/",
+          "eventTitle": "Harvest Festival"
         }
       ]
     },
@@ -202,41 +253,6 @@
           "kind": "organizer",
           "url": "https://cstidaho.com/",
           "eventTitle": "CDA Summer Theatre Presents Titanic the Musical"
-        }
-      ]
-    },
-    {
-      "domain": "museumni.org",
-      "name": "Museum of North Idaho",
-      "url": "http://museumni.org/",
-      "status": "review-ready",
-      "score": 18,
-      "firstSeen": "2026-08-23T19:38:53.477Z",
-      "lastSeen": "2026-08-23T19:38:53.477Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|http://museumni.org/|Fort Sherman Chapel: Explore the Artifacts of Fort Sherman’s Past",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "http://museumni.org/",
-          "eventTitle": "Fort Sherman Chapel: Explore the Artifacts of Fort Sherman’s Past"
-        },
-        {
-          "signature": "visit-cda|organizer|http://museumni.org/|Cemetery Walking Tours",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "http://museumni.org/",
-          "eventTitle": "Cemetery Walking Tours"
-        },
-        {
-          "signature": "visit-cda|organizer|http://museumni.org/|Walking Through History Tours",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "http://museumni.org/",
-          "eventTitle": "Walking Through History Tours"
         }
       ]
     },
