@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T02:19:34.713Z",
+  "generatedAt": "2026-10-02T09:53:14.105Z",
   "events": [
     {
-      "id": "auto-cda-casino-touchdown-thursdays-265b60d3",
-      "title": "Touchdown Thursdays",
-      "startsAt": "2026-10-02T00:00:00.000Z",
-      "endsAt": "2026-10-02T04:00:00.000Z",
+      "id": "auto-cda-casino-dragon-fire-noodles-1476f28c",
+      "title": "Dragon Fire Noodles",
+      "startsAt": "2026-10-02T07:00:00.000Z",
+      "endsAt": "2026-11-01T06:59:59.000Z",
       "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
       "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
       "category": [
@@ -14,11 +14,11 @@
       "cost": "unknown",
       "status": "unknown",
       "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/touchdown-thursdays/2026-10-01/",
+      "sourceUrl": "https://www.cdacasino.com/event/dragon-fire-noodles/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-01T10:13:51.577Z",
-      "note": "&lt;p&gt;Catch the game & the Coeur Rewards! On Thursdays, starting September 3rd, 2026 - December 24th, 2026 and from January 7th, 2027 - January 28th, 2027 enjoy these incredible rewards from 5 PM - 9 PM. 2X Point Mult"
+      "verifiedAt": "2026-10-02T09:51:31.650Z",
+      "note": "&lt;p&gt;Available at Little Dragon Eatery | Friday - Sunday Dragon Fire Noodles | $16 Wok-fired noodles tossed with tender chicken, crisp vegetables, garlic, ginger, and our sticky Dragon Fire Chile sauce. Finished with"
     },
     {
       "id": "auto-pinots-cda-take-home-paint-kits-51d4f68a",
@@ -118,6 +118,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-20T08:39:48.653Z",
       "note": "Sign up for Sat Oct 03, 2026 12:00-1:30PM - Glowing Pumpkins. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-available-for-private-event-7d98263c",
+      "title": "Available for Private Event",
+      "startsAt": "2026-10-03T13:00:00.000Z",
+      "endsAt": "2026-10-03T14:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$33",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/906395",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-02T09:51:31.650Z",
+      "note": "Sign up for Sat Oct 03, 2026 1:00-2:30PM - Available for Private Event. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-f8369e4e",
@@ -438,8 +458,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-02T02:18:22.338Z",
-      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
+      "verifiedAt": "2026-10-02T09:51:31.650Z",
+      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
     },
     {
       "id": "auto-pinots-cda-a-white-winter-d968d97b",
@@ -479,28 +499,8 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-10-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-02T02:19:34.713Z",
+      "verifiedAt": "2026-10-02T09:53:14.105Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
-    },
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-eb2f7b81",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-10-10T12:00:00.000Z",
-      "endsAt": "2026-10-10T21:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-27T01:31:24.435Z",
-      "note": "Sign up for Sat Oct 10, 2026 12:00-9:30PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-together-purrever-9ee71d60",
@@ -523,6 +523,26 @@
       "note": "Sign up for Sat Oct 10, 2026 12:00-1:45PM - Together Purrever. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-create-a-scented-candle-eb2f7b81",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-10-10T12:00:00.000Z",
+      "endsAt": "2026-10-10T21:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922225",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-27T01:31:24.435Z",
+      "note": "Sign up for Sat Oct 10, 2026 12:00-9:30PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-visit-cda-hayden-lake-marathon-57bcd5da",
       "title": "Hayden Lake Marathon",
       "startsAt": "2026-10-10T14:30:00.000Z",
@@ -538,7 +558,7 @@
       "sourceUrl": "https://coeurdalene.org/events/hayden-lake-marathon/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=2369%20E%20Honeysuckle%20Ave%2C%20Hayden%20Lake%2C%20ID%2C%2083835",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-02T02:19:34.713Z",
+      "verifiedAt": "2026-10-02T09:53:14.105Z",
       "note": "&lt;p&gt;Experience one of North Idaho’s most picturesque settings, with courses winding around the crystal-clear waters of Hayden Lake and through forests of towering pines. For event information and to register, click "
     },
     {
@@ -610,7 +630,9 @@
       "venue": "The Nashville North",
       "address": "6361 W Seltice Way, Post Falls, ID, 83854",
       "category": [
-        "community"
+        "live-music",
+        "nightlife",
+        "date-night"
       ],
       "cost": "unknown",
       "status": "unknown",
@@ -618,8 +640,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-10/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-02T02:18:22.338Z",
-      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
+      "verifiedAt": "2026-10-02T09:51:31.650Z",
+      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
     },
     {
       "id": "auto-pinots-cda-mystic-moon-tree-bfa70457",
@@ -642,26 +664,6 @@
       "note": "Sign up for Sun Oct 11, 2026 12:30-2:30PM - Mystic Moon Tree. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-pinots-cda-chunky-knit-blanket-4ec251ad",
-      "title": "Chunky Knit Blanket",
-      "startsAt": "2026-10-11T16:00:00.000Z",
-      "endsAt": "2026-10-11T18:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$75",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928149",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-29T02:35:38.682Z",
-      "note": "Sign up for Sun Oct 11, 2026 4:00-6:30PM - Chunky Knit Blanket. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-chunky-knit-blanket-bring-your-own-yarn-b8d2cdd6",
       "title": "Chunky Knit Blanket - Bring Your Own Yarn",
       "startsAt": "2026-10-11T16:00:00.000Z",
@@ -680,6 +682,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-09-29T20:01:09.255Z",
       "note": "Sign up for Sun Oct 11, 2026 4:00-6:30PM - Chunky Knit Blanket - Bring Your Own Yarn. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-chunky-knit-blanket-4ec251ad",
+      "title": "Chunky Knit Blanket",
+      "startsAt": "2026-10-11T16:00:00.000Z",
+      "endsAt": "2026-10-11T18:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$75",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928149",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-09-29T02:35:38.682Z",
+      "note": "Sign up for Sun Oct 11, 2026 4:00-6:30PM - Chunky Knit Blanket. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-27b5324c",
@@ -897,7 +919,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-02T02:19:34.713Z",
+      "verifiedAt": "2026-10-02T09:53:14.105Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -1019,7 +1041,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-02T02:19:34.713Z",
+      "verifiedAt": "2026-10-02T09:53:14.105Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
