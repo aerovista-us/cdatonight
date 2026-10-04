@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T02:42:43.255Z",
+  "generatedAt": "2026-10-04T09:52:48.258Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -222,6 +222,41 @@
       ]
     },
     {
+      "domain": "cdasymphony.org",
+      "name": "Coeur d&#8217;Alene Symphony Orchestra",
+      "url": "https://www.cdasymphony.org/",
+      "status": "review-ready",
+      "score": 18,
+      "firstSeen": "2026-09-15T08:45:15.622Z",
+      "lastSeen": "2026-10-04T09:52:48.258Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|Rhythms of America",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdasymphony.org/",
+          "eventTitle": "Rhythms of America"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|A Cinematic Christmas",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdasymphony.org/",
+          "eventTitle": "A Cinematic Christmas"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|Music of Youth: A Family Concert",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdasymphony.org/",
+          "eventTitle": "Music of Youth: A Family Concert"
+        }
+      ]
+    },
+    {
       "domain": "cstidaho.com",
       "name": "Coeur d&#8217;Alene Summer Theatre",
       "url": "https://cstidaho.com/",
@@ -280,33 +315,6 @@
           "kind": "organizer",
           "url": "https://www.artsandculturecda.org/",
           "eventTitle": "2nd Friday ArtWalk"
-        }
-      ]
-    },
-    {
-      "domain": "cdasymphony.org",
-      "name": "Coeur d&#8217;Alene Symphony Orchestra",
-      "url": "https://www.cdasymphony.org/",
-      "status": "review-ready",
-      "score": 12,
-      "firstSeen": "2026-09-15T08:45:15.622Z",
-      "lastSeen": "2026-10-04T02:42:43.255Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|Rhythms of America",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://www.cdasymphony.org/",
-          "eventTitle": "Rhythms of America"
-        },
-        {
-          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|A Cinematic Christmas",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://www.cdasymphony.org/",
-          "eventTitle": "A Cinematic Christmas"
         }
       ]
     },
