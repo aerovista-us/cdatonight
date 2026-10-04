@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T20:21:46.602Z",
+  "generatedAt": "2026-10-04T02:42:43.255Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -284,6 +284,33 @@
       ]
     },
     {
+      "domain": "cdasymphony.org",
+      "name": "Coeur d&#8217;Alene Symphony Orchestra",
+      "url": "https://www.cdasymphony.org/",
+      "status": "review-ready",
+      "score": 12,
+      "firstSeen": "2026-09-15T08:45:15.622Z",
+      "lastSeen": "2026-10-04T02:42:43.255Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|Rhythms of America",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdasymphony.org/",
+          "eventTitle": "Rhythms of America"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|A Cinematic Christmas",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdasymphony.org/",
+          "eventTitle": "A Cinematic Christmas"
+        }
+      ]
+    },
+    {
       "domain": "nictf.org",
       "name": "North Idaho Centennial Trail Foundation",
       "url": "http://www.nictf.org/",
@@ -326,25 +353,6 @@
           "kind": "organizer",
           "url": "https://artonthegreencda.com/",
           "eventTitle": "Art on the Green"
-        }
-      ]
-    },
-    {
-      "domain": "cdasymphony.org",
-      "name": "Coeur d&#8217;Alene Symphony Orchestra",
-      "url": "https://www.cdasymphony.org/",
-      "status": "candidate",
-      "score": 6,
-      "firstSeen": "2026-09-15T08:45:15.622Z",
-      "lastSeen": "2026-09-15T08:45:15.622Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|https://www.cdasymphony.org/|Rhythms of America",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://www.cdasymphony.org/",
-          "eventTitle": "Rhythms of America"
         }
       ]
     },
