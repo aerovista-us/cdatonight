@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-04T09:52:48.258Z",
+  "generatedAt": "2026-10-08T02:43:23.177Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
       "name": "The Club at Prairie Falls",
       "url": "https://www.prairiefallsgolfclub.com/",
       "status": "review-ready",
-      "score": 54,
+      "score": 60,
       "firstSeen": "2026-08-23T19:38:53.477Z",
-      "lastSeen": "2026-09-27T01:31:24.435Z",
+      "lastSeen": "2026-10-08T02:43:23.177Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Stage Takeover ft. Last Chance Band",
@@ -81,6 +81,14 @@
           "kind": "organizer",
           "url": "https://www.prairiefallsgolfclub.com/",
           "eventTitle": "Dueling Pianos"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.prairiefallsgolfclub.com/|Comedy Night ft. Aaron Woodall",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.prairiefallsgolfclub.com/",
+          "eventTitle": "Comedy Night ft. Aaron Woodall"
         }
       ]
     },
