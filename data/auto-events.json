@@ -1,67 +1,6 @@
 {
-  "generatedAt": "2026-10-11T01:59:01.332Z",
+  "generatedAt": "2026-10-11T10:07:57.950Z",
   "events": [
-    {
-      "id": "auto-cda-casino-nick-wiebe-jammin-8217-92a3fdd2",
-      "title": "Nick Wiebe Jammin&#8217;",
-      "startsAt": "2026-10-11T01:00:00.000Z",
-      "endsAt": "2026-10-11T04:00:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/nick-wiebe-jammin/2026-10-10/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-09T10:39:58.582Z",
-      "note": "&lt;p&gt;Chinook Lounge October 9th & 10th | 6 PM - 9 PM Wiebe Jammin\\' is back in the Chinook Lounge with fun live music from every corner of the musical universe. Don\\'t miss this unique blend of musical decades and st"
-    },
-    {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-0639554a",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-10-11T02:00:00.000Z",
-      "endsAt": "2026-10-11T03:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-10/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-10T09:55:58.686Z",
-      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
-    },
-    {
-      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-d096bbb6",
-      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-10-11T02:00:00.000Z",
-      "endsAt": "2026-10-11T03:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-10/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-10T09:55:58.686Z",
-      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
-    },
     {
       "id": "auto-cda-casino-touchdown-038-lucky-7-bingo-8211-oct-11th-85993581",
       "title": "Touchdown &#038; Lucky 7 Bingo &#8211; Oct. 11th",
@@ -122,6 +61,25 @@
       "note": "Sign up for Sun Oct 11, 2026 3:30-6:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-cda-casino-coca-cola-football-ticket-giveaway-c86f0935",
+      "title": "Coca-Cola Football Ticket Giveaway",
+      "startsAt": "2026-10-11T16:00:00.000Z",
+      "endsAt": "2026-10-11T23:30:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/coca-cola-football-ticket-giveaway/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-10-10T09:55:58.686Z",
+      "note": "&lt;p&gt;SUNDAY, OCTOBER 11th | 4:30 PM Come watch 2 football rivals play on Sunday, October 11th at 1:25 PM and play your favorite video gaming machines for a chance to win one of two pairs of tickets for December 13th "
+    },
+    {
       "id": "auto-pinots-cda-chunky-knit-blanket-bring-your-own-yarn-b8d2cdd6",
       "title": "Chunky Knit Blanket - Bring Your Own Yarn",
       "startsAt": "2026-10-11T16:00:00.000Z",
@@ -162,10 +120,10 @@
       "note": "Sign up for Sun Oct 11, 2026 4:00-6:30PM - Chunky Knit Blanket. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-cda-casino-coca-cola-football-ticket-giveaway-c86f0935",
-      "title": "Coca-Cola Football Ticket Giveaway",
-      "startsAt": "2026-10-11T16:00:00.000Z",
-      "endsAt": "2026-10-11T23:30:00.000Z",
+      "id": "auto-cda-casino-monitor-bingo-dcb6b353",
+      "title": "Monitor Bingo",
+      "startsAt": "2026-10-12T07:00:00.000Z",
+      "endsAt": "2026-10-13T06:59:59.000Z",
       "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
       "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
       "category": [
@@ -174,11 +132,11 @@
       "cost": "unknown",
       "status": "unknown",
       "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/coca-cola-football-ticket-giveaway/",
+      "sourceUrl": "https://www.cdacasino.com/event/monitor-bingo-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
       "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-10T09:55:58.686Z",
-      "note": "&lt;p&gt;SUNDAY, OCTOBER 11th | 4:30 PM Come watch 2 football rivals play on Sunday, October 11th at 1:25 PM and play your favorite video gaming machines for a chance to win one of two pairs of tickets for December 13th "
+      "verifiedAt": "2026-10-11T10:05:47.981Z",
+      "note": "&lt;p&gt;Monday, October 12th Monitor Bingo | Matinee Session Admission Opens | 4:30 PM Session Begins | 6 PM Monitor Bingo If your ball is in the monitor, you win $100! See Bingo for details.&lt;/p&gt;\\n"
     },
     {
       "id": "auto-pinots-cda-available-for-networking-99e04995",
@@ -416,7 +374,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-11T01:59:01.332Z",
+      "verifiedAt": "2026-10-11T10:07:57.950Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -578,7 +536,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-11T01:59:01.332Z",
+      "verifiedAt": "2026-10-11T10:07:57.950Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -1062,7 +1020,7 @@
       "sourceUrl": "https://coeurdalene.org/events/barrel-brawl-whiskey-rodeo/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-11T01:59:01.332Z",
+      "verifiedAt": "2026-10-11T10:07:57.950Z",
       "note": "&lt;p&gt;Saddle up! Barrel Brawl: Whiskey Rodeo is riding into ICON Spokane on Sunday, October 25th from 12PM to 4PM. Come experience some of your favorite bars from Spokane to Coeur D’Alene take on the Barrel Brawl and "
     },
     {
@@ -1323,6 +1281,48 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-10T19:19:10.505Z",
       "note": "Sign up for Sat Oct 31, 2026 7:00-9:45PM - You're My Boo Thang . Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-631d8443",
+      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-11-01T02:00:00.000Z",
+      "endsAt": "2026-11-01T03:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-31/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-10-11T10:05:47.981Z",
+      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
+    },
+    {
+      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-4a18bae0",
+      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-11-01T02:00:00.000Z",
+      "endsAt": "2026-11-01T03:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-31/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-10-11T10:05:47.981Z",
+      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
     }
   ]
 }
