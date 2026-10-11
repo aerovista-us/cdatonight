@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T02:43:23.177Z",
+  "generatedAt": "2026-10-11T01:57:35.406Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -369,6 +369,25 @@
           "kind": "organizer",
           "url": "https://artonthegreencda.com/",
           "eventTitle": "Art on the Green"
+        }
+      ]
+    },
+    {
+      "domain": "cda-kootenaicounty.pflag.org",
+      "name": "PFLAG Coeur d&#8217;Alene/Kootenai County",
+      "url": "https://cda-kootenaicounty.pflag.org/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-10-11T01:57:35.406Z",
+      "lastSeen": "2026-10-11T01:57:35.406Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://cda-kootenaicounty.pflag.org/|Faith, Family, & Uncertainty",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://cda-kootenaicounty.pflag.org/",
+          "eventTitle": "Faith, Family, & Uncertainty"
         }
       ]
     },
