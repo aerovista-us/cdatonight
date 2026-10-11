@@ -1,65 +1,6 @@
 {
-  "generatedAt": "2026-10-11T10:07:57.950Z",
+  "generatedAt": "2026-10-11T19:35:56.559Z",
   "events": [
-    {
-      "id": "auto-cda-casino-touchdown-038-lucky-7-bingo-8211-oct-11th-85993581",
-      "title": "Touchdown &#038; Lucky 7 Bingo &#8211; Oct. 11th",
-      "startsAt": "2026-10-11T07:00:00.000Z",
-      "endsAt": "2026-10-12T06:59:59.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/touchdown-lucky-7-bingo-oct-11th/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-09T10:39:58.582Z",
-      "note": "&lt;p&gt;Sunday, October 11th $7 Buy-In & Touchdown Bingo | Regular Session Admission Opens | 11 AM Session Begins | 1 PM Touchdown Bingo 7 winners get to punch the board for EPC & Bingo Cash. Lucky 7 Bingo $7 buy-in on "
-    },
-    {
-      "id": "auto-pinots-cda-mystic-moon-tree-bfa70457",
-      "title": "Mystic Moon Tree",
-      "startsAt": "2026-10-11T12:30:00.000Z",
-      "endsAt": "2026-10-11T14:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$37",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928062",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-09-27T22:16:01.090Z",
-      "note": "Sign up for Sun Oct 11, 2026 12:30-2:30PM - Mystic Moon Tree. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-dd770658",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-10-11T15:30:00.000Z",
-      "endsAt": "2026-10-11T18:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-10T19:19:10.505Z",
-      "note": "Sign up for Sun Oct 11, 2026 3:30-6:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-cda-casino-coca-cola-football-ticket-giveaway-c86f0935",
       "title": "Coca-Cola Football Ticket Giveaway",
@@ -157,6 +98,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-09T20:07:58.709Z",
       "note": "Sign up for Mon Oct 12, 2026 8:00-5:30PM - Available for Networking!. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-take-home-paint-kits-9f4c3b2d",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-10-12T13:00:00.000Z",
+      "endsAt": "2026-10-12T20:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-11T19:35:05.436Z",
+      "note": "Sign up for Mon Oct 12, 2026 1:00-8:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-27b5324c",
@@ -374,7 +335,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-11T10:07:57.950Z",
+      "verifiedAt": "2026-10-11T19:35:56.559Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -536,7 +497,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-11T10:07:57.950Z",
+      "verifiedAt": "2026-10-11T19:35:56.559Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -1020,7 +981,7 @@
       "sourceUrl": "https://coeurdalene.org/events/barrel-brawl-whiskey-rodeo/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-11T10:07:57.950Z",
+      "verifiedAt": "2026-10-11T19:35:56.559Z",
       "note": "&lt;p&gt;Saddle up! Barrel Brawl: Whiskey Rodeo is riding into ICON Spokane on Sunday, October 25th from 12PM to 4PM. Come experience some of your favorite bars from Spokane to Coeur D’Alene take on the Barrel Brawl and "
     },
     {
