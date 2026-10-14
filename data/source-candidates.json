@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T01:57:35.406Z",
+  "generatedAt": "2026-10-14T08:48:11.324Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -407,6 +407,25 @@
           "kind": "organizer",
           "url": "https://www.panhandlekiwanis.org/",
           "eventTitle": "The 2026 Taste of Coeur d&#8217;Alene"
+        }
+      ]
+    },
+    {
+      "domain": "rebeljunk.com",
+      "name": "Rebel Junk",
+      "url": "http://www.rebeljunk.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-10-14T08:48:11.324Z",
+      "lastSeen": "2026-10-14T08:48:11.324Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|http://www.rebeljunk.com/|Rebel Junk Holiday Market",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "http://www.rebeljunk.com/",
+          "eventTitle": "Rebel Junk Holiday Market"
         }
       ]
     },
