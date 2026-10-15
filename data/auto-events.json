@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-10-15T19:13:53.030Z",
+  "generatedAt": "2026-10-15T22:26:06.297Z",
   "events": [
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-c4c66466",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-10-15T18:30:00.000Z",
-      "endsAt": "2026-10-15T21:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-15T01:31:27.954Z",
-      "note": "Sign up for Thu Oct 15, 2026 6:30-9:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-pinots-cda-harvest-home-490d86b6",
       "title": "Harvest Home",
@@ -98,6 +78,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-05T22:03:05.514Z",
       "note": "Sign up for Fri Oct 16, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-take-home-paint-kits-4dd9530c",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-10-16T12:30:00.000Z",
+      "endsAt": "2026-10-16T21:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-15T22:24:37.982Z",
+      "note": "Sign up for Fri Oct 16, 2026 12:30-9:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-1ea5eb3e",
@@ -194,7 +194,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-15T19:13:53.030Z",
+      "verifiedAt": "2026-10-15T22:26:06.297Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -355,7 +355,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-15T19:13:53.030Z",
+      "verifiedAt": "2026-10-15T22:26:06.297Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -614,8 +614,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-10-23/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-14T08:48:11.324Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+      "verifiedAt": "2026-10-15T22:24:37.982Z",
+      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
     },
     {
       "id": "auto-pinots-cda-van-gogh-s-starry-night-halloween-ii-7a6ca8f1",
@@ -726,9 +726,7 @@
       "venue": "The Nashville North",
       "address": "6361 W Seltice Way, Post Falls, ID, 83854",
       "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
+        "community"
       ],
       "cost": "unknown",
       "status": "unknown",
@@ -736,8 +734,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-24/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-14T08:48:11.324Z",
-      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
+      "verifiedAt": "2026-10-15T22:24:37.982Z",
+      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
     },
     {
       "id": "auto-pinots-cda-abducted-dino-969ae5bc",
@@ -1019,26 +1017,6 @@
       "note": "Sign up for Sat Oct 31, 2026 12:30-2:00PM - Halloween Hedgehog. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-f6ef77e4",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-10-31T15:30:00.000Z",
-      "endsAt": "2026-10-31T17:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/944114",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-11T01:57:35.406Z",
-      "note": "Sign up for Sat Oct 31, 2026 3:30-5:30PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-blood-moon-baa81c13",
       "title": "Blood Moon",
       "startsAt": "2026-10-31T15:30:00.000Z",
@@ -1057,6 +1035,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-10T19:19:10.505Z",
       "note": "Sign up for Sat Oct 31, 2026 3:30-5:30PM - Blood Moon. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-f6ef77e4",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-10-31T15:30:00.000Z",
+      "endsAt": "2026-10-31T17:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/944114",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-11T01:57:35.406Z",
+      "note": "Sign up for Sat Oct 31, 2026 3:30-5:30PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-you-re-my-boo-thang-8d45f7ff",
