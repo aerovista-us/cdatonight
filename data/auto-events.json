@@ -1,65 +1,6 @@
 {
-  "generatedAt": "2026-10-16T08:17:45.129Z",
+  "generatedAt": "2026-10-16T18:50:28.803Z",
   "events": [
-    {
-      "id": "auto-cda-casino-stay-038-play-bingo-package-giveaway-082169e3",
-      "title": "Stay &#038; Play Bingo Package Giveaway",
-      "startsAt": "2026-10-16T07:00:00.000Z",
-      "endsAt": "2026-10-17T06:59:59.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/stay-play-bingo-package-giveaway/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-13T20:42:42.698Z",
-      "note": "&lt;p&gt;Stay & Play Bingo Package Giveaway 5 lucky bingo players will be drawn during bingo session to win Stay and Play packages. Receive entry at buy-in. Friday, October 16th Regular Session Admission Opens | 4 PM Ses"
-    },
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-b28f42bc",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-10-16T12:00:00.000Z",
-      "endsAt": "2026-10-16T22:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922223",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-05T22:03:05.514Z",
-      "note": "Sign up for Fri Oct 16, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-4dd9530c",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-10-16T12:30:00.000Z",
-      "endsAt": "2026-10-16T21:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-15T22:24:37.982Z",
-      "note": "Sign up for Fri Oct 16, 2026 12:30-9:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-1ea5eb3e",
       "title": "Open Studio at Pinot's Palette",
@@ -155,8 +96,28 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-16T08:17:45.129Z",
+      "verifiedAt": "2026-10-16T18:50:28.803Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
+    },
+    {
+      "id": "auto-pinots-cda-create-a-scented-candle-8a25ff97",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-10-17T12:00:00.000Z",
+      "endsAt": "2026-10-17T22:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922223",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-16T18:49:46.991Z",
+      "note": "Sign up for Sat Oct 17, 2026 12:00-10:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-moonshine-88f3b6c7",
@@ -316,7 +277,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-16T08:17:45.129Z",
+      "verifiedAt": "2026-10-16T18:50:28.803Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
