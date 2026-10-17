@@ -1,25 +1,6 @@
 {
-  "generatedAt": "2026-10-16T22:08:19.114Z",
+  "generatedAt": "2026-10-17T01:22:04.614Z",
   "events": [
-    {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-1456e457",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-10-16T19:00:00.000Z",
-      "endsAt": "2026-10-16T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-10-16/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-16T08:15:48.124Z",
-      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
-    },
     {
       "id": "auto-pinots-cda-midnight-with-my-boo-82253138",
       "title": "Midnight with My Boo",
@@ -76,7 +57,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-16T22:08:19.114Z",
+      "verifiedAt": "2026-10-17T01:22:04.614Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -118,6 +99,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-01T10:13:51.577Z",
       "note": "Sign up for Sat Oct 17, 2026 12:00-2:00PM - Moonshine. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-take-home-paint-kits-ca7e7b35",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-10-17T12:00:00.000Z",
+      "endsAt": "2026-10-17T21:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-17T01:20:51.852Z",
+      "note": "Sign up for Sat Oct 17, 2026 12:00-9:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-770c8449",
@@ -257,7 +258,7 @@
       "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-16T22:08:19.114Z",
+      "verifiedAt": "2026-10-17T01:22:04.614Z",
       "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
     },
     {
@@ -556,8 +557,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-10-23/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-16T22:06:55.031Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+      "verifiedAt": "2026-10-17T01:20:51.852Z",
+      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
     },
     {
       "id": "auto-pinots-cda-van-gogh-s-starry-night-halloween-ii-7a6ca8f1",
@@ -668,9 +669,7 @@
       "venue": "The Nashville North",
       "address": "6361 W Seltice Way, Post Falls, ID, 83854",
       "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
+        "community"
       ],
       "cost": "unknown",
       "status": "unknown",
@@ -678,8 +677,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-24/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-16T22:06:55.031Z",
-      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
+      "verifiedAt": "2026-10-17T01:20:51.852Z",
+      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
     },
     {
       "id": "auto-pinots-cda-abducted-dino-969ae5bc",
@@ -1061,25 +1060,6 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-10-11T10:05:47.981Z",
       "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
-    },
-    {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-7949db9c",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-11-06T19:00:00.000Z",
-      "endsAt": "2026-11-06T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-11-06/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-16T22:06:55.031Z",
-      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
     }
   ]
 }
