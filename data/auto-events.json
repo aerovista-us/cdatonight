@@ -1,64 +1,6 @@
 {
-  "generatedAt": "2026-10-18T01:09:35.519Z",
+  "generatedAt": "2026-10-18T08:08:03.761Z",
   "events": [
-    {
-      "id": "auto-cda-casino-justyn-priest-4be54c8d",
-      "title": "Justyn Priest",
-      "startsAt": "2026-10-18T01:00:00.000Z",
-      "endsAt": "2026-10-18T04:30:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "nightlife"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/justyn-priest-4-2-3/2026-10-17/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-15T08:23:05.675Z",
-      "note": "&lt;p&gt;Chinook Lounge October 16th & 17th | 6 PM – 9:30 PM Hailing from Spokane, his hard-luck soul style sets him apart from the standard current rock and roll blues groups. Come check out his unique style at the Chin"
-    },
-    {
-      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-856ce754",
-      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-10-18T02:00:00.000Z",
-      "endsAt": "2026-10-18T03:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-17/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-17T21:29:59.621Z",
-      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
-    },
-    {
-      "id": "auto-visit-cda-dueling-pianos-5263bc1c",
-      "title": "Dueling Pianos",
-      "startsAt": "2026-10-18T02:00:00.000Z",
-      "endsAt": "2026-10-18T05:00:00.000Z",
-      "venue": "The Club at Prairie Falls",
-      "address": "3200 N Spokane St, Post Falls, ID, 83854",
-      "category": [
-        "food-drink",
-        "date-night"
-      ],
-      "cost": "free",
-      "status": "available",
-      "sourceId": "visit-cda",
-      "sourceUrl": "https://coeurdalene.org/events/dueling-pianos-2/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-18T01:09:35.519Z",
-      "note": "&lt;p&gt;Dueling piano experts, James Hill & Alicia Birchell are taking over the dining room stage where they\\'ll go head to head in an impromptu comedic piano battle! Enjoy dinner, laughs, and song requests from 7pm-10p"
-    },
     {
       "id": "auto-cda-casino-touchdown-038-lucky-7-bingo-8211-oct-18th-c5f5a8f9",
       "title": "Touchdown &#038; Lucky 7 Bingo &#8211; Oct.18th",
@@ -358,6 +300,25 @@
       "note": "Sign up for Thu Oct 22, 2026 12:00-9:30PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-cda-casino-touchdown-thursdays-0437c348",
+      "title": "Touchdown Thursdays",
+      "startsAt": "2026-10-23T00:00:00.000Z",
+      "endsAt": "2026-10-23T04:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/touchdown-thursdays/2026-10-22/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-10-18T08:06:48.881Z",
+      "note": "&lt;p&gt;Catch the game & the Coeur Rewards! On Thursdays, starting September 3rd, 2026 - December 24th, 2026 and from January 7th, 2027 - January 28th, 2027 enjoy these incredible rewards from 5 PM - 9 PM. 2X Point Mult"
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-c9581f74",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-10-23T13:00:00.000Z",
@@ -597,7 +558,7 @@
       "sourceUrl": "https://coeurdalene.org/events/barrel-brawl-whiskey-rodeo/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-18T01:09:35.519Z",
+      "verifiedAt": "2026-10-18T08:08:03.761Z",
       "note": "&lt;p&gt;Saddle up! Barrel Brawl: Whiskey Rodeo is riding into ICON Spokane on Sunday, October 25th from 12PM to 4PM. Come experience some of your favorite bars from Spokane to Coeur D’Alene take on the Barrel Brawl and "
     },
     {
@@ -938,6 +899,27 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-10-17T07:52:07.248Z",
       "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+    },
+    {
+      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-63a1c929",
+      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-11-08T03:00:00.000Z",
+      "endsAt": "2026-11-08T04:00:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-11-07/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-10-18T08:06:48.881Z",
+      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
     }
   ]
 }
