@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T01:16:34.658Z",
+  "generatedAt": "2026-10-26T09:03:58.572Z",
   "events": [
     {
       "id": "auto-pinots-cda-take-home-paint-kits-54044ebb",
@@ -181,6 +181,25 @@
       "note": "Sign up for Thu Oct 29, 2026 8:00-11:00PM - Available for Team Building!. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-cda-casino-touchdown-thursdays-06d01bc8",
+      "title": "Touchdown Thursdays",
+      "startsAt": "2026-10-30T00:00:00.000Z",
+      "endsAt": "2026-10-30T04:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/touchdown-thursdays/2026-10-29/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-10-26T09:02:47.401Z",
+      "note": "&lt;p&gt;Catch the game & the Coeur Rewards! On Thursdays, starting September 3rd, 2026 - December 24th, 2026 and from January 7th, 2027 - January 28th, 2027 enjoy these incredible rewards from 5 PM - 9 PM. 2X Point Mult"
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-4e5faaa7",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-10-30T13:00:00.000Z",
@@ -258,6 +277,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-24T01:38:35.870Z",
       "note": "Sign up for Fri Oct 30, 2026 7:30-9:45PM - Sunflower Shimmer. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-cda-casino-kyle-swaffard-c657c376",
+      "title": "Kyle Swaffard",
+      "startsAt": "2026-10-31T01:00:00.000Z",
+      "endsAt": "2026-10-31T04:30:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "live-music",
+        "nightlife"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/kyle-swaffard-9/2026-10-30/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-10-26T09:02:47.401Z",
+      "note": "&lt;p&gt;Chinook Lounge October 30th & 31st | 6 PM - 9:30 PM Kyle Swaffard is a singer-songwriter from Coeur d\\'Alene, Idaho who has been entertaining audiences in the Pacific Northwest for more than 30 years!&lt;/p&gt;\\"
     },
     {
       "id": "auto-pinots-cda-halloween-hedgehog-342ad8b6",
@@ -778,7 +817,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-26T01:16:34.658Z",
+      "verifiedAt": "2026-10-26T09:03:58.572Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -818,7 +857,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-aaron-woodall/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-26T01:16:34.658Z",
+      "verifiedAt": "2026-10-26T09:03:58.572Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing "
     }
   ]
