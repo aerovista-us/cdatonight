@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T02:09:06.233Z",
+  "generatedAt": "2026-10-27T09:08:29.111Z",
   "events": [
     {
       "id": "auto-pinots-cda-take-home-paint-kits-13287688",
@@ -258,6 +258,25 @@
       "note": "&lt;p&gt;Chinook Lounge October 30th & 31st | 6 PM - 9:30 PM Kyle Swaffard is a singer-songwriter from Coeur d\\'Alene, Idaho who has been entertaining audiences in the Pacific Northwest for more than 30 years!&lt;/p&gt;\\"
     },
     {
+      "id": "auto-cda-casino-50-000-wicked-wins-giveaway-bfdddb43",
+      "title": "$50,000 Wicked Wins Giveaway",
+      "startsAt": "2026-10-31T02:00:00.000Z",
+      "endsAt": "2026-10-31T02:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/50000-wicked-wins-giveaway/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-10-27T09:05:38.854Z",
+      "note": "&lt;p&gt;FRIDAY, OCTOBER 30th | 7 PM Your luck is about to take flight—50 winners of a wicked $1,000 Extra Play Cash! Starting October 1st, play your favorite games with your Coeur Rewards card to earn 250 points per ent"
+    },
+    {
       "id": "auto-pinots-cda-halloween-hedgehog-342ad8b6",
       "title": "Halloween Hedgehog",
       "startsAt": "2026-10-31T12:30:00.000Z",
@@ -376,27 +395,6 @@
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-10-27T02:07:33.097Z",
-      "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
-    },
-    {
-      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-4a18bae0",
-      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-11-01T02:00:00.000Z",
-      "endsAt": "2026-11-01T03:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-31/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-24T21:38:46.663Z",
       "note": "Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance all night "
     },
     {
@@ -600,25 +598,6 @@
       "note": "Sign up for Fri Nov 06, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-7949db9c",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-11-06T19:00:00.000Z",
-      "endsAt": "2026-11-06T20:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-11-06/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-27T02:07:33.097Z",
-      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North at 7:00 in Stateline Idaho! Class is just $10 a person, and then Dance All Night&hellip;&lt;/p&gt;\\n"
-    },
-    {
       "id": "auto-pinots-cda-lavender-moonlight-1d4e186c",
       "title": "Lavender Moonlight",
       "startsAt": "2026-11-06T19:30:00.000Z",
@@ -739,25 +718,6 @@
       "note": "Sign up for Sat Nov 07, 2026 7:30-10:00PM - Magical Snowfall. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-63a1c929",
-      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-11-08T03:00:00.000Z",
-      "endsAt": "2026-11-08T04:00:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-11-07/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-27T02:07:33.097Z",
-      "note": "&lt;p&gt;Dance with us every Saturday at 7:00 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10,&hellip;&lt;/p&gt"
-    },
-    {
       "id": "auto-visit-cda-2nd-friday-artwalk-bde48279",
       "title": "2nd Friday ArtWalk",
       "startsAt": "2026-11-14T01:00:00.000Z",
@@ -775,7 +735,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-27T02:09:06.233Z",
+      "verifiedAt": "2026-10-27T09:08:29.111Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -794,7 +754,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-aaron-woodall/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-27T02:09:06.233Z",
+      "verifiedAt": "2026-10-27T09:08:29.111Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing "
     }
   ]
