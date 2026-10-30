@@ -1,46 +1,6 @@
 {
-  "generatedAt": "2026-10-30T10:10:14.881Z",
+  "generatedAt": "2026-10-30T19:58:27.317Z",
   "events": [
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-69b85819",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-10-30T13:00:00.000Z",
-      "endsAt": "2026-10-30T21:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-28T20:19:55.651Z",
-      "note": "Sign up for Fri Oct 30, 2026 1:00-9:45PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-4e5faaa7",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-10-30T13:00:00.000Z",
-      "endsAt": "2026-10-30T17:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/929968",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-28T02:20:54.833Z",
-      "note": "Sign up for Fri Oct 30, 2026 1:00-5:30PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-pinots-cda-violet-stardust-52299fff",
       "title": "Violet Stardust",
@@ -357,27 +317,6 @@
       "note": "&lt;p&gt;Saturday, October 31, 2026 | 7:00 to 11:00 PM Sink your teeth into our Vampires Masquerade, LiteFeet\\'s Halloween costume dance night! All ages, all skill levels, and all genres of spooky music. 7:00 PM: Beginne"
     },
     {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-44a702fa",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-11-01T02:30:00.000Z",
-      "endsAt": "2026-11-01T03:30:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-31/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T02:39:02.606Z",
-      "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
-    },
-    {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-31dc526c",
       "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
       "startsAt": "2026-11-01T02:30:00.000Z",
@@ -397,26 +336,6 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-10-28T20:19:55.651Z",
       "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
-    },
-    {
-      "id": "auto-pinots-cda-create-a-scented-candle-9936e150",
-      "title": "Create a Scented Candle",
-      "startsAt": "2026-11-01T12:30:00.000Z",
-      "endsAt": "2026-11-01T18:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$20",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922223",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-21T19:19:58.201Z",
-      "note": "Sign up for Sun Nov 01, 2026 12:30-6:30PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-winter-wishes-a3cc1111",
@@ -515,8 +434,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/mix-tape-monday-dance-lessons-and-dance-social/2026-11-02/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday’s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready to rock out to New Rock, Power Ballads and s"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday&#8217;s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready to rock out to New Rock, Power Ballads"
     },
     {
       "id": "auto-pinots-cda-colors-of-the-forest-f04f4719",
@@ -575,26 +494,7 @@
       "sourceUrl": "https://mylitefeet.com/classes/adrenaline-line-dance-lessons-and-social-every-tuesday-2-2/2026-11-03/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T02:39:02.606Z",
-      "note": "&lt;p&gt;Join us every Tuesday from 6:00 to 10:00 for Line Dancing Lessons and Social! 4 hours of amazing fun to Country, Hip Hop, Pop style choreographies and more for just&hellip;&lt;/p&gt;\\n"
-    },
-    {
-      "id": "auto-litefeet-adrenaline-line-dancing-lessons-and-social-every-tuesday-4dfa2a08",
-      "title": "AdrenaLINE – Line Dancing Lessons and Social Every Tuesday",
-      "startsAt": "2026-11-04T02:00:00.000Z",
-      "endsAt": "2026-11-04T06:00:00.000Z",
-      "venue": "LiteFeet Dance",
-      "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/adrenaline-line-dance-lessons-and-social-every-tuesday-2-2/2026-11-03/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
       "note": "Join us every Tuesday from 6:00 to 10:00 for Line Dancing Lessons and Social! 4 hours of amazing fun to Country, Hip Hop, Pop style choreographies and more for just $15 a night! Location is 4029 W Riverbend Ave, Post Fal"
     },
     {
@@ -698,13 +598,14 @@
       "note": "Kids & Teens Hip Hop with Ava Turn up the music and let your dancer find their groove! Ava’s hip hop classes are a fun place to learn new moves, build confidence, and bring some energy to the dance floor. Join us Tuesday"
     },
     {
-      "id": "auto-litefeet-no-limits-dance-every-thursday-c8f9c3ed",
+      "id": "auto-litefeet-no-limits-dance-every-thursday-1756746b",
       "title": "No Limits Dance Every Thursday",
-      "startsAt": "2026-11-06T02:00:00.000Z",
+      "startsAt": "2026-11-06T03:00:00.000Z",
       "endsAt": "2026-11-06T07:00:00.000Z",
       "venue": "LiteFeet Dance",
       "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
       "category": [
+        "live-music",
         "nightlife",
         "family"
       ],
@@ -714,8 +615,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/no-limits-dance-every-thursday/2026-11-05/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! We start at 6:00 with Beginner West Coast Swing and Beginner Line Dancing. At 7:00 we have Intermediate West"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! At 7:00 we have Beginner and Intermediate Country Swing lessons. At 8:00 it&#8217;s Intermediate West Coast "
     },
     {
       "id": "auto-pinots-cda-available-for-private-event-44de385e",
@@ -931,12 +832,12 @@
       "sourceUrl": "https://mylitefeet.com/classes/drop-in-like-its-hot-dance-lesson-and-social-2/2026-11-07/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "🎰 Saturday Slots 🎰 Saturday Nights at the LiteFeet Dance Hive Looking for the easiest way to get into West Coast Swing? This is it! Whether you’ve never danced before or just want to meet great people, Saturday Slots i"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "🎰 Saturday Slots 🎰 Saturday Nights at the LiteFeet Dance Hive Looking for the easiest way to get into West Coast Swing? This is it! Whether you&#8217;ve never danced before or just want to meet great people, Saturday S"
     },
     {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-249050fd",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
+      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-7f8b2d08",
+      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
       "startsAt": "2026-11-08T03:30:00.000Z",
       "endsAt": "2026-11-08T04:30:00.000Z",
       "venue": "The Nashville North",
@@ -952,7 +853,7 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-11-07/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
       "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
     },
     {
@@ -1056,6 +957,26 @@
       "note": "Sign up for Sun Nov 08, 2026 6:30-8:30PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-52b7374f",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-09T13:00:00.000Z",
+      "endsAt": "2026-11-09T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/862070",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Sign up for Mon Nov 09, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-litefeet-fundamental-monday-dance-lessons-and-dance-social-400dd0ce",
       "title": "FUNdamental Monday Dance Lessons and Dance Social",
       "startsAt": "2026-11-10T02:00:00.000Z",
@@ -1072,8 +993,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/mix-tape-monday-dance-lessons-and-dance-social/2026-11-09/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday’s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready to rock out to New Rock, Power Ballads and s"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday&#8217;s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready to rock out to New Rock, Power Ballads"
     },
     {
       "id": "auto-litefeet-kids-and-teens-hip-hop-classes-7b2f688e",
@@ -1097,8 +1018,8 @@
       "note": "Kids & Teens Hip Hop with Ava Turn up the music and let your dancer find their groove! Ava’s hip hop classes are a fun place to learn new moves, build confidence, and bring some energy to the dance floor. Join us Tuesday"
     },
     {
-      "id": "auto-litefeet-adrenaline-line-dancing-lessons-and-social-every-tuesday-8272e52a",
-      "title": "AdrenaLINE – Line Dancing Lessons and Social Every Tuesday",
+      "id": "auto-litefeet-adrenaline-8211-line-dancing-lessons-and-social-every-tues-7dc9195a",
+      "title": "AdrenaLINE &#8211; Line Dancing Lessons and Social Every Tuesday",
       "startsAt": "2026-11-11T02:00:00.000Z",
       "endsAt": "2026-11-11T06:00:00.000Z",
       "venue": "LiteFeet Dance",
@@ -1112,7 +1033,7 @@
       "sourceUrl": "https://mylitefeet.com/classes/adrenaline-line-dance-lessons-and-social-every-tuesday-2-2/2026-11-10/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
       "note": "Join us every Tuesday from 6:00 to 10:00 for Line Dancing Lessons and Social! 4 hours of amazing fun to Country, Hip Hop, Pop style choreographies and more for just $15 a night! Location is 4029 W Riverbend Ave, Post Fal"
     },
     {
@@ -1176,13 +1097,14 @@
       "note": "Kids & Teens Hip Hop with Ava Turn up the music and let your dancer find their groove! Ava’s hip hop classes are a fun place to learn new moves, build confidence, and bring some energy to the dance floor. Join us Tuesday"
     },
     {
-      "id": "auto-litefeet-no-limits-dance-every-thursday-71b69088",
+      "id": "auto-litefeet-no-limits-dance-every-thursday-c11041f1",
       "title": "No Limits Dance Every Thursday",
-      "startsAt": "2026-11-13T02:00:00.000Z",
+      "startsAt": "2026-11-13T03:00:00.000Z",
       "endsAt": "2026-11-13T07:00:00.000Z",
       "venue": "LiteFeet Dance",
       "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
       "category": [
+        "live-music",
         "nightlife",
         "family"
       ],
@@ -1192,8 +1114,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/no-limits-dance-every-thursday/2026-11-12/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! We start at 6:00 with Beginner West Coast Swing and Beginner Line Dancing. At 7:00 we have Intermediate West"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! At 7:00 we have Beginner and Intermediate Country Swing lessons. At 8:00 it&#8217;s Intermediate West Coast "
     },
     {
       "id": "auto-visit-cda-2nd-friday-artwalk-bde48279",
@@ -1213,7 +1135,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-10-30T10:10:14.881Z",
+      "verifiedAt": "2026-10-30T19:58:27.317Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -1270,12 +1192,12 @@
       "sourceUrl": "https://mylitefeet.com/classes/drop-in-like-its-hot-dance-lesson-and-social-2/2026-11-14/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "🎰 Saturday Slots 🎰 Saturday Nights at the LiteFeet Dance Hive Looking for the easiest way to get into West Coast Swing? This is it! Whether you’ve never danced before or just want to meet great people, Saturday Slots i"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "🎰 Saturday Slots 🎰 Saturday Nights at the LiteFeet Dance Hive Looking for the easiest way to get into West Coast Swing? This is it! Whether you&#8217;ve never danced before or just want to meet great people, Saturday S"
     },
     {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-494bc721",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
+      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-79d5e4b1",
+      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
       "startsAt": "2026-11-15T03:30:00.000Z",
       "endsAt": "2026-11-15T04:30:00.000Z",
       "venue": "The Nashville North",
@@ -1291,7 +1213,7 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-11-14/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
       "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
     },
     {
@@ -1311,8 +1233,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/mix-tape-monday-dance-lessons-and-dance-social/2026-11-16/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday’s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready to rock out to New Rock, Power Ballads and s"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday&#8217;s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready to rock out to New Rock, Power Ballads"
     },
     {
       "id": "auto-litefeet-kids-and-teens-hip-hop-classes-7e1c3f3d",
@@ -1336,8 +1258,8 @@
       "note": "Kids & Teens Hip Hop with Ava Turn up the music and let your dancer find their groove! Ava’s hip hop classes are a fun place to learn new moves, build confidence, and bring some energy to the dance floor. Join us Tuesday"
     },
     {
-      "id": "auto-litefeet-adrenaline-line-dancing-lessons-and-social-every-tuesday-99227665",
-      "title": "AdrenaLINE – Line Dancing Lessons and Social Every Tuesday",
+      "id": "auto-litefeet-adrenaline-8211-line-dancing-lessons-and-social-every-tues-914e8688",
+      "title": "AdrenaLINE &#8211; Line Dancing Lessons and Social Every Tuesday",
       "startsAt": "2026-11-18T02:00:00.000Z",
       "endsAt": "2026-11-18T06:00:00.000Z",
       "venue": "LiteFeet Dance",
@@ -1351,7 +1273,7 @@
       "sourceUrl": "https://mylitefeet.com/classes/adrenaline-line-dance-lessons-and-social-every-tuesday-2-2/2026-11-17/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
       "note": "Join us every Tuesday from 6:00 to 10:00 for Line Dancing Lessons and Social! 4 hours of amazing fun to Country, Hip Hop, Pop style choreographies and more for just $15 a night! Location is 4029 W Riverbend Ave, Post Fal"
     },
     {
@@ -1415,13 +1337,14 @@
       "note": "Kids & Teens Hip Hop with Ava Turn up the music and let your dancer find their groove! Ava’s hip hop classes are a fun place to learn new moves, build confidence, and bring some energy to the dance floor. Join us Tuesday"
     },
     {
-      "id": "auto-litefeet-no-limits-dance-every-thursday-8a4c34ad",
+      "id": "auto-litefeet-no-limits-dance-every-thursday-8c4effa5",
       "title": "No Limits Dance Every Thursday",
-      "startsAt": "2026-11-20T02:00:00.000Z",
+      "startsAt": "2026-11-20T03:00:00.000Z",
       "endsAt": "2026-11-20T07:00:00.000Z",
       "venue": "LiteFeet Dance",
       "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
       "category": [
+        "live-music",
         "nightlife",
         "family"
       ],
@@ -1431,8 +1354,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/no-limits-dance-every-thursday/2026-11-19/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! We start at 6:00 with Beginner West Coast Swing and Beginner Line Dancing. At 7:00 we have Intermediate West"
+      "verifiedAt": "2026-10-30T19:56:30.216Z",
+      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! At 7:00 we have Beginner and Intermediate Country Swing lessons. At 8:00 it&#8217;s Intermediate West Coast "
     }
   ]
 }
