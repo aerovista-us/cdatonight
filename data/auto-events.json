@@ -1,104 +1,6 @@
 {
-  "generatedAt": "2026-11-01T02:18:04.991Z",
+  "generatedAt": "2026-11-01T10:34:53.720Z",
   "events": [
-    {
-      "id": "auto-cda-casino-kyle-swaffard-fbdbeea9",
-      "title": "Kyle Swaffard",
-      "startsAt": "2026-11-01T01:00:00.000Z",
-      "endsAt": "2026-11-01T04:30:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "live-music",
-        "nightlife"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/kyle-swaffard-9/2026-10-31/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-30T10:08:06.149Z",
-      "note": "&lt;p&gt;Chinook Lounge October 30th & 31st | 6 PM - 9:30 PM Kyle Swaffard is a singer-songwriter from Coeur d\\'Alene, Idaho who has been entertaining audiences in the Pacific Northwest for more than 30 years!&lt;/p&gt;\\"
-    },
-    {
-      "id": "auto-litefeet-vampires-masquerade-halloween-costume-dance-night-38919b82",
-      "title": "Vampires Masquerade: Halloween Costume Dance Night",
-      "startsAt": "2026-11-01T01:45:00.000Z",
-      "endsAt": "2026-11-01T06:00:00.000Z",
-      "venue": "LiteFeet Dance",
-      "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
-      "category": [
-        "family"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/vampires-masquerade-halloween-costume-dance-night/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-01T02:16:49.013Z",
-      "note": "&lt;p&gt;Saturday, October 31, 2026 | 6:45 to 11:00 PM Sink your teeth into our Vampires Masquerade, LiteFeet\\'s Halloween costume dance night! All ages, all skill levels, and all genres of&hellip;&lt;/p&gt;\\n"
-    },
-    {
-      "id": "auto-cda-casino-50-000-wizard-of-wins-giveaway-9b070419",
-      "title": "$50,000 Wizard of Wins Giveaway",
-      "startsAt": "2026-11-01T02:00:00.000Z",
-      "endsAt": "2026-11-01T02:00:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/50000-wizard-of-wins-giveaway/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-10-31T09:44:12.511Z",
-      "note": "&lt;p&gt;SATURDAY, OCTOBER 31st | 7 PM The magic is real—30 winners will conjure up to $2,500 Cash! Starting October 1st, play your favorite games with your Coeur Rewards card to earn 250 points per entry. Activate entri"
-    },
-    {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-44a702fa",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-11-01T02:30:00.000Z",
-      "endsAt": "2026-11-01T03:30:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-31/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-01T02:16:49.013Z",
-      "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
-    },
-    {
-      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-31dc526c",
-      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-11-01T02:30:00.000Z",
-      "endsAt": "2026-11-01T03:30:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-10-31/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-01T02:16:49.013Z",
-      "note": "&lt;p&gt;Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is&hellip;&lt;/p&gt"
-    },
     {
       "id": "auto-cda-casino-albo-ndigas-soup-20ee57fa",
       "title": "Albóndigas Soup",
@@ -138,24 +40,351 @@
       "note": "&lt;p&gt;Lucky 7 Bingo $7 buy-in on regular bingo session and if you bingo on any number ending in 7, you win $77 Extra Play Cash. Sunday, November 1st $7 Buy-In | Regular Session Admission Opens | 11 AM Session Begins |"
     },
     {
-      "id": "auto-pinots-cda-flowers-and-pumpkins-b4049bb4",
-      "title": "Flowers and Pumpkins",
-      "startsAt": "2026-11-01T16:00:00.000Z",
-      "endsAt": "2026-11-01T18:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "id": "auto-cda-casino-taco-omelet-16358992",
+      "title": "Taco Omelet",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
       "category": [
         "community"
       ],
-      "cost": "paid",
-      "priceLabel": "$41",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928217",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-22T08:41:43.775Z",
-      "note": "Sign up for Sun Nov 01, 2026 4:00-6:30PM - Flowers and Pumpkins. Join the paint and sip party at this Coeur d'Alene , ID studio."
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/taco-omelet/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Red Tail | Monday - Friday | 8 AM - 11 AM Taco Omelet | $15.95 Three-egg omelet stuffed with seasoned taco meat, diced green chilies, black olives, diced tomatoes, and cheddar jack cheese. Garnished"
+    },
+    {
+      "id": "auto-cda-casino-cfs-loaded-fries-2ccfd5f3",
+      "title": "CFS Loaded Fries",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/cfs-loaded-fries/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Huckleberry Deli | Daily CFS Loaded Fries | $17 Crispy sidewinder fries smothered in savory sausage gravy, topped with hand-cut chicken fried steak, and two fresh fried eggs. A hearty meal that\\'s l"
+    },
+    {
+      "id": "auto-cda-casino-patty-melt-3536cced",
+      "title": "Patty Melt",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/patty-melt-4/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Red Tail | Sunday - Thursday | 11 AM - Close Patty Melt | $18.95 All-American 1/3-pound brisket patty on rye bread topped with grilled onions, Swiss cheese, and 1000 island dressing, served with you"
+    },
+    {
+      "id": "auto-cda-casino-crimson-alien-55018659",
+      "title": "Crimson Alien",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/crimson-alien/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Jackpot Java | Daily Crimson Alien | 16 oz. $5.50 A tropical White Lotus infused with piña colada and banana syrups, finished with bursts of juicy blueberry popping pearls for an extraterrestrial tw"
+    },
+    {
+      "id": "auto-cda-casino-dark-matter-mocha-7ccd6a8a",
+      "title": "Dark Matter Mocha",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/dark-matter-mocha/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Jackpot Java | Daily Dark Matter Mocha | 16 oz. $5.50 A cosmic blend of rich espresso, dark and white chocolate sauces, creating an out of this world mocha. One sip and you’ll be launched into a gal"
+    },
+    {
+      "id": "auto-cda-casino-penny-cup-blizzard-23835666",
+      "title": "Penny Cup Blizzard",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/penny-cup-blizzard/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Red Tail | Daily | 11 AM - Close Penny Cup Blizzard | $12 A rich, indulgent blend of velvety Irish cream, decadent chocolate, and smooth peanut butter whiskey topped with whipped cream.&lt;/p&gt;\\n"
+    },
+    {
+      "id": "auto-cda-casino-fall-harvest-pizza-be9da500",
+      "title": "Fall Harvest Pizza",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/fall-harvest-pizza/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Arrowhead Pizza | Wednesday - Sunday Fall Harvest Pizza | $16 A seasonal favorite featuring our signature brown butter roasted shallot sauce, mozzarella and white cheddar, roasted turkey, caramelize"
+    },
+    {
+      "id": "auto-cda-casino-pad-bai-kra-prow-380ef4c4",
+      "title": "Pad Bai Kra Prow",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "food-drink"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/pad-bai-kra-prow/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Little Dragon | Friday - Sunday Pad Bai Kra Prow | $16 A Thai street-food favorite featuring savory ground pork stir-fried with onions, peppers, Thai basil, and our signature sauce. Served over stea"
+    },
+    {
+      "id": "auto-cda-casino-cozy-paloma-56704ee9",
+      "title": "Cozy Paloma",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "nightlife",
+        "food-drink",
+        "outdoors",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/cozy-paloma/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Night Hawk Lounge | Daily Cozy Paloma | $10 Tequila and Grand Marnier mingle with sparkling pink grapefruit for a bright, citrusy sip, finished with a cinnamon-sugar rim that brings a cozy twist to "
+    },
+    {
+      "id": "auto-cda-casino-pumpkin-spice-cream-pie-3c6956c9",
+      "title": "Pumpkin Spice Cream Pie",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/pumpkin-spice-cream-pie/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Red Tail | Daily | 11 AM - Close Pumpkin Spice Cream Pie | $8.50 A silky-smooth pumpkin spice filling nestled in a buttery crust, topped with fluffy whipped cream and candied pecans.&lt;/p&gt;\\n"
+    },
+    {
+      "id": "auto-cda-casino-campfire-71ba417c",
+      "title": "Campfire",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "nightlife",
+        "food-drink",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/campfire/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available in Chinook | Wednesday - Sunday Campfire | $14 Rye whiskey, maple syrup, and chocolate bitters come together to create a rich, autumn-inspired variation of the classic Old Fashioned cocktail. Reservati"
+    },
+    {
+      "id": "auto-cda-casino-seared-duck-breast-99a018cf",
+      "title": "Seared Duck Breast",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/seared-duck-breast/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available in Chinook | Wednesday - Sunday Seared Duck Breast | $30 Pan-seared duck breast served with Boursin mashed potatoes, seasonal vegetables, and sauce Bigarade. Garnished with fried sage. Reservations rec"
+    },
+    {
+      "id": "auto-cda-casino-pumpkin-cre-me-brule-e-42cde5c6",
+      "title": "Pumpkin Crème Brulée",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/pumpkin-creme-brulee/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available in Chinook | Wednesday - Sunday Pumpkin Crème Brulée | $9 Pumpkin and spices baked into our crème Brulée, topped with pecan sauce and fresh whipped cream. Reservations recommended. See venue for hours."
+    },
+    {
+      "id": "auto-cda-casino-pomegranate-mule-6268d0e0",
+      "title": "Pomegranate Mule",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2026-12-01T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "food-drink"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/pomegranate-mule/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Available at Wolf Den | Daily Pomegranate Mule | $10 Ketel One vodka, vibrant pomegranate juice, and fresh-squeezed lime come together with crisp, bubbly ginger beer for a refreshing balance of tart, fruity, and"
+    },
+    {
+      "id": "auto-cda-casino-stay-and-spa-8211-winter-2026-1806e3e7",
+      "title": "Stay and Spa &#8211; Winter 2026",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2027-04-01T06:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/stay-and-spa-winter-2026/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Stay and Spa | Winter 2026 Sunday – Thursday starting at $231.98 + tax Friday - Saturday starting at $248.96 + tax Valid 11/1/26 - 3/31/27 Use Promo Code: SPAWIN26 Package includes a one-night stay in a King Roo"
+    },
+    {
+      "id": "auto-cda-casino-coeur-eats-8211-winter-2026-065917d5",
+      "title": "Coeur Eats &#8211; Winter 2026",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2027-04-01T06:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "food-drink"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/coeur-eats-winter-2026/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Package includes a one-night stay in a Mountain Lodge Standard King Room, $40 Food and Beverage credit with two Pub & Grub t-shirts. Upgrade options subject to availability. &lt;/p&gt;\\n"
+    },
+    {
+      "id": "auto-cda-casino-coeur-player-8217-s-delight-winter-2026-82de2a87",
+      "title": "Coeur Player&#8217;s Delight – Winter 2026",
+      "startsAt": "2026-11-01T07:00:00.000Z",
+      "endsAt": "2027-04-01T06:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/coeur-players-delight-winter-2026/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Coeur Player\\'s Delight | Winter 2026 Sunday – Thursday starting at $136.98 + tax Friday - Saturday starting at $153.96 + tax Valid 11/1/26 -3/31/27 Use Promo Code: PLAYWIN26 This package includes a one-night st"
+    },
+    {
+      "id": "auto-cda-casino-rocket-to-riches-kiosk-game-f7a91363",
+      "title": "Rocket to Riches Kiosk Game",
+      "startsAt": "2026-11-01T15:00:00.000Z",
+      "endsAt": "2026-11-02T07:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/rocket-to-riches-kiosk-game/2026-11-01/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;SUNDAYS IN NOVEMBER | 7 AM - 11 PM Win up to $250 Extra Play Cash! Earn 100 points during the promotion hours and get one kiosk game play. Point earning begins at 7 AM and ends at 11 PM on each promotion date. P"
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-60ad6dd4",
@@ -198,6 +427,26 @@
       "note": "Sign up for Sun Nov 01, 2026 4:00-6:15PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-pinots-cda-flowers-and-pumpkins-b4049bb4",
+      "title": "Flowers and Pumpkins",
+      "startsAt": "2026-11-01T16:00:00.000Z",
+      "endsAt": "2026-11-01T18:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$41",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928217",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-22T08:41:43.775Z",
+      "note": "Sign up for Sun Nov 01, 2026 4:00-6:30PM - Flowers and Pumpkins. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-d4b4387f",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-11-02T13:00:00.000Z",
@@ -218,6 +467,27 @@
       "note": "Sign up for Mon Nov 02, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-cda-casino-7-young-at-heart-mondays-e9cfa8c1",
+      "title": "$7 Young at Heart Mondays",
+      "startsAt": "2026-11-02T15:00:00.000Z",
+      "endsAt": "2026-11-03T07:59:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "nightlife",
+        "food-drink",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/7-young-at-heart-mondays-2/2026-11-02/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;Young at Heart Mondays Calling all Coeur Rewards members ages 55 or better! Enjoy $7 Extra Play Cash and $5 off breakfast, lunch or dinner entrée at the Red Tail Bar & Grill on Mondays! EPC offer is redeemable a"
+    },
+    {
       "id": "auto-litefeet-fundamental-monday-dance-lessons-and-dance-social-37bc88ea",
       "title": "FUNdamental Monday Dance Lessons and Dance Social",
       "startsAt": "2026-11-03T02:00:00.000Z",
@@ -236,6 +506,25 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-01T02:16:49.013Z",
       "note": "&lt;p&gt;Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday\\'s focus: Connection, Musicality & Timing, set to Rock Music every Monday! Get ready&hellip;&lt;/p&gt;\\n"
+    },
+    {
+      "id": "auto-cda-casino-30-375-tournament-tuesdays-f147ca81",
+      "title": "$30,375 Tournament Tuesdays",
+      "startsAt": "2026-11-03T18:00:00.000Z",
+      "endsAt": "2026-11-04T03:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/30375-tournament-tuesdays/2026-11-03/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;TUESDAYS IN NOVEMBER & DECEMBER | 10 AM - 7 PM Play for free – Win up to $750 Extra Play Cash each Tuesday! The top scoring player in each tournament session wins $250 EPC. Plus, the day’s top three scoring play"
     },
     {
       "id": "auto-pinots-cda-colors-of-the-forest-f04f4719",
@@ -315,6 +604,25 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-01T02:16:49.013Z",
       "note": "&lt;p&gt;Join us every Tuesday from 6:00 to 10:00 for Line Dancing Lessons and Social! 4 hours of amazing fun to Country, Hip Hop, Pop style choreographies and more for just&hellip;&lt;/p&gt;\\n"
+    },
+    {
+      "id": "auto-cda-casino-winning-wednesdays-2026-f6169325",
+      "title": "Winning Wednesdays 2026",
+      "startsAt": "2026-11-04T08:00:00.000Z",
+      "endsAt": "2026-11-05T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "food-drink"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/winning-wednesdays-2026/2026-11-04/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "&lt;p&gt;WINNING WEDNESDAYS Add a wow factor to your day with Winning Wednesdays! Every Wednesday, Coeur Rewards members receive exclusive rewards and promotions. 2X Point Multiplier A Mystery Prize $5 Food or Beverage S"
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-c1351c62",
@@ -555,26 +863,6 @@
       "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North from 7:30 to 8:30 in Stateline Idaho! Class is just $10 a person, and then Dance&hellip;&lt;/p&gt;\\n"
     },
     {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-34a38e41",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-11-07T12:30:00.000Z",
-      "endsAt": "2026-11-07T14:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/942415",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-25T21:50:53.334Z",
-      "note": "Sign up for Sat Nov 07, 2026 12:30-2:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-cozy-penguin-593be5cd",
       "title": "Cozy Penguin",
       "startsAt": "2026-11-07T12:30:00.000Z",
@@ -593,6 +881,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-25T08:30:16.142Z",
       "note": "Sign up for Sat Nov 07, 2026 12:30-2:00PM - Cozy Penguin. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-34a38e41",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-07T12:30:00.000Z",
+      "endsAt": "2026-11-07T14:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/942415",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-25T21:50:53.334Z",
+      "note": "Sign up for Sat Nov 07, 2026 12:30-2:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-7e38f321",
@@ -693,26 +1001,6 @@
       "note": "&lt;p&gt;Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is&hellip;&lt;/p&gt"
     },
     {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-c72f85f3",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-11-08T12:00:00.000Z",
-      "endsAt": "2026-11-08T15:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/945256",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-29T02:28:28.179Z",
-      "note": "Sign up for Sun Nov 08, 2026 12:00-3:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-snowman-sled-build-and-paint-e9d5e325",
       "title": "Snowman Sled Build and Paint",
       "startsAt": "2026-11-08T12:00:00.000Z",
@@ -733,24 +1021,24 @@
       "note": "Sign up for Sun Nov 08, 2026 12:00-3:00PM - Snowman Sled Build and Paint. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-pinots-cda-harvest-gnome-743d7598",
-      "title": "Harvest Gnome",
-      "startsAt": "2026-11-08T16:30:00.000Z",
-      "endsAt": "2026-11-08T19:00:00.000Z",
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-c72f85f3",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-08T12:00:00.000Z",
+      "endsAt": "2026-11-08T15:00:00.000Z",
       "venue": "Pinot's Palette - Coeur d'Alene",
       "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
       "category": [
         "community"
       ],
       "cost": "paid",
-      "priceLabel": "$41",
+      "priceLabel": "$21",
       "status": "available",
       "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928214",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/945256",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-29T20:20:29.494Z",
-      "note": "Sign up for Sun Nov 08, 2026 4:30-7:00PM - Harvest Gnome. Join the paint and sip party at this Coeur d'Alene , ID studio."
+      "verifiedAt": "2026-10-29T02:28:28.179Z",
+      "note": "Sign up for Sun Nov 08, 2026 12:00-3:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-574c1004",
@@ -771,6 +1059,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-10-29T10:04:57.976Z",
       "note": "Sign up for Sun Nov 08, 2026 4:30-7:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-harvest-gnome-743d7598",
+      "title": "Harvest Gnome",
+      "startsAt": "2026-11-08T16:30:00.000Z",
+      "endsAt": "2026-11-08T19:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$41",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928214",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-10-29T20:20:29.494Z",
+      "note": "Sign up for Sun Nov 08, 2026 4:30-7:00PM - Harvest Gnome. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-create-a-scented-candle-c2fdd0cf",
@@ -1110,7 +1418,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-01T02:18:04.991Z",
+      "verifiedAt": "2026-11-01T10:34:53.720Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -1152,6 +1460,66 @@
       "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North from 7:30 to 8:30 in Stateline Idaho! Class is just $10 a person, and then Dance&hellip;&lt;/p&gt;\\n"
     },
     {
+      "id": "auto-pinots-cda-polariffic-days-1653b185",
+      "title": "Polariffic Days",
+      "startsAt": "2026-11-14T09:00:00.000Z",
+      "endsAt": "2026-11-14T10:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$32",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922064",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 14, 2026 9:00-10:45AM - Polariffic Days. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-let-it-snow-porch-leaner-bf2cd897",
+      "title": "Let it Snow Porch Leaner",
+      "startsAt": "2026-11-14T15:30:00.000Z",
+      "endsAt": "2026-11-14T18:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$53",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/932242",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 14, 2026 3:30-6:00PM - Let it Snow Porch Leaner. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-amber-forest-falls-d736c669",
+      "title": "Amber Forest Falls",
+      "startsAt": "2026-11-14T19:30:00.000Z",
+      "endsAt": "2026-11-14T21:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928223",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 14, 2026 7:30-9:45PM - Amber Forest Falls. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
       "id": "auto-litefeet-saturday-slots-west-coast-swing-lesson-and-dance-social-d7c8d276",
       "title": "Saturday Slots: West Coast Swing Lesson and Dance Social",
       "startsAt": "2026-11-15T03:00:00.000Z",
@@ -1186,7 +1554,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-aaron-woodall/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-01T02:18:04.991Z",
+      "verifiedAt": "2026-11-01T10:34:53.720Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing "
     },
     {
@@ -1205,7 +1573,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-at-the-club/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-01T02:18:04.991Z",
+      "verifiedAt": "2026-11-01T10:34:53.720Z",
       "note": "&lt;p&gt;Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing the honest, wide-eyed, wildly rela"
     },
     {
@@ -1226,6 +1594,326 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-01T02:16:49.013Z",
       "note": "&lt;p&gt;Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is&hellip;&lt;/p&gt"
+    },
+    {
+      "id": "auto-pinots-cda-lavender-moon-glow-f1fca571",
+      "title": "Lavender Moon Glow",
+      "startsAt": "2026-11-15T12:00:00.000Z",
+      "endsAt": "2026-11-15T14:15:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$41",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/930852",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sun Nov 15, 2026 12:00-2:15PM - Lavender Moon Glow. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-ebony-harvest-f5541c95",
+      "title": "Ebony Harvest",
+      "startsAt": "2026-11-15T16:00:00.000Z",
+      "endsAt": "2026-11-15T18:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$41",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928215",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sun Nov 15, 2026 4:00-6:30PM - Ebony Harvest. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-a9416eb8",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-15T16:00:00.000Z",
+      "endsAt": "2026-11-15T18:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/947150",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sun Nov 15, 2026 4:00-6:30PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-6304862c",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-16T13:00:00.000Z",
+      "endsAt": "2026-11-16T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/910988",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Mon Nov 16, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-aurora-winter-d62ee921",
+      "title": "Aurora Winter",
+      "startsAt": "2026-11-16T18:00:00.000Z",
+      "endsAt": "2026-11-16T20:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928221",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Mon Nov 16, 2026 6:00-8:00PM - Aurora Winter. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-available-for-private-event-e417c820",
+      "title": "Available for Private Event",
+      "startsAt": "2026-11-18T08:00:00.000Z",
+      "endsAt": "2026-11-18T23:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$33",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/74806",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Wed Nov 18, 2026 8:00-11:00PM - Available for Private Event. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-599cd0ef",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-18T13:00:00.000Z",
+      "endsAt": "2026-11-18T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/923539",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Wed Nov 18, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-wild-wander-140894cd",
+      "title": "Wild Wander",
+      "startsAt": "2026-11-18T18:30:00.000Z",
+      "endsAt": "2026-11-18T20:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$37",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928218",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Wed Nov 18, 2026 6:30-8:30PM - Wild Wander. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-snowman-with-birdhouse-c2eb0d03",
+      "title": "Snowman with Birdhouse",
+      "startsAt": "2026-11-19T19:00:00.000Z",
+      "endsAt": "2026-11-19T21:15:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928235",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Thu Nov 19, 2026 7:00-9:15PM - Snowman with Birdhouse. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-4f556095",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-20T13:00:00.000Z",
+      "endsAt": "2026-11-20T16:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/923541",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Fri Nov 20, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-create-a-scented-candle-67471276",
+      "title": "Create a Scented Candle",
+      "startsAt": "2026-11-20T13:00:00.000Z",
+      "endsAt": "2026-11-20T21:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$20",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922223",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Fri Nov 20, 2026 1:00-9:00PM - Create a Scented Candle. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-winter-ember-b83e4d85",
+      "title": "Winter Ember",
+      "startsAt": "2026-11-20T19:00:00.000Z",
+      "endsAt": "2026-11-20T21:15:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928236",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Fri Nov 20, 2026 7:00-9:15PM - Winter Ember. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-54c9be0f",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-21T12:00:00.000Z",
+      "endsAt": "2026-11-21T13:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/942416",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 21, 2026 12:00-1:45PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-electric-winter-a1cb6006",
+      "title": "Electric Winter",
+      "startsAt": "2026-11-21T12:00:00.000Z",
+      "endsAt": "2026-11-21T13:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$33",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/922065",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 21, 2026 12:00-1:45PM - Electric Winter. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-pumpkins-in-love-e6149435",
+      "title": "Pumpkins in Love",
+      "startsAt": "2026-11-21T15:30:00.000Z",
+      "endsAt": "2026-11-21T17:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928783",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 21, 2026 3:30-5:45PM - Pumpkins in Love. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-autumn-sunset-11fa1e37",
+      "title": "Autumn Sunset",
+      "startsAt": "2026-11-21T19:30:00.000Z",
+      "endsAt": "2026-11-21T21:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$39",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928224",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-01T10:34:02.139Z",
+      "note": "Sign up for Sat Nov 21, 2026 7:30-9:45PM - Autumn Sunset. Join the paint and sip party at this Coeur d'Alene , ID studio."
     }
   ]
 }
