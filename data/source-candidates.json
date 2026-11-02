@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T02:16:49.013Z",
+  "generatedAt": "2026-11-02T06:17:16.633Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -105,9 +105,9 @@
       "name": "The Coeur d&#8217;Alene Resort",
       "url": "https://www.cdaresort.com/",
       "status": "review-ready",
-      "score": 30,
+      "score": 36,
       "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-10-01T20:21:46.602Z",
+      "lastSeen": "2026-11-02T06:17:16.633Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
@@ -148,6 +148,14 @@
           "kind": "organizer",
           "url": "https://www.cdaresort.com/",
           "eventTitle": "Monster’s Ball Halloween Party 2026"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Holiday Light Show",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "The Holiday Light Show"
         }
       ]
     },
