@@ -1,46 +1,6 @@
 {
-  "generatedAt": "2026-11-07T20:17:11.575Z",
+  "generatedAt": "2026-11-07T23:41:55.672Z",
   "events": [
-    {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-7e38f321",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-11-07T15:30:00.000Z",
-      "endsAt": "2026-11-07T18:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/931224",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-10-25T21:50:53.334Z",
-      "note": "Sign up for Sat Nov 07, 2026 3:30-6:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-project-pet-pop-art-344ba662",
-      "title": "Project Pet Pop Art",
-      "startsAt": "2026-11-07T15:30:00.000Z",
-      "endsAt": "2026-11-07T18:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$54",
-      "status": "sold-out",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928781",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-01T20:33:12.242Z",
-      "note": "Sign up for Sat Nov 07, 2026 3:30-6:00PM - Project Pet Pop Art. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-pinots-cda-magical-snowfall-daef2c0a",
       "title": "Magical Snowfall",
@@ -595,7 +555,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-07T20:17:11.575Z",
+      "verifiedAt": "2026-11-07T23:41:55.672Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -713,7 +673,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-aaron-woodall/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-07T20:17:11.575Z",
+      "verifiedAt": "2026-11-07T23:41:55.672Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing "
     },
     {
@@ -732,7 +692,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-at-the-club/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-07T20:17:11.575Z",
+      "verifiedAt": "2026-11-07T23:41:55.672Z",
       "note": "&lt;p&gt;Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing the honest, wide-eyed, wildly rela"
     },
     {
