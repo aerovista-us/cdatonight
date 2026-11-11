@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:17:16.633Z",
+  "generatedAt": "2026-11-11T06:35:24.768Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -366,6 +366,25 @@
           "kind": "organizer",
           "url": "http://www.nictf.org/",
           "eventTitle": "Riverstone Block Party & Brewfest"
+        }
+      ]
+    },
+    {
+      "domain": "1313wallace.com",
+      "name": "1313 Club & Saloon & Cellars",
+      "url": "https://www.1313wallace.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-11-11T06:35:24.768Z",
+      "lastSeen": "2026-11-11T06:35:24.768Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.1313wallace.com/|Friday the 13th Masquerade Ball",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.1313wallace.com/",
+          "eventTitle": "Friday the 13th Masquerade Ball"
         }
       ]
     },
