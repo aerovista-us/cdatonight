@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T06:35:24.768Z",
+  "generatedAt": "2026-11-12T07:19:20.911Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -105,9 +105,9 @@
       "name": "The Coeur d&#8217;Alene Resort",
       "url": "https://www.cdaresort.com/",
       "status": "review-ready",
-      "score": 36,
+      "score": 42,
       "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-11-02T06:17:16.633Z",
+      "lastSeen": "2026-11-12T07:19:20.911Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
@@ -156,6 +156,14 @@
           "kind": "organizer",
           "url": "https://www.cdaresort.com/",
           "eventTitle": "The Holiday Light Show"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Christmas Show: My Favorite Things",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "The Coeur d&#8217;Alene Christmas Show: My Favorite Things"
         }
       ]
     },
