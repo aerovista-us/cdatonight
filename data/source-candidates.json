@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:19:20.911Z",
+  "generatedAt": "2026-11-13T21:59:52.163Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -105,9 +105,9 @@
       "name": "The Coeur d&#8217;Alene Resort",
       "url": "https://www.cdaresort.com/",
       "status": "review-ready",
-      "score": 42,
+      "score": 48,
       "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-11-12T07:19:20.911Z",
+      "lastSeen": "2026-11-13T21:59:52.163Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
@@ -164,6 +164,14 @@
           "kind": "organizer",
           "url": "https://www.cdaresort.com/",
           "eventTitle": "The Coeur d&#8217;Alene Christmas Show: My Favorite Things"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort Holiday Light Show 2026",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "The Coeur d&#8217;Alene Resort Holiday Light Show 2026"
         }
       ]
     },
@@ -431,6 +439,25 @@
           "kind": "organizer",
           "url": "https://cda-kootenaicounty.pflag.org/",
           "eventTitle": "Faith, Family, & Uncertainty"
+        }
+      ]
+    },
+    {
+      "domain": "cdariverstone.com",
+      "name": "Village at Riverstone",
+      "url": "https://www.cdariverstone.com/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-11-13T21:59:52.163Z",
+      "lastSeen": "2026-11-13T21:59:52.163Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.cdariverstone.com/|Riverstone Annual Holiday Preview",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdariverstone.com/",
+          "eventTitle": "Riverstone Annual Holiday Preview"
         }
       ]
     },
