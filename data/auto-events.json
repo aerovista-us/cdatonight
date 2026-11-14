@@ -1,27 +1,6 @@
 {
-  "generatedAt": "2026-11-14T06:35:45.558Z",
+  "generatedAt": "2026-11-14T20:46:49.109Z",
   "events": [
-    {
-      "id": "auto-visit-cda-2nd-friday-artwalk-bde48279",
-      "title": "2nd Friday ArtWalk",
-      "startsAt": "2026-11-14T01:00:00.000Z",
-      "endsAt": "2026-11-14T04:00:00.000Z",
-      "venue": "Visit Coeur d'Alene",
-      "address": "",
-      "category": [
-        "live-music",
-        "community",
-        "date-night"
-      ],
-      "cost": "free",
-      "status": "available",
-      "sourceId": "visit-cda",
-      "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
-      "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-14T06:35:45.558Z",
-      "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
-    },
     {
       "id": "auto-cda-casino-pamela-benton-cc3731ea",
       "title": "Pamela Benton",
@@ -62,46 +41,6 @@
       "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North from 7:30 to 8:30 in Stateline Idaho! Class is just $10 a person, and then Dance&hellip;&lt;/p&gt;\\n"
     },
     {
-      "id": "auto-pinots-cda-polariffic-days-1653b185",
-      "title": "Polariffic Days",
-      "startsAt": "2026-11-14T09:00:00.000Z",
-      "endsAt": "2026-11-14T10:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$32",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/922064",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-01T10:34:02.139Z",
-      "note": "Sign up for Sat Nov 14, 2026 9:00-10:45AM - Polariffic Days. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-take-home-paint-kits-17a60f89",
-      "title": "Take Home Paint Kits",
-      "startsAt": "2026-11-14T09:00:00.000Z",
-      "endsAt": "2026-11-14T21:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-13T21:59:52.163Z",
-      "note": "Sign up for Sat Nov 14, 2026 9:00-9:45PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-let-it-snow-porch-leaner-bf2cd897",
       "title": "Let it Snow Porch Leaner",
       "startsAt": "2026-11-14T15:30:00.000Z",
@@ -120,6 +59,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-11-01T10:34:02.139Z",
       "note": "Sign up for Sat Nov 14, 2026 3:30-6:00PM - Let it Snow Porch Leaner. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-2fc59a66",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-14T19:30:00.000Z",
+      "endsAt": "2026-11-14T21:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/942415",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-14T20:46:09.759Z",
+      "note": "Sign up for Sat Nov 14, 2026 7:30-9:45PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-a-starry-night-christmas-68098d56",
@@ -177,7 +136,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-aaron-woodall/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-14T06:35:45.558Z",
+      "verifiedAt": "2026-11-14T20:46:49.109Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing "
     },
     {
@@ -196,7 +155,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-at-the-club/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-14T06:35:45.558Z",
+      "verifiedAt": "2026-11-14T20:46:49.109Z",
       "note": "&lt;p&gt;Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing the honest, wide-eyed, wildly rela"
     },
     {
@@ -299,6 +258,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-11-13T21:59:52.163Z",
       "note": "Sign up for Sun Nov 15, 2026 12:00-2:15PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-take-home-paint-kits-1ae402bc",
+      "title": "Take Home Paint Kits",
+      "startsAt": "2026-11-15T12:00:00.000Z",
+      "endsAt": "2026-11-15T18:30:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$31",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/928765",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-14T20:46:09.759Z",
+      "note": "Sign up for Sun Nov 15, 2026 12:00-6:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-a9416eb8",
@@ -774,7 +753,7 @@
       "sourceUrl": "https://coeurdalene.org/events/troop-3-christmas-tree-lot/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-14T06:35:45.558Z",
+      "verifiedAt": "2026-11-14T20:46:49.109Z",
       "note": "&lt;p&gt;Find your family’s Christmas tree while supporting Troop 3 Scouting programs! November 21–December 20 Weekends: 10:00 a.m.–7:00 p.m. Weekdays: 4:00–7:00 p.m. Closed Thanksgiving Day, November 26 📍 200 W. Hanley"
     },
     {
