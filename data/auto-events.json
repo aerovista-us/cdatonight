@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-11-13T22:01:41.548Z",
+  "generatedAt": "2026-11-14T06:35:45.558Z",
   "events": [
-    {
-      "id": "auto-pinots-cda-let-s-get-toasty-date-night-d2c9d7fe",
-      "title": "Let's Get Toasty - Date Night",
-      "startsAt": "2026-11-13T19:00:00.000Z",
-      "endsAt": "2026-11-13T21:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "date-night"
-      ],
-      "cost": "paid",
-      "priceLabel": "$41",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/893310",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-01T02:16:49.013Z",
-      "note": "Sign up for Fri Nov 13, 2026 7:00-9:30PM - Let's Get Toasty - Date Night. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-visit-cda-2nd-friday-artwalk-bde48279",
       "title": "2nd Friday ArtWalk",
@@ -39,7 +19,7 @@
       "sourceUrl": "https://coeurdalene.org/events/2nd-friday-artwalk/2026-11-13/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-13T22:01:41.548Z",
+      "verifiedAt": "2026-11-14T06:35:45.558Z",
       "note": "&lt;p&gt;Free community event every second Friday of the month, year round. Stroll Downtown Coeur d’Alene from 5-8pm, enjoying gallery openings, pop-up art displays, live music, complimentary beverages, shopping and loca"
     },
     {
@@ -197,7 +177,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-ft-aaron-woodall/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-13T22:01:41.548Z",
+      "verifiedAt": "2026-11-14T06:35:45.558Z",
       "note": "&lt;p&gt;Comedy Night at the Club is BACK! Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing "
     },
     {
@@ -216,7 +196,7 @@
       "sourceUrl": "https://coeurdalene.org/events/comedy-night-at-the-club/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=3200%20N%20Spokane%20St%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-13T22:01:41.548Z",
+      "verifiedAt": "2026-11-14T06:35:45.558Z",
       "note": "&lt;p&gt;Grab your crew and settle in for a night of stand-up at The Club at Prairie Falls. Comedian Aaron Woodall takes the stage in our Event Center on Saturday, November 14, bringing the honest, wide-eyed, wildly rela"
     },
     {
@@ -794,7 +774,7 @@
       "sourceUrl": "https://coeurdalene.org/events/troop-3-christmas-tree-lot/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-13T22:01:41.548Z",
+      "verifiedAt": "2026-11-14T06:35:45.558Z",
       "note": "&lt;p&gt;Find your family’s Christmas tree while supporting Troop 3 Scouting programs! November 21–December 20 Weekends: 10:00 a.m.–7:00 p.m. Weekdays: 4:00–7:00 p.m. Closed Thanksgiving Day, November 26 📍 200 W. Hanley"
     },
     {
@@ -1716,6 +1696,25 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-13T06:52:37.686Z",
       "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! At 6:00 we have Line Dancing and Beginner West Coast Swing. At 7:00 we have Beginner and Intermediate Countr"
+    },
+    {
+      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-3117706f",
+      "title": "Friday Night Line Dancing at the Nashville North",
+      "startsAt": "2026-12-05T03:30:00.000Z",
+      "endsAt": "2026-12-05T04:30:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-12-04/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-11-14T06:34:28.376Z",
+      "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North from 7:30 to 8:30 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
     }
   ]
 }
