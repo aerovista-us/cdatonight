@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T21:59:52.163Z",
+  "generatedAt": "2026-11-15T21:04:37.054Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -105,9 +105,9 @@
       "name": "The Coeur d&#8217;Alene Resort",
       "url": "https://www.cdaresort.com/",
       "status": "review-ready",
-      "score": 48,
+      "score": 54,
       "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-11-13T21:59:52.163Z",
+      "lastSeen": "2026-11-15T21:04:37.054Z",
       "evidence": [
         {
           "signature": "visit-cda|organizer|https://www.cdaresort.com/|The Coeur d&#8217;Alene Resort&#8217;s 40th Anniversary Celebration",
@@ -172,6 +172,14 @@
           "kind": "organizer",
           "url": "https://www.cdaresort.com/",
           "eventTitle": "The Coeur d&#8217;Alene Resort Holiday Light Show 2026"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.cdaresort.com/|Beverly&#8217;s Leonetti Cellar & FIGGINS Wine Dinner",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.cdaresort.com/",
+          "eventTitle": "Beverly&#8217;s Leonetti Cellar & FIGGINS Wine Dinner"
         }
       ]
     },
