@@ -1,105 +1,6 @@
 {
-  "generatedAt": "2026-11-14T20:46:49.109Z",
+  "generatedAt": "2026-11-15T06:42:36.081Z",
   "events": [
-    {
-      "id": "auto-cda-casino-pamela-benton-cc3731ea",
-      "title": "Pamela Benton",
-      "startsAt": "2026-11-14T02:00:00.000Z",
-      "endsAt": "2026-11-14T05:30:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "live-music",
-        "nightlife"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/pamela-benton-2/2026-11-13/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-11-12T07:19:20.911Z",
-      "note": "&lt;p&gt;Chinook Lounge November 13th & 14th | 6 PM - 9:30 PM Pamela Benton is dynamic, versatile and one of the finest soloists in the Inland Northwest. She is a singer/songwriter, producer, recording engineer and multi"
-    },
-    {
-      "id": "auto-litefeet-friday-night-line-dancing-at-the-nashville-north-cd19d451",
-      "title": "Friday Night Line Dancing at the Nashville North",
-      "startsAt": "2026-11-14T03:30:00.000Z",
-      "endsAt": "2026-11-14T04:30:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/friday-night-line-dancing-at-the-nashville-north-2/2026-11-13/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-13T21:59:52.163Z",
-      "note": "&lt;p&gt;Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North from 7:30 to 8:30 in Stateline Idaho! Class is just $10 a person, and then Dance&hellip;&lt;/p&gt;\\n"
-    },
-    {
-      "id": "auto-pinots-cda-let-it-snow-porch-leaner-bf2cd897",
-      "title": "Let it Snow Porch Leaner",
-      "startsAt": "2026-11-14T15:30:00.000Z",
-      "endsAt": "2026-11-14T18:00:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$53",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/932242",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-01T10:34:02.139Z",
-      "note": "Sign up for Sat Nov 14, 2026 3:30-6:00PM - Let it Snow Porch Leaner. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-2fc59a66",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-11-14T19:30:00.000Z",
-      "endsAt": "2026-11-14T21:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/942415",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-14T20:46:09.759Z",
-      "note": "Sign up for Sat Nov 14, 2026 7:30-9:45PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-pinots-cda-a-starry-night-christmas-68098d56",
-      "title": "A Starry Night Christmas",
-      "startsAt": "2026-11-14T19:30:00.000Z",
-      "endsAt": "2026-11-14T21:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$39",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/928223",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-05T06:55:45.438Z",
-      "note": "Sign up for Sat Nov 14, 2026 7:30-9:45PM - A Starry Night Christmas . Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
     {
       "id": "auto-cda-casino-pamela-benton-b40f4f42",
       "title": "Pamela Benton",
@@ -187,9 +88,7 @@
       "venue": "The Nashville North",
       "address": "6361 W Seltice Way, Post Falls, ID, 83854",
       "category": [
-        "live-music",
-        "nightlife",
-        "date-night"
+        "community"
       ],
       "cost": "unknown",
       "status": "unknown",
@@ -197,8 +96,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-11-14/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-10T21:49:37.416Z",
-      "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
+      "verifiedAt": "2026-11-15T06:42:36.081Z",
+      "note": "&lt;p&gt;Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is&hellip;&lt;/p&gt"
     },
     {
       "id": "auto-cda-casino-lucky-7-bingo-8211-nov-15th-42af089e",
@@ -280,6 +179,25 @@
       "note": "Sign up for Sun Nov 15, 2026 12:00-6:30PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
+      "id": "auto-cda-casino-rocket-to-riches-kiosk-game-2f8ac81a",
+      "title": "Rocket to Riches Kiosk Game",
+      "startsAt": "2026-11-15T15:00:00.000Z",
+      "endsAt": "2026-11-16T07:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/rocket-to-riches-kiosk-game/2026-11-15/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-15T06:42:36.081Z",
+      "note": "&lt;p&gt;SUNDAYS IN NOVEMBER | 7 AM - 11 PM Win up to $250 Extra Play Cash! Earn 100 points during the promotion hours and get one kiosk game play. Point earning begins at 7 AM and ends at 11 PM on each promotion date. P"
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-a9416eb8",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-11-15T16:00:00.000Z",
@@ -338,6 +256,27 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-11-01T10:34:02.139Z",
       "note": "Sign up for Mon Nov 16, 2026 1:00-4:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-cda-casino-7-young-at-heart-mondays-f3c6f755",
+      "title": "$7 Young at Heart Mondays",
+      "startsAt": "2026-11-16T15:00:00.000Z",
+      "endsAt": "2026-11-17T07:59:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "nightlife",
+        "food-drink",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/7-young-at-heart-mondays-2/2026-11-16/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-15T06:42:36.081Z",
+      "note": "&lt;p&gt;Young at Heart Mondays Calling all Coeur Rewards members ages 55 or better! Enjoy $7 Extra Play Cash and $5 off breakfast, lunch or dinner entrée at the Red Tail Bar & Grill on Mondays! EPC offer is redeemable a"
     },
     {
       "id": "auto-litefeet-fundamental-monday-dance-lessons-and-dance-social-a8cf1d97",
@@ -1534,8 +1473,8 @@
       "sourceUrl": "https://mylitefeet.com/classes/mix-tape-monday-dance-lessons-and-dance-social/2026-11-30/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
       "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-13T21:59:52.163Z",
-      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday&#8217;s theme: Musicality and Connection! Join us every Monday for just $15! Doors open at the LiteFeet Dance Hive Studio at 6:0"
+      "verifiedAt": "2026-11-15T06:42:36.081Z",
+      "note": "Dance off those Monday Blues, and get ready for your new favorite night of the week! Monday’s theme: Musicality and Connection! Join us every Monday for just $15! Doors open at the LiteFeet Dance Hive Studio at 6:00, at "
     },
     {
       "id": "auto-litefeet-kids-and-teens-hip-hop-classes-4a048306",
@@ -1694,6 +1633,48 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-14T06:34:28.376Z",
       "note": "Join us for Beginner Country Line Dancing Lessons every Friday at the Nashville North from 7:30 to 8:30 in Stateline Idaho! Class is just $10 a person, and then Dance All Night Long with amazing drinks!"
+    },
+    {
+      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-3249867e",
+      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-12-06T03:30:00.000Z",
+      "endsAt": "2026-12-06T04:30:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-12-05/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-11-15T06:42:36.081Z",
+      "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
+    },
+    {
+      "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-431725ba",
+      "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
+      "startsAt": "2026-12-06T03:30:00.000Z",
+      "endsAt": "2026-12-06T04:30:00.000Z",
+      "venue": "The Nashville North",
+      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-12-05/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-11-15T06:42:36.081Z",
+      "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
     }
   ]
 }
