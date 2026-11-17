@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T21:04:37.054Z",
+  "generatedAt": "2026-11-17T23:31:53.166Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -394,6 +394,33 @@
       ]
     },
     {
+      "domain": "spaboatrentals.com",
+      "name": "SpaVentures USA",
+      "url": "https://www.spaboatrentals.com/",
+      "status": "review-ready",
+      "score": 12,
+      "firstSeen": "2026-08-23T00:16:20.706Z",
+      "lastSeen": "2026-11-17T23:31:53.166Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.spaboatrentals.com/|SpaVentures Sunset Cruises",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.spaboatrentals.com/",
+          "eventTitle": "SpaVentures Sunset Cruises"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.spaboatrentals.com/|WInter SpaPlunge Experience",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.spaboatrentals.com/",
+          "eventTitle": "WInter SpaPlunge Experience"
+        }
+      ]
+    },
+    {
       "domain": "1313wallace.com",
       "name": "1313 Club & Saloon & Cellars",
       "url": "https://www.1313wallace.com/",
@@ -542,25 +569,6 @@
           "kind": "organizer",
           "url": "https://snridaho.org/",
           "eventTitle": "Gems and Jeans Fundraiser to benefit Specialized Needs Recreation"
-        }
-      ]
-    },
-    {
-      "domain": "spaboatrentals.com",
-      "name": "SpaVentures USA",
-      "url": "https://www.spaboatrentals.com/",
-      "status": "candidate",
-      "score": 6,
-      "firstSeen": "2026-08-23T00:16:20.706Z",
-      "lastSeen": "2026-08-23T00:16:20.706Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|https://www.spaboatrentals.com/|SpaVentures Sunset Cruises",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://www.spaboatrentals.com/",
-          "eventTitle": "SpaVentures Sunset Cruises"
         }
       ]
     },
