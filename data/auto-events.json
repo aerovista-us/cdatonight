@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T00:16:55.227Z",
+  "generatedAt": "2026-11-17T08:10:20.579Z",
   "events": [
     {
       "id": "auto-litefeet-fundamental-monday-dance-lessons-and-dance-social-a8cf1d97",
@@ -299,6 +299,27 @@
       "note": "&lt;p&gt;Free Customer Appreciation Concert! Thursday, November 19th, 2026 | 7 PM No tickets required, all are welcome to attend. All seats are on a first come, first served seating. Arrive early for the best seats! Isaa"
     },
     {
+      "id": "auto-cda-casino-eternal-jones-a37e19c6",
+      "title": "Eternal Jones",
+      "startsAt": "2026-11-20T08:00:00.000Z",
+      "endsAt": "2026-11-21T07:59:59.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/eternal-jones-4/2026-11-20/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-17T08:09:09.314Z",
+      "note": "&lt;p&gt;Nighthawk Lounge November 20th & 21st | 8:30 PM - 12:30 AM From Spokane Washington, Eternal Jones features quality seasoned musicians, Rick Lillemon, Don Carruthers, Kris Kelly, Jeremy Ki. Playing rock and blues"
+    },
+    {
       "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-4f556095",
       "title": "Open Studio at Pinot's Palette",
       "startsAt": "2026-11-20T13:00:00.000Z",
@@ -493,7 +514,7 @@
       "sourceUrl": "https://coeurdalene.org/events/troop-3-christmas-tree-lot/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-16T06:41:12.184Z",
+      "verifiedAt": "2026-11-17T08:10:20.579Z",
       "note": "&lt;p&gt;Find your family’s Christmas tree while supporting Troop 3 Scouting programs! November 21–December 20 Weekends: 10:00 a.m.–7:00 p.m. Weekdays: 4:00–7:00 p.m. Closed Thanksgiving Day, November 26 📍 200 W. Hanley"
     },
     {
