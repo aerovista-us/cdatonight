@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T23:31:53.166Z",
+  "generatedAt": "2026-11-24T02:55:32.414Z",
   "candidates": [
     {
       "domain": "prairiefallsgolfclub.com",
@@ -340,6 +340,33 @@
       ]
     },
     {
+      "domain": "1313wallace.com",
+      "name": "1313 Club & Saloon & Cellars",
+      "url": "https://www.1313wallace.com/",
+      "status": "review-ready",
+      "score": 12,
+      "firstSeen": "2026-11-11T06:35:24.768Z",
+      "lastSeen": "2026-11-24T02:55:32.414Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://www.1313wallace.com/|Friday the 13th Masquerade Ball",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.1313wallace.com/",
+          "eventTitle": "Friday the 13th Masquerade Ball"
+        },
+        {
+          "signature": "visit-cda|organizer|https://www.1313wallace.com/|5 Course Holiday Wine Dinner at The 1313",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://www.1313wallace.com/",
+          "eventTitle": "5 Course Holiday Wine Dinner at The 1313"
+        }
+      ]
+    },
+    {
       "domain": "artsandculturecda.org",
       "name": "Coeur d&#8217;Alene Arts &#038; Culture Alliance",
       "url": "https://www.artsandculturecda.org/",
@@ -417,25 +444,6 @@
           "kind": "organizer",
           "url": "https://www.spaboatrentals.com/",
           "eventTitle": "WInter SpaPlunge Experience"
-        }
-      ]
-    },
-    {
-      "domain": "1313wallace.com",
-      "name": "1313 Club & Saloon & Cellars",
-      "url": "https://www.1313wallace.com/",
-      "status": "candidate",
-      "score": 6,
-      "firstSeen": "2026-11-11T06:35:24.768Z",
-      "lastSeen": "2026-11-11T06:35:24.768Z",
-      "evidence": [
-        {
-          "signature": "visit-cda|organizer|https://www.1313wallace.com/|Friday the 13th Masquerade Ball",
-          "fromSourceId": "visit-cda",
-          "fromSourceName": "Visit Coeur d'Alene",
-          "kind": "organizer",
-          "url": "https://www.1313wallace.com/",
-          "eventTitle": "Friday the 13th Masquerade Ball"
         }
       ]
     },
@@ -531,6 +539,25 @@
           "kind": "organizer",
           "url": "http://www.rebeljunk.com/",
           "eventTitle": "Rebel Junk Holiday Market"
+        }
+      ]
+    },
+    {
+      "domain": "resortboatrentals.com",
+      "name": "Resort Boat Rentals",
+      "url": "https://resortboatrentals.com/paddle-boards/",
+      "status": "candidate",
+      "score": 6,
+      "firstSeen": "2026-11-24T02:55:32.414Z",
+      "lastSeen": "2026-11-24T02:55:32.414Z",
+      "evidence": [
+        {
+          "signature": "visit-cda|organizer|https://resortboatrentals.com/paddle-boards/|Eagle Watching Pontoon Boat Rentals",
+          "fromSourceId": "visit-cda",
+          "fromSourceName": "Visit Coeur d'Alene",
+          "kind": "organizer",
+          "url": "https://resortboatrentals.com/paddle-boards/",
+          "eventTitle": "Eagle Watching Pontoon Boat Rentals"
         }
       ]
     },
