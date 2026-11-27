@@ -1,26 +1,6 @@
 {
-  "generatedAt": "2026-11-26T13:59:13.501Z",
+  "generatedAt": "2026-11-27T00:39:26.604Z",
   "events": [
-    {
-      "id": "auto-cda-casino-traditional-turkey-dinner-6e81babe",
-      "title": "Traditional Turkey Dinner",
-      "startsAt": "2026-11-26T08:00:00.000Z",
-      "endsAt": "2026-11-27T07:59:59.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "food-drink",
-        "date-night"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/traditional-turkey-dinner-2/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-11-23T07:47:46.157Z",
-      "note": "&lt;p&gt;Available at Red Tail | Thanksgiving Only | 11 AM - Close Traditional Turkey Dinner | $22 A traditional turkey dinner served with sliced turkey breast and mashed potatoes, both smothered in turkey gravy. Served "
-    },
     {
       "id": "auto-cda-casino-touchdown-thursdays-b1288a3c",
       "title": "Touchdown Thursdays",
@@ -80,26 +60,6 @@
       "note": "&lt;p&gt;Black Friday Bingo Drawing All regular games pay $1,999! Plus, 10 bingo players will be drawn for Extra Play Cash and Bingo Cash. Must buy-in to participate. Friday, November 27th Regular Session Admission Opens"
     },
     {
-      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-65b11a49",
-      "title": "Open Studio at Pinot's Palette",
-      "startsAt": "2026-11-27T12:00:00.000Z",
-      "endsAt": "2026-11-27T17:45:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$21",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/826999",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-06T21:32:59.607Z",
-      "note": "Sign up for Fri Nov 27, 2026 12:00-5:45PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
       "id": "auto-pinots-cda-shimmering-snowfall-1911a99c",
       "title": "Shimmering Snowfall",
       "startsAt": "2026-11-27T12:00:00.000Z",
@@ -138,6 +98,26 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-11-26T00:27:30.330Z",
       "note": "Sign up for Fri Nov 27, 2026 12:00-10:00PM - Take Home Paint Kits. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-65b11a49",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-27T12:00:00.000Z",
+      "endsAt": "2026-11-27T17:45:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
+      "category": [
+        "community"
+      ],
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/826999",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-06T21:32:59.607Z",
+      "note": "Sign up for Fri Nov 27, 2026 12:00-5:45PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-pinots-cda-solstice-glow-093aa07b",
@@ -215,7 +195,7 @@
       "sourceUrl": "https://coeurdalene.org/events/toys-for-tots-drop-off-holiday-light-display/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-26T13:59:13.501Z",
+      "verifiedAt": "2026-11-27T00:39:26.604Z",
       "note": "&lt;p&gt;Drop off new, unwrapped toys for North Idaho children at this official Toys for Tots collection site in Hayden, just southeast of Lancaster Road & Government Way. The Woodman Neighborhood sales office is decorat"
     },
     {
@@ -358,23 +338,24 @@
       "note": "Sign up for Sat Nov 28, 2026 7:00-9:00PM - Aurora Mountain Magic. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-0665948e",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-11-29T03:30:00.000Z",
-      "endsAt": "2026-11-29T04:30:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
+      "id": "auto-pinots-cda-open-studio-at-pinot-s-palette-98c09876",
+      "title": "Open Studio at Pinot's Palette",
+      "startsAt": "2026-11-28T19:00:00.000Z",
+      "endsAt": "2026-11-28T21:00:00.000Z",
+      "venue": "Pinot's Palette - Coeur d'Alene",
+      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
       "category": [
         "community"
       ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-11-28/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-26T13:57:48.295Z",
-      "note": "&lt;p&gt;Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is&hellip;&lt;/p&gt"
+      "cost": "paid",
+      "priceLabel": "$21",
+      "status": "available",
+      "sourceId": "pinots-cda",
+      "sourceUrl": "https://www.pinotspalette.com/cda/events/945256",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
+      "sourceLabel": "Pinot's Palette Coeur d'Alene",
+      "verifiedAt": "2026-11-27T00:37:46.351Z",
+      "note": "Sign up for Sat Nov 28, 2026 7:00-9:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-191d9e24",
@@ -576,25 +557,6 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-11-22T06:58:22.108Z",
       "note": "Sign up for Tue Dec 01, 2026 6:30-8:45PM - Christmas is Coming. Join the paint and sip party at this Coeur d'Alene , ID studio."
-    },
-    {
-      "id": "auto-litefeet-adrenaline-line-dancing-lessons-and-social-every-tuesday-5547b943",
-      "title": "AdrenaLINE – Line Dancing Lessons and Social Every Tuesday",
-      "startsAt": "2026-12-02T02:00:00.000Z",
-      "endsAt": "2026-12-02T06:00:00.000Z",
-      "venue": "LiteFeet Dance",
-      "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/adrenaline-line-dance-lessons-and-social-every-tuesday-2-2/2026-12-01/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-26T13:57:48.295Z",
-      "note": "&lt;p&gt;Join us every Tuesday from 6:00 to 10:00 for Line Dancing Lessons and Social! 4 hours of amazing fun to Country, Hip Hop, Pop style choreographies and more for just&hellip;&lt;/p&gt;\\n"
     },
     {
       "id": "auto-litefeet-adrenaline-8211-line-dancing-lessons-and-social-every-tues-12861701",
@@ -913,25 +875,6 @@
       "note": "Sign up for Sat Dec 05, 2026 7:30-10:00PM - Holiday Truck. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
-      "id": "auto-litefeet-swingin-saturday-dance-lessons-at-the-nashville-north-3249867e",
-      "title": "Swingin’ Saturday Dance Lessons at the Nashville North",
-      "startsAt": "2026-12-06T03:30:00.000Z",
-      "endsAt": "2026-12-06T04:30:00.000Z",
-      "venue": "The Nashville North",
-      "address": "6361 W Seltice Way, Post Falls, ID, 83854",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/swingin-saturday-dance-lessons-at-the-nashville-north/2026-12-05/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=6361%20W%20Seltice%20Way%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-26T13:57:48.295Z",
-      "note": "&lt;p&gt;Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is&hellip;&lt;/p&gt"
-    },
-    {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-431725ba",
       "title": "Swingin&#8217; Saturday Dance Lessons at the Nashville North",
       "startsAt": "2026-12-06T03:30:00.000Z",
@@ -951,26 +894,6 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-25T14:29:36.346Z",
       "note": "Dance with us every Saturday from 7:30 to 8:30 at the Nashville North! All levels dance lessons start with basics before progressing into amazing intermediate and advanced combinations! Class is just $10, and then dance "
-    },
-    {
-      "id": "auto-pinots-cda-toot-sweet-winter-916e9d9c",
-      "title": "Toot Sweet Winter",
-      "startsAt": "2026-12-06T12:00:00.000Z",
-      "endsAt": "2026-12-06T13:30:00.000Z",
-      "venue": "Pinot's Palette - Coeur d'Alene",
-      "address": "728 N 4th Street, Coeur d'Alene, ID, 83814",
-      "category": [
-        "community"
-      ],
-      "cost": "paid",
-      "priceLabel": "$31",
-      "status": "available",
-      "sourceId": "pinots-cda",
-      "sourceUrl": "https://www.pinotspalette.com/cda/events/929804",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=728%20N%204th%20Street%2C%20Coeur%20d'Alene%2C%20ID%2C%2083814",
-      "sourceLabel": "Pinot's Palette Coeur d'Alene",
-      "verifiedAt": "2026-11-26T13:57:48.295Z",
-      "note": "Sign up for Sun Dec 06, 2026 12:00-1:30PM - Toot Sweet Winter. Join the paint and sip party at this Coeur d'Alene , ID studio."
     },
     {
       "id": "auto-litefeet-fundamental-monday-dance-lessons-and-dance-social-06c8dee1",
