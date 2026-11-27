@@ -1,45 +1,6 @@
 {
-  "generatedAt": "2026-11-27T00:39:26.604Z",
+  "generatedAt": "2026-11-27T13:57:12.113Z",
   "events": [
-    {
-      "id": "auto-cda-casino-touchdown-thursdays-b1288a3c",
-      "title": "Touchdown Thursdays",
-      "startsAt": "2026-11-27T01:00:00.000Z",
-      "endsAt": "2026-11-27T05:00:00.000Z",
-      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
-      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
-      "category": [
-        "community"
-      ],
-      "cost": "unknown",
-      "status": "unknown",
-      "sourceId": "cda-casino",
-      "sourceUrl": "https://www.cdacasino.com/event/touchdown-thursdays/2026-11-26/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
-      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
-      "verifiedAt": "2026-11-24T02:55:32.414Z",
-      "note": "&lt;p&gt;Catch the game & the Coeur Rewards! On Thursdays, starting September 3rd, 2026 - December 24th, 2026 and from January 7th, 2027 - January 28th, 2027 enjoy these incredible rewards from 5 PM - 9 PM. 2X Point Mult"
-    },
-    {
-      "id": "auto-litefeet-litefeet-dancegiving-party-b21cf0e6",
-      "title": "LiteFeet Dancegiving Party",
-      "startsAt": "2026-11-27T02:00:00.000Z",
-      "endsAt": "2026-11-27T07:00:00.000Z",
-      "venue": "LiteFeet Dance",
-      "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
-      "category": [
-        "nightlife",
-        "family"
-      ],
-      "cost": "free",
-      "status": "available",
-      "sourceId": "litefeet",
-      "sourceUrl": "https://mylitefeet.com/classes/litefeet-dancegiving-party/",
-      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
-      "sourceLabel": "LiteFeet Dance",
-      "verifiedAt": "2026-11-26T13:57:48.295Z",
-      "note": "&lt;p&gt;Thursday, November 26, 2026 | 6:00 to 11:00 PM Join us for LiteFeet Dancegiving, an amazing, all ages, all skill levels Thanksgiving dance party that removes the barriers between you&hellip;&lt;/p&gt;\\n"
-    },
     {
       "id": "auto-cda-casino-black-friday-bingo-drawing-ea44b40b",
       "title": "Black Friday Bingo Drawing",
@@ -195,7 +156,7 @@
       "sourceUrl": "https://coeurdalene.org/events/toys-for-tots-drop-off-holiday-light-display/",
       "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Visit%20Coeur%20d'Alene%20Coeur%20d'Alene%20Idaho",
       "sourceLabel": "Visit Coeur d'Alene",
-      "verifiedAt": "2026-11-27T00:39:26.604Z",
+      "verifiedAt": "2026-11-27T13:57:12.113Z",
       "note": "&lt;p&gt;Drop off new, unwrapped toys for North Idaho children at this official Toys for Tots collection site in Hayden, just southeast of Lancaster Road & Government Way. The Woodman Neighborhood sales office is decorat"
     },
     {
@@ -356,6 +317,46 @@
       "sourceLabel": "Pinot's Palette Coeur d'Alene",
       "verifiedAt": "2026-11-27T00:37:46.351Z",
       "note": "Sign up for Sat Nov 28, 2026 7:00-9:00PM - Open Studio at Pinot's Palette. Join the paint and sip party at this Coeur d'Alene , ID studio."
+    },
+    {
+      "id": "auto-cda-casino-nick-wiebe-jammin-8217-f13aefe7",
+      "title": "Nick Wiebe Jammin&#8217;",
+      "startsAt": "2026-11-29T02:00:00.000Z",
+      "endsAt": "2026-11-29T05:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "live-music",
+        "nightlife",
+        "date-night"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/nick-wiebe-jammin-2/2026-11-28/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-27T13:56:21.121Z",
+      "note": "&lt;p&gt;Chinook Lounge November 27th & 28th | 6 PM - 9 PM Wiebe Jammin\\' is back in the Chinook Lounge with fun live music from every corner of the musical universe. Don\\'t miss this unique blend of musical decades and "
+    },
+    {
+      "id": "auto-cda-casino-51-000-out-of-this-world-giveaway-a85af186",
+      "title": "$51,000 Out of this World Giveaway",
+      "startsAt": "2026-11-29T03:00:00.000Z",
+      "endsAt": "2026-11-29T03:00:00.000Z",
+      "venue": "Coeur d&#8217;Alene Casino Resort Hotel",
+      "address": "37914 S Nukwalqw Rd, Worley, ID, 83876",
+      "category": [
+        "community"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "cda-casino",
+      "sourceUrl": "https://www.cdacasino.com/event/51000-out-of-this-world-giveaway/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=37914%20S%20Nukwalqw%20Rd%2C%20Worley%2C%20ID%2C%2083876",
+      "sourceLabel": "Coeur d'Alene Casino Resort Hotel",
+      "verifiedAt": "2026-11-27T13:56:21.121Z",
+      "note": "&lt;p&gt;SATURDAY, NOVEMBER 28th | 7 PM 51 winners of $1,000! Starting November 1st, play your favorite games with your Coeur Rewards card to earn 250 points per entry. All Coeur Rewards members who have earned at least "
     },
     {
       "id": "auto-litefeet-swingin-8217-saturday-dance-lessons-at-the-nashville-north-191d9e24",
@@ -1129,6 +1130,26 @@
       "sourceLabel": "LiteFeet Dance",
       "verifiedAt": "2026-11-26T13:57:48.295Z",
       "note": "Level Up your Modern Country Swing Dancing, by enhancing your connection, technique, timing, musicality and creativity Every Wednesday from 7:00-8:00, and then feel free to jump into the West Coast Wednesday Vibe! MUST H"
+    },
+    {
+      "id": "auto-litefeet-no-limits-dance-every-thursday-cbed8f82",
+      "title": "No Limits Dance Every Thursday",
+      "startsAt": "2026-12-18T02:00:00.000Z",
+      "endsAt": "2026-12-18T07:00:00.000Z",
+      "venue": "LiteFeet Dance",
+      "address": "4029 W Riverbend Ave, Post Falls, ID, 83854",
+      "category": [
+        "nightlife",
+        "family"
+      ],
+      "cost": "unknown",
+      "status": "unknown",
+      "sourceId": "litefeet",
+      "sourceUrl": "https://mylitefeet.com/classes/no-limits-dance-every-thursday/2026-12-17/",
+      "directionsUrl": "https://www.google.com/maps/search/?api=1&query=4029%20W%20Riverbend%20Ave%2C%20Post%20Falls%2C%20ID%2C%2083854",
+      "sourceLabel": "LiteFeet Dance",
+      "verifiedAt": "2026-11-27T13:56:21.121Z",
+      "note": "Join us for an amazing, all ages, all skill levels dance party that removes the barriers between you and dance! At 6:00 we have Line Dancing and Beginner West Coast Swing. At 7:00 we have Beginner and Intermediate Countr"
     }
   ]
 }
